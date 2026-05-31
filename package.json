@@ -1,0 +1,21 @@
+{
+  "name": "hammpokepals",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A compendium, catalogue, and campaign manager for a homebrew Pokemon tabletop RPG. Player-facing rules & lore plus a GM-only command center.",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/seed.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.1.1"
+  }
+}

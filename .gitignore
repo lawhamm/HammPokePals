@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Runtime data — keep this local, never commit campaign data or uploads.
+# (The app re-creates data/ and its upload subfolders at startup.)
+data/
+
+# Local GM config (contains the GM passcode)
+server/config.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+.env
+.env.local

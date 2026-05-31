@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HammPokePals</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23e3350d' stroke='%23222' stroke-width='5'/><rect x='5' y='47' width='90' height='6' fill='%23222'/><circle cx='50' cy='50' r='14' fill='%23fff' stroke='%23222' stroke-width='5'/></svg>" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="pokeball" aria-hidden="true"></span>
+        <span class="brand-name">HammPokePals</span>
+      </div>
+      <nav class="tabs" id="tabs"></nav>
+      <div class="role-box" id="roleBox"></div>
+    </header>
+
+    <main id="view" class="view"><div class="loading">Loading…</div></main>
+
+    <!-- Modal host for GM forms / detail dialogs -->
+    <div class="modal-backdrop" id="modalBackdrop" hidden>
+      <div class="modal" id="modal" role="dialog" aria-modal="true"></div>
+    </div>
+
+    <div class="toast" id="toast" hidden></div>
+
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>

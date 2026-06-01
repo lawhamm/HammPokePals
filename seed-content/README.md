@@ -17,7 +17,16 @@ seed-content/
   pdfs/                 ← your PTE rule PDFs (core rules, GM guide, bestiary…)
   pokedex.json  or .csv ← your Pokédex as a JSON array OR a CSV export
   manifest.json         ← OPTIONAL: fine-tune titles/categories/visibility
+  sources/              ← original workbooks the above are generated from
 ```
+
+> **What's loaded in this repo:** the PTE Rule Book and Pokédex PDFs (public),
+> the GM Guide PDF (GM-only), and `pokedex.csv` — 1003 species generated from
+> `sources/PTE Character Sheet.xlsx` via `scripts/xlsx-to-pokedex.py`. The
+> `sources/` workbooks (Character Sheet + the Encounter tools) are kept for
+> reference and regeneration; they are **not** auto-loaded, since the app reads
+> PDFs and the Pokédex file, not spreadsheets. To rebuild the dex after editing
+> the sheet: `python3 scripts/xlsx-to-pokedex.py "seed-content/sources/PTE Character Sheet.xlsx"`.
 
 ### PDFs (rules + GM guide)
 

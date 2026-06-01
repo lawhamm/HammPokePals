@@ -1,0 +1,25 @@
+{
+  "pdfs": [
+    {
+      "file": "PTE Rule Book.pdf",
+      "title": "PTE Rule Book",
+      "category": "Core Rules",
+      "description": "The full player-facing ruleset for Pokémon Tabletop Evolved.",
+      "visibility": "public"
+    },
+    {
+      "file": "PTE PokeDex.pdf",
+      "title": "PTE Pokédex",
+      "category": "Bestiary",
+      "description": "Illustrated species reference. The searchable compendium is built from this data.",
+      "visibility": "public"
+    },
+    {
+      "file": "PTE GM Guide.pdf",
+      "title": "PTE GM Guide",
+      "category": "GM Guide",
+      "description": "Game-master content — kept private from players.",
+      "visibility": "gm"
+    }
+  ]
+}

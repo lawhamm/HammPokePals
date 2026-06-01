@@ -1,0 +1,20 @@
+{
+  "_comment": "OPTIONAL. Copy this to manifest.json to override auto-detection. Delete the _comment keys.",
+  "pokedex": "pokedex.json",
+  "pdfs": [
+    {
+      "file": "PTE Core Rules.pdf",
+      "title": "PTE Core Rules",
+      "category": "Core Rules",
+      "description": "The main player-facing ruleset.",
+      "visibility": "public"
+    },
+    {
+      "file": "PTE GM Guide.pdf",
+      "title": "PTE GM Guide",
+      "category": "GM Guide",
+      "description": "Game master content — kept private from players.",
+      "visibility": "gm"
+    }
+  ]
+}

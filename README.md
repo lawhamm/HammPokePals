@@ -57,27 +57,39 @@ You can also rename the app there via `appName`.
 
 ## Loading your real PTE content
 
-The seed data is just samples — replace it with your own:
+The seed data is just samples — replace it with your own. The easiest way is the
+**bulk loader**: drop your files into `seed-content/` and run one command.
 
-- **Rules & GM guide:** GM view → **Rules & PDFs** → **+ Upload PDF**. Set the
-  GM guide's visibility to *GM only*.
-- **Pokédex:** add entries by hand in the Compendium, **or** bulk-import a JSON
-  file (see below) — handy for loading a full PTE dex at once.
-- **Lore / maps / items:** add them in their tabs while in GM view.
-
-### Bulk-importing a Pokédex
-
-Put your data in a JSON file (an array of entries) and run:
+```
+seed-content/
+  pdfs/           ← your PTE rule PDFs + GM guide
+  pokedex.json    ← your Pokédex as a JSON array
+```
 
 ```bash
-node server/import-pokedex.js path/to/your-pokedex.json
+npm run load-content
 ```
+
+This registers every PDF (a file named like a *GM guide* is automatically marked
+GM-only so players never receive it) and imports the Pokédex. Re-running is safe
+— already-loaded PDFs and existing Pokémon (by name) are skipped. Use
+`npm run load-content -- --replace-dex` to wipe and reimport the Pokédex. See
+[`seed-content/README.md`](seed-content/README.md) for the manifest options.
+
+You can also add content **inside the app** at any time (GM view):
+
+- **Rules & GM guide:** **Rules & PDFs** → **+ Upload PDF** (set the GM guide to
+  *GM only*).
+- **Pokédex:** add entries by hand in the Compendium.
+- **Lore / maps / items:** add them in their tabs.
+
+### Pokédex JSON format
 
 Each entry may include: `name` (required), `dex_no`, `category`, `types` (array
 or comma string), `description`, `habitat`, `rarity`, `stats`
 (`{hp,atk,def,spatk,spdef,speed}`), `abilities`, `moves`, `capture_rules`,
-`gm_notes`, `image`, `visibility`. Missing fields are fine. See
-`server/import-pokedex.js --help` for options.
+`gm_notes`, `image`, `visibility`. Missing fields are fine. A standalone importer
+is also available: `node server/import-pokedex.js path/to/dex.json --help`.
 
 ## Where your data lives
 

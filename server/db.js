@@ -101,6 +101,20 @@ db.exec(`
     updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
   );
 
+  -- Bulk reference material from the rulebook/workbook: moves, abilities, items.
+  -- Read-only catalogue (loaded from seed-content), searchable in the app.
+  CREATE TABLE IF NOT EXISTS reference_entries (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    kind        TEXT NOT NULL,     -- 'move' | 'ability' | 'item'
+    name        TEXT NOT NULL,
+    category    TEXT,              -- move type, item category, ability keyword(s)
+    summary     TEXT,              -- short one-line gist for the list view
+    data        TEXT NOT NULL DEFAULT '{}',  -- JSON of all fields, shown in detail
+    visibility  TEXT NOT NULL DEFAULT 'public',
+    created_at  TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+  CREATE INDEX IF NOT EXISTS idx_reference_kind ON reference_entries (kind, name);
+
   CREATE TABLE IF NOT EXISTS sessions (
     id          INTEGER PRIMARY KEY AUTOINCREMENT,
     title       TEXT NOT NULL,

@@ -12,6 +12,7 @@ import { attachRole, requireGM, login, logout, COOKIE, config } from './auth.js'
 import pokemonRouter from './routes/pokemon.js';
 import pdfRouter from './routes/pdfs.js';
 import mapsRouter from './routes/maps.js';
+import referenceRouter from './routes/reference.js';
 import { makeContentRouter } from './routes/content.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -47,6 +48,7 @@ app.get('/api/me', (req, res) => {
 app.use('/api/pokemon', pokemonRouter);
 app.use('/api/pdfs', pdfRouter);
 app.use('/api/maps', mapsRouter);
+app.use('/api/reference', referenceRouter);
 
 app.use(
   '/api/items',

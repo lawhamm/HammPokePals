@@ -11,8 +11,12 @@ center with session notes, plot secrets, GM-only map markers, and full editing.
 ## Features
 
 - **Compendium (Pokédex)** — searchable, type-filterable catalogue with detail
-  pages (types, base stats, abilities, moves, habitat, rarity, capture rules).
-  GM can add/edit/delete entries and upload artwork. *(The MVP centerpiece.)*
+  pages (types, base stats, abilities, moves, habitat, rarity, capture rules,
+  plus the PTE profile: diet, size, weight, power, evolution stage, grouped
+  capabilities, and trained skills). GM can add/edit/delete entries and upload
+  artwork. *(The centerpiece.)*
+- **Reference** — searchable catalogue of moves, abilities, and items from the
+  rulebook, with a detail card for each. Read-only, loaded from your materials.
 - **Rules & PDFs** — upload your PTE core rules, GM guide, bestiary, etc. and
   read them in-app. Mark the **GM guide** as *GM only* so it never reaches a
   player's device.
@@ -64,6 +68,8 @@ The seed data is just samples — replace it with your own. The easiest way is t
 seed-content/
   pdfs/                 ← your PTE rule PDFs + GM guide
   pokedex.json  or .csv ← your Pokédex as a JSON array OR a CSV export
+  reference.json        ← moves / abilities / items catalogue (optional)
+  sources/              ← original workbooks the above are generated from
 ```
 
 ```bash
@@ -71,10 +77,19 @@ npm run load-content
 ```
 
 This registers every PDF (a file named like a *GM guide* is automatically marked
-GM-only so players never receive it) and imports the Pokédex. Re-running is safe
-— already-loaded PDFs and existing Pokémon (by name) are skipped. Use
-`npm run load-content -- --replace-dex` to wipe and reimport the Pokédex. See
-[`seed-content/README.md`](seed-content/README.md) for the manifest options.
+GM-only so players never receive it), imports the Pokédex, and loads the
+reference catalogue. Re-running is safe — already-loaded PDFs and existing
+entries (by name) are skipped. Use `npm run load-content -- --replace-dex` (or
+`--replace-reference`) to wipe and reimport. See
+[`seed-content/README.md`](seed-content/README.md) for manifest options.
+
+This repo's data was generated from the PTE Character Sheet workbook in
+`seed-content/sources/`:
+
+```bash
+python3 scripts/xlsx-to-pokedex.py   "seed-content/sources/PTE Character Sheet.xlsx"  # -> pokedex.csv
+python3 scripts/xlsx-to-reference.py "seed-content/sources/PTE Character Sheet.xlsx"  # -> reference.json
+```
 
 You can also add content **inside the app** at any time (GM view):
 

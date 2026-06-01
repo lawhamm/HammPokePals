@@ -11,12 +11,14 @@ import { renderStory } from './views/story.js';
 import { renderSessions } from './views/sessions.js';
 import { renderInventory } from './views/inventory.js';
 import { renderMaps } from './views/maps.js';
+import { renderReference } from './views/reference.js';
 
 const state = { role: 'player', appName: 'HammPokePals' };
 
 // Tab definitions. `gm` = only shown to the GM.
 const TABS = [
   { id: 'compendium', label: 'Compendium', render: renderCompendium },
+  { id: 'reference', label: 'Reference', render: renderReference },
   { id: 'rules', label: 'Rules & PDFs', render: renderPdfs },
   { id: 'story', label: 'Story', render: renderStory },
   { id: 'maps', label: 'Maps', render: renderMaps },

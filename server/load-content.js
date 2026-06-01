@@ -4,6 +4,7 @@
 //   seed-content/
 //     pdfs/                 <- put PTE rules, GM guide, bestiary PDFs here
 //     pokedex.json|.csv     <- your Pokedex as a JSON array OR a CSV (see README)
+//     reference.json        <- OPTIONAL: moves/abilities/items catalogue
 //     manifest.json         <- OPTIONAL: titles/categories/visibility per PDF
 //
 // Without a manifest the loader auto-detects: every *.pdf under seed-content/
@@ -25,6 +26,7 @@ const SEED_DIR = path.join(ROOT, 'seed-content');
 const PDF_STORE = path.join(ROOT, 'data', 'uploads', 'pdfs');
 
 const replaceDex = process.argv.includes('--replace-dex');
+const replaceReference = process.argv.includes('--replace-reference');
 
 if (!fs.existsSync(SEED_DIR)) {
   console.log(`No seed-content/ folder found at ${SEED_DIR}. Nothing to load.`);
@@ -152,11 +154,62 @@ if (dexPath) {
   );
 }
 
+// --- reference catalogue (moves / abilities / items) ---------------------
+// seed-content/reference.json: an array of { kind, name, category, summary, data }.
+let refImported = 0;
+const refPath = path.join(SEED_DIR, 'reference.json');
+if (fs.existsSync(refPath)) {
+  let entries;
+  try {
+    entries = JSON.parse(fs.readFileSync(refPath, 'utf8'));
+  } catch (e) {
+    console.error(`Could not parse ${refPath}: ${e.message}`);
+    process.exit(1);
+  }
+  if (!Array.isArray(entries)) entries = entries.reference || [];
+  const insertRef = db.prepare(
+    `INSERT INTO reference_entries (kind, name, category, summary, data, visibility)
+     VALUES (@kind, @name, @category, @summary, @data, @visibility)`
+  );
+  const existsRef = db.prepare(
+    'SELECT 1 FROM reference_entries WHERE kind = ? AND name = ? COLLATE NOCASE'
+  );
+  let refSkipped = 0;
+  const tx = db.transaction(() => {
+    if (replaceReference) {
+      const n = db.prepare('DELETE FROM reference_entries').run().changes;
+      console.log(`  Cleared ${n} existing reference entries (--replace-reference).`);
+    }
+    for (const e of entries) {
+      if (!e || !e.kind || !e.name) continue;
+      const name = String(e.name).trim();
+      if (!replaceReference && existsRef.get(e.kind, name)) {
+        refSkipped++;
+        continue;
+      }
+      insertRef.run({
+        kind: String(e.kind).trim(),
+        name,
+        category: e.category ?? null,
+        summary: e.summary ?? null,
+        data: JSON.stringify(e.data && typeof e.data === 'object' ? e.data : {}),
+        visibility: e.visibility === 'gm' ? 'gm' : 'public',
+      });
+      refImported++;
+    }
+  });
+  tx();
+  console.log(
+    `  + Reference: imported ${refImported} entries from reference.json` +
+      (refSkipped ? ` (skipped ${refSkipped} already present)` : '')
+  );
+}
+
 console.log(
   `\nDone. PDFs loaded: ${pdfsLoaded}${pdfsSkipped ? ` (skipped ${pdfsSkipped} already present)` : ''}; ` +
-    `Pokédex entries imported: ${dexImported}.`
+    `Pokédex entries imported: ${dexImported}; Reference entries imported: ${refImported}.`
 );
-if (!pdfsLoaded && !pdfsSkipped && !dexImported) {
+if (!pdfsLoaded && !pdfsSkipped && !dexImported && !refImported) {
   console.log('\nNothing was loaded. Put PDFs in seed-content/pdfs/ and a pokedex.json in seed-content/, then re-run.');
 }
 console.log('Start the app with `npm start`.\n');

@@ -79,7 +79,10 @@ function cardHTML(p) {
 export async function renderPokemonDetail(ctx, id) {
   const { view, isGM } = ctx;
   const p = await api(`/api/pokemon/${id}`);
-  const maxStat = 180;
+  // Scale stat bars relative to this Pokémon's own biggest stat so they read well
+  // regardless of scale (homebrew PTE stats run ~4–12; standard dex runs ~1–255).
+  const statVals = STAT_KEYS.map(([k]) => Number(p.stats?.[k] ?? 0));
+  const maxStat = Math.max(...statVals, 1);
 
   view.innerHTML = `
     <button class="back-link" onclick="history.length>1?history.back():location.hash='#/compendium'">← Back to compendium</button>

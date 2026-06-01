@@ -1,0 +1,1004 @@
+Name,Type,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Habitat,Description
+Bulbasaur,Grass|Poison,5,5,5,7,7,5,"Grasslands, Forest","Diet: Phototroph. Size Small · Weight class 2 · Power 2. Evolution stage 1. Combat: Threaded, Underdog. Narrative: Alluring."
+Ivysaur,Grass|Poison,6,6,6,8,8,6,"Grasslands, Forest","Diet: Phototroph. Size Medium · Weight class 2 · Power 3. Evolution stage 2. Combat: Threaded, Underdog. Narrative: Alluring."
+Venusaur,Grass|Poison,8,8,8,10,10,8,"Grasslands, Forest","Diet: Omnivore, Phototroph. Size Large · Weight class 5 · Power 8. Evolution stage 3. Combat: Threaded. Narrative: Alluring."
+Chikorita,Grass,5,5,7,5,7,5,"Grasslands, Forest",Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog. Narrative: Alluring.
+Bayleef,Grass,6,6,8,6,8,6,"Grasslands, Forest",Diet: Phototroph. Size Medium · Weight class 2 · Power 3. Evolution stage 2. Combat: Underdog. Narrative: Alluring.
+Meganium,Grass,8,8,10,8,10,8,"Grasslands, Forest",Diet: Phototroph. Size Large · Weight class 5 · Power 4. Evolution stage 3. Narrative: Alluring.
+Treecko,Grass,4,5,4,7,6,7,"Grasslands, Forest","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Climber, Quick. Combat: Underdog."
+Grovyle,Grass,5,7,5,9,6,7,"Grasslands, Forest","Diet: Herbivore. Size Medium · Weight class 2 · Power 3. Evolution stage 2. Movement: Climber, Glider, Quick. Combat: Underdog."
+Sceptile,Grass,7,9,7,11,9,12,"Grasslands, Forest","Diet: Herbivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Climber, Quick."
+Turtwig,Grass,6,7,6,5,6,3,"Grasslands, Forest","Diet: Herbivore, Phototroph. Size Small · Weight class 1 · Power 3. Evolution stage 1. Combat: Underdog."
+Grotle,Grass,8,9,9,6,7,4,"Grasslands, Forest","Diet: Herbivore, Phototroph. Size Medium · Weight class 4 · Power 4. Evolution stage 2. Combat: Underdog."
+Torterra,Grass|Ground,10,11,11,8,9,4,"Grasslands, Forest","Diet: Herbivore, Phototroph. Size Large · Weight class 6 · Power 7. Evolution stage 3. Narrative: Groundshaper."
+Snivy,Grass,5,5,6,5,6,6,"Grasslands, Forest","Diet: Herbivore, Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog."
+Servine,Grass,6,6,8,6,8,8,"Grasslands, Forest","Diet: Herbivore, Phototroph. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Underdog."
+Serperior,Grass,8,8,10,8,10,11,"Grasslands, Forest","Diet: Herbivore, Phototroph. Size Large · Weight class 4 · Power 5. Evolution stage 3."
+Chespin,Grass,6,6,7,5,5,4,"Grasslands, Forest",Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog.
+Quilladin,Grass,6,8,10,6,6,6,"Grasslands, Forest",Diet: Herbivore. Size Small · Weight class 3 · Power 3. Evolution stage 2. Combat: Underdog.
+Chesnaught,Grass|Fighting,9,11,12,7,8,6,"Grasslands, Forest",Diet: Herbivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3.
+Rowlet,Grass|Flying,7,6,6,5,5,4,"Grasslands, Forest","Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Darkvision, Underdog."
+Dartrix,Grass|Flying,8,8,8,7,7,5,"Grasslands, Forest","Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Flier. Combat: Darkvision, Underdog."
+Decidueye,Grass|Ghost,8,11,8,10,10,9,"Grasslands, Forest","Diet: Carnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Flier. Combat: Darkvision, Wielder (Ranged). Narrative: Dead Silent."
+Hisuian Decidueye,Grass|Fighting,8,11,9,10,8,10,"Grasslands, Mountain","Diet: Carnivore. Size Medium · Weight class 3 · Power 7. Evolution stage 3. Movement: Flier, Quick. Narrative: Aura Reader, Dead Silent."
+Grookey,Grass,5,7,5,4,4,7,Forest,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Climber, Jumper. Combat: Underdog. Narrative: Pack Mon."
+Thwackey,Grass,7,9,7,6,6,7,Forest,"Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Climber, Jumper. Combat: Underdog. Narrative: Pack Mon."
+Rillaboom,Grass,10,13,9,6,7,9,Forest,"Diet: Herbivore. Size Large · Weight class 4 · Power 8. Evolution stage 3. Movement: Climber, Jumper. Narrative: Pack Mon."
+Sprigatito,Grass,4,6,5,5,5,7,Grasslands,Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Combat: Underdog. Narrative: Alluring.
+Floragato,Grass,6,8,6,6,6,8,Grasslands,"Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Combat: Reach, Underdog. Narrative: Alluring."
+Meowscarada,Grass|Dark,8,11,7,8,7,12,Grasslands,"Diet: Carnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Narrative: Alluring, Illusionist."
+Charmander,Fire,4,5,4,6,5,7,Mountain,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog. Narrative: Glow, Heater."
+Charmeleon,Fire,6,6,6,8,7,8,Mountain,"Diet: Carnivore. Size Medium · Weight class 2 · Power 4. Evolution stage 2. Combat: Underdog. Narrative: Glow, Heater."
+Charizard,Fire|Flying,8,8,8,11,9,10,Mountain,"Diet: Carnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Movement: Flier. Combat: Mountable. Narrative: Glow, Heater."
+Cyndaquil,Fire,4,5,4,6,5,7,"Cave, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog. Narrative: Glow, Heater."
+Quilava,Fire,6,6,6,8,7,8,"Cave, Grasslands","Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Underdog. Narrative: Glow, Heater."
+Typhlosion,Fire,8,8,8,11,9,10,"Cave, Grasslands","Diet: Herbivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Narrative: Glow, Heater."
+Hisuian Typhlosion,Fire|Ghost,8,8,8,11,10,9,"Cave, Grasslands","Diet: Herbivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Narrative: Heater, Soul Seer, Tracker."
+Torchic,Fire,5,6,4,7,5,5,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Combat: Underdog.
+Combusken,Fire|Fighting,6,9,6,9,6,6,Grasslands,"Diet: Herbivore. Size Small · Weight class 2 · Power 4. Evolution stage 2. Movement: Jumper, Quick. Combat: Underdog."
+Blaziken,Fire|Fighting,8,12,7,11,7,8,Grasslands,"Diet: Omnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Jumper, Quick."
+Chimchar,Fire,4,6,4,6,4,6,"Forest, Mountain","Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Climber, Jumper. Combat: Underdog. Narrative: Glow, Heater."
+Monferno,Fire|Fighting,6,8,5,8,5,8,"Forest, Mountain","Diet: Omnivore. Size Small · Weight class 2 · Power 5. Evolution stage 2. Movement: Climber, Jumper. Combat: Underdog. Narrative: Glow, Heater."
+Infernape,Fire|Fighting,8,10,7,10,7,10,"Forest, Mountain","Diet: Omnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Movement: Climber, Jumper. Narrative: Glow, Heater."
+Tepig,Fire,7,6,5,5,5,5,Grasslands,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog. Narrative: Heater, Tracker."
+Pignite,Fire|Fighting,9,9,6,7,6,6,Grasslands,"Diet: Herbivore. Size Medium · Weight class 4 · Power 4. Evolution stage 2. Combat: Underdog. Narrative: Heater, Tracker."
+Emboar,Fire|Fighting,11,12,7,10,7,7,Grasslands,"Diet: Omnivore. Size Medium · Weight class 5 · Power 8. Evolution stage 3. Narrative: Heater, Tracker."
+Fennekin,Fire,4,5,4,6,6,6,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog. Narrative: Tracker.
+Braixen,Fire,6,6,6,9,7,7,Grasslands,"Diet: Herbivore. Size Medium · Weight class 2 · Power 3. Evolution stage 2. Combat: Underdog, Wielder (Arcane). Narrative: Tracker."
+Delphox,Fire|Psychic,8,7,7,11,10,10,Grasslands,"Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Combat: Telekinetic, Wielder (Arcane). Narrative: Premonition, Tracker."
+Litten,Fire,5,7,4,6,4,7,"Forest, Urban",Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Jumper. Combat: Underdog. Narrative: Tracker.
+Torracat,Fire,7,9,5,8,5,9,"Forest, Urban",Diet: Carnivore. Size Small · Weight class 3 · Power 6. Evolution stage 2. Movement: Jumper. Combat: Underdog. Narrative: Tracker.
+Incineroar,Fire|Dark,10,12,9,8,9,6,"Forest, Urban",Diet: Carnivore. Size Medium · Weight class 4 · Power 10. Evolution stage 3. Movement: Jumper. Combat: Darkvision. Narrative: Tracker.
+Scorbunny,Fire,5,7,4,6,4,7,Grasslands,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Jumper, Quick. Combat: Underdog."
+Raboot,Fire,7,9,6,6,6,9,Grasslands,"Diet: Herbivore. Size Small · Weight class 1 · Power 4. Evolution stage 2. Movement: Jumper, Quick. Combat: Underdog."
+Cinderace,Fire,8,12,8,7,8,12,Grasslands,"Diet: Herbivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Jumper, Quick."
+Fuecoco,Fire,7,5,6,6,4,4,Mountain,Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Swimmer. Combat: Underdog.
+Crocalor,Fire,8,6,8,9,6,5,Mountain,Diet: Carnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Glow.
+Skeledirge,Fire|Ghost,10,8,10,11,8,7,Mountain,Diet: Carnivore. Size Medium · Weight class 6 · Power 8. Evolution stage 3. Movement: Swimmer. Combat: Mountable. Narrative: Glow.
+Squirtle,Water,4,5,7,5,6,4,Wetlands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Swimmer. Combat: Underdog.
+Wartortle,Water,6,6,8,7,8,6,Wetlands,Diet: Herbivore. Size Medium · Weight class 2 · Power 4. Evolution stage 2. Movement: Swimmer. Combat: Underdog.
+Blastoise,Water,8,8,10,9,11,8,Wetlands,Diet: Herbivore. Size Medium · Weight class 4 · Power 9. Evolution stage 3. Movement: Swimmer. Combat: Mountable.
+Totodile,Water,5,7,6,4,5,4,Wetlands,Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Swimmer. Combat: Underdog.
+Croconaw,Water,7,8,8,6,6,6,Wetlands,Diet: Carnivore. Size Medium · Weight class 2 · Power 5. Evolution stage 2. Movement: Swimmer. Combat: Underdog.
+Feraligatr,Water,9,11,10,8,8,8,Wetlands,"Diet: Carnivore. Size Large · Weight class 4 · Power 8. Evolution stage 3. Movement: Quick, Swimmer."
+Mudkip,Water,5,7,5,5,5,4,Wetlands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Marshtomp,Water|Ground,7,9,7,6,7,5,Wetlands,Diet: Herbivore. Size Small · Weight class 3 · Power 4. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Swampert,Water|Ground,10,11,9,9,9,6,Wetlands,Diet: Herbivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Piplup,Water,5,5,5,6,6,4,"Ocean, Tundra",Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Swimmer. Combat: Underdog.
+Prinplup,Water,6,7,7,8,8,5,"Ocean, Tundra",Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Swimmer. Combat: Underdog.
+Empoleon,Water|Steel,8,9,9,11,10,6,"Ocean, Tundra","Diet: Omnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Quick, Swimmer."
+Oshawott,Water,6,6,5,6,5,5,Ocean,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Swimmer. Combat: Underdog, Wielder (Martial, Melee)."
+Dewott,Water,8,8,6,8,6,6,Ocean,"Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Swimmer. Combat: Underdog, Wielder (Martial, Melee)."
+Samurott,Water,10,10,9,11,7,7,Ocean,"Diet: Herbivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Swimmer. Combat: Wielder (Martial, Melee)."
+Hisuian Samurott,Water|Dark,10,11,8,10,7,8,Ocean,"Diet: Herbivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Swimmer. Combat: Wielder (Martial, Melee)."
+Froakie,Water,4,6,4,6,4,7,Wetlands,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Climber, Jumper, Swimmer. Combat: Underdog. Narrative: Gilled."
+Frogadier,Water,5,6,5,8,6,10,Wetlands,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Climber, Jumper, Swimmer. Combat: Underdog. Narrative: Gilled."
+Greninja,Water|Dark,7,10,7,10,7,12,Wetlands,"Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Climber, Jumper, Swimmer. Combat: Wielder (Martial). Narrative: Dead Silent, Gilled."
+Popplio,Water,5,5,5,7,6,4,Ocean,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Swimmer. Combat: Underdog.
+Brionne,Water,6,7,7,9,8,5,Ocean,Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Swimmer. Combat: Underdog.
+Primarina,Water|Fairy,8,7,7,13,12,6,Ocean,Diet: Herbivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Swimmer. Narrative: Alluring.
+Sobble,Water,5,4,4,7,4,7,Wetlands,"Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Climber, Jumper, Swimmer. Combat: Blender, Underdog. Narrative: Gilled."
+Drizzile,Water,7,6,6,10,6,9,Wetlands,"Diet: Omnivore. Size Small · Weight class 2 · Power 4. Evolution stage 2. Movement: Climber, Jumper, Swimmer. Combat: Blender, Underdog. Narrative: Gilled."
+Inteleon,Water,7,9,7,13,7,12,Wetlands,"Diet: Omnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Climber, Glider, Jumper, Swimmer. Combat: Blender. Narrative: Gilled, Thermal Vision."
+Quaxly,Water,6,7,5,5,5,5,Wetlands,"Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Swimmer. Combat: Underdog. Narrative: Fountain, Guster."
+Quaxwell,Water,7,9,7,7,6,7,Wetlands,"Diet: Omnivore. Size Medium · Weight class 2 · Power 2. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Fountain, Guster."
+Quaquaval,Water|Fighting,9,12,8,9,8,9,Wetlands,Diet: Omnivore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Movement: Swimmer.
+Caterpie,Bug,5,3,4,2,2,5,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Climber, Slow. Combat: Threaded, Underdog."
+Metapod,Bug,5,2,6,3,3,3,"Forest, Grasslands","Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Combat: Threaded, Underdog."
+Butterfree,Bug|Flying,6,5,5,9,8,7,"Forest, Grasslands","Diet: Herbivore. Size Medium · Weight class 3 · Power 2. Evolution stage 3. Movement: Flier. Combat: Threaded, Underdog."
+Weedle,Bug|Poison,4,4,3,2,2,5,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Climber, Slow. Combat: Threaded, Underdog."
+Kakuna,Bug|Poison,5,3,5,3,3,4,"Forest, Grasslands","Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Combat: Threaded, Underdog."
+Beedrill,Bug|Poison,7,9,4,5,8,8,"Forest, Grasslands","Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Flier, Quick. Combat: Threaded, Underdog."
+Wurmple,Bug,5,5,4,2,3,2,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Climber, Slow. Combat: Threaded, Underdog."
+Silcoon,Bug,5,4,6,3,3,2,"Forest, Grasslands","Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Combat: Threaded, Underdog."
+Beautifly,Bug|Flying,6,7,5,10,5,7,"Forest, Grasslands","Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier. Combat: Threaded, Underdog."
+Cascoon,Bug,5,4,6,3,3,2,"Forest, Grasslands","Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Combat: Threaded, Underdog."
+Dustox,Bug|Poison,6,5,7,5,9,7,"Forest, Grasslands","Diet: Herbivore. Size Medium · Weight class 3 · Power 2. Evolution stage 3. Movement: Flier. Combat: Threaded, Underdog."
+Sewaddle,Bug|Grass,5,5,7,4,6,4,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Climber, Slow. Combat: Threaded, Underdog."
+Swadloon,Bug|Grass,6,6,9,5,8,4,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Slow. Combat: Threaded, Underdog."
+Leavanny,Bug|Grass,8,11,8,7,8,9,"Forest, Grasslands",Diet: Herbivore. Size Medium · Weight class 2 · Power 3. Evolution stage 3. Combat: Threaded.
+Venipede,Bug|Poison,4,5,8,3,4,6,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Climber. Combat: Underdog.
+Whirlipede,Bug|Poison,4,6,10,4,8,5,"Forest, Grasslands",Diet: Herbivore. Size Medium · Weight class 4 · Power 3. Evolution stage 2. Combat: Underdog.
+Scolipede,Bug|Poison,7,10,10,6,7,11,"Forest, Grasslands",Diet: Herbivore. Size Large · Weight class 6 · Power 6. Evolution stage 3. Movement: Climber. Combat: Mountable.
+Scatterbug,Bug,4,4,4,3,3,4,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Climber, Slow. Combat: Threaded, Underdog."
+Spewpa,Bug,5,2,6,3,3,3,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber, Slow. Combat: Threaded, Underdog."
+Vivillon,Bug|Flying,8,5,5,9,5,9,"Forest, Grasslands","Diet: Herbivore. Size Medium · Weight class 2 · Power 1. Evolution stage 3. Movement: Climber, Flier. Combat: Threaded, Underdog."
+Grubbin,Bug,5,6,5,6,6,5,Forest,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Climber. Combat: Threaded, Underdog."
+Charjabug,Bug|Electric,6,8,10,6,8,4,Forest,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber. Combat: Threaded, Underdog."
+Vikavolt,Bug|Electric,8,7,9,15,8,4,Forest,"Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Burrower, Flier. Combat: Threaded."
+Blipbug,Bug,3,2,2,3,5,5,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Climber, Slow. Combat: Threaded, Underdog."
+Dottler,Bug|Psychic,5,4,8,5,9,3,"Forest, Grasslands","Diet: Nullivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Climber, Slow. Combat: Threaded, Underdog. Narrative: Glow."
+Orbeetle,Bug|Psychic,6,5,11,8,12,9,"Forest, Grasslands","Diet: Nullivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Movement: Climber, Flier. Combat: Telekinetic, Threaded. Narrative: Glow, Telepath."
+Deino,Dark|Dragon,5,7,5,5,5,4,Cave,"Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Combat: Blindsense, Underdog. Narrative: Mindlock."
+Zweilous,Dark|Dragon,7,9,7,7,7,6,Cave,"Diet: Carnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 2. Combat: Blindsense, Underdog. Narrative: Mindlock."
+Hydreigon,Dark|Dragon,9,11,9,13,9,10,Cave,"Diet: Carnivore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Movement: Flier. Combat: Blindsense, Mountable. Narrative: Mindlock."
+Pawniard,Dark|Steel,5,9,7,4,4,6,Urban,"Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Quick. Combat: Underdog. Narrative: Pack Mon, Tracker."
+Bisharp,Dark|Steel,7,13,11,6,7,7,Urban,"Diet: Omnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 2. Movement: Quick. Narrative: Pack Mon, Tracker."
+Kingambit,Dark|Steel,11,14,14,6,8,5,Urban,"Diet: Omnivore. Size Medium · Weight class 4 · Power 10. Evolution stage 3. Movement: Quick. Narrative: Pack Mon, Tracker."
+Impidimp,Dark|Fairy,5,6,3,7,4,5,Forest,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Combat: Darkvision, Underdog."
+Morgrem,Dark|Fairy,7,6,5,8,6,7,Forest,"Diet: Nullivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Darkvision, Underdog."
+Grimmsnarl,Dark|Fairy,12,12,7,10,8,7,Forest,Diet: Nullivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Combat: Darkvision.
+Dratini,Dragon,4,6,5,5,5,5,"Mountain, Ocean",Diet: Omnivore. Size Medium · Weight class 1 · Power 1. Evolution stage 1. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Dragonair,Dragon,6,8,7,7,7,7,"Mountain, Ocean","Diet: Omnivore. Size Large · Weight class 2 · Power 3. Evolution stage 2. Movement: Flier, Swimmer. Combat: Mountable, Underdog. Narrative: Aura Reader, Gilled."
+Dragonite,Dragon|Flying,9,13,10,10,10,8,Mountain,"Diet: Omnivore. Size Large · Weight class 6 · Power 8. Evolution stage 3. Movement: Flier, Swimmer. Combat: Mountable. Narrative: Aura Reader."
+Bagon,Dragon,5,8,6,4,3,5,"Cave, Mountain",Diet: Carnivore. Size Small · Weight class 3 · Power 4. Evolution stage 1. Combat: Underdog.
+Shelgon,Dragon,7,10,10,6,5,5,"Cave, Mountain",Diet: Nullivore. Size Medium · Weight class 5 · Power 6. Evolution stage 2. Combat: Underdog.
+Salamence,Dragon|Flying,10,14,8,11,8,10,"Cave, Mountain","Diet: Carnivore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable."
+Gible,Dragon|Ground,6,7,5,4,5,4,"Cave, Mountain",Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Movement: Burrower. Combat: Underdog.
+Gabite,Dragon|Ground,7,9,7,5,6,8,"Cave, Mountain",Diet: Carnivore. Size Medium · Weight class 4 · Power 4. Evolution stage 2. Movement: Burrower. Combat: Underdog.
+Garchomp,Dragon|Ground,11,13,10,8,9,10,"Cave, Mountain","Diet: Carnivore. Size Large · Weight class 4 · Power 6. Evolution stage 3. Movement: Burrower, Flier, Jumper, Quick. Combat: Mountable."
+Axew,Dragon,5,9,6,3,4,6,"Cave, Mountain",Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Combat: Underdog.
+Fraxure,Dragon,7,12,7,4,5,7,"Cave, Mountain",Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 2. Combat: Underdog.
+Haxorus,Dragon,8,15,9,6,7,10,"Cave, Mountain",Diet: Omnivore. Size Medium · Weight class 5 · Power 8. Evolution stage 3.
+Goomy,Dragon,5,5,4,6,8,4,"Mountain, Wetlands","Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Climber, Grounded, Slow. Combat: Underdog. Narrative: Amorphous."
+Sliggoo,Dragon,7,8,5,8,11,6,"Mountain, Wetlands","Diet: Omnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Climber, Grounded, Slow. Combat: Blindsense, Underdog. Narrative: Amorphous, Repulsive."
+Goodra,Dragon,9,10,7,11,15,8,"Mountain, Wetlands","Diet: Omnivore. Size Large · Weight class 5 · Power 8. Evolution stage 3. Movement: Climber. Narrative: Amorphous, Repulsive."
+Hisuian Sliggoo,Dragon|Steel,6,8,11,8,8,4,Mountain,"Diet: Omnivore. Size Small · Weight class 4 · Power 2. Evolution stage 2. Movement: Grounded, Slow. Combat: Underdog. Narrative: Amorphous, Repulsive."
+Hisuian Goodra,Dragon|Steel,8,10,15,11,10,6,Mountain,"Diet: Omnivore. Size Large · Weight class 6 · Power 8. Evolution stage 3. Movement: Grounded, Slow. Narrative: Amorphous, Repulsive."
+Jangmo-o,Dragon,5,6,7,5,5,5,Mountain,Diet: Carnivore. Size Small · Weight class 3 · Power 3. Evolution stage 1. Combat: Underdog.
+Hakamo-o,Dragon|Fighting,6,8,9,7,7,7,Mountain,Diet: Carnivore. Size Medium · Weight class 3 · Power 6. Evolution stage 2. Combat: Underdog.
+Kommo-o,Dragon|Fighting,8,11,13,10,11,9,Mountain,Diet: Carnivore. Size Medium · Weight class 4 · Power 9. Evolution stage 3.
+Dreepy,Dragon|Ghost,3,7,3,5,3,9,Cave,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Drakloak,Dragon|Ghost,7,8,5,6,5,10,Cave,"Diet: Nullivore. Size Medium · Weight class 2 · Power 3. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Dragapult,Dragon|Ghost,9,12,8,10,8,14,Cave,"Diet: Nullivore. Size Huge · Weight class 4 · Power 6. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent."
+Frigibax,Dragon|Ice,7,8,5,4,5,6,"Cave, Tundra",Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Combat: Underdog. Narrative: Chilled.
+Arctibax,Dragon|Ice,9,10,7,5,7,6,"Cave, Tundra",Diet: Carnivore. Size Small · Weight class 3 · Power 8. Evolution stage 2. Combat: Underdog. Narrative: Chilled.
+Baxcalibur,Dragon|Ice,12,15,9,8,9,9,"Cave, Tundra",Diet: Carnivore. Size Large · Weight class 6 · Power 11. Evolution stage 3. Narrative: Chilled.
+Pichu,Electric,2,4,2,4,4,6,"Forest, Urban",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Jumper. Combat: Underdog.
+Pikachu,Electric,4,6,4,5,5,9,"Forest, Urban","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Quick, Jumper. Combat: Underdog."
+Raichu,Electric,8,12,6,12,8,11,"Forest, Urban",Diet: Herbivore. Size Small · Weight class 3 · Power 4. Evolution stage 3.
+Alolan Raichu,Electric|Psychic,6,9,5,10,10,11,"Forest, Urban",Diet: Herbivore. Size Small · Weight class 2 · Power 4. Evolution stage 3. Movement: Flier. Combat: Telekinetic.
+Magnemite,Electric|Steel,3,4,7,10,6,5,Urban,"Diet: Ergovore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Flier. Combat: Underdog. Narrative: Breathless, Dead Silent, Magnetic."
+Magneton,Electric|Steel,5,6,10,12,7,5,Urban,"Diet: Ergovore. Size Medium · Weight class 4 · Power 4. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Breathless, Dead Silent, Magnetic."
+Magnezone,Electric|Steel,7,7,12,13,9,6,Urban,"Diet: Ergovore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Movement: Flier. Combat: Mountable. Narrative: Breathless, Dead Silent, Magnetic."
+Elekid,Electric,5,8,4,7,6,8,Urban,Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Combat: Underdog.
+Electabuzz,Electric,7,8,6,10,9,11,Urban,Diet: Omnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 2.
+Electivire,Electric,8,12,7,10,9,10,Urban,Diet: Omnivore. Size Medium · Weight class 5 · Power 7. Evolution stage 3.
+Mareep,Electric,6,4,4,7,5,4,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Combat: Underdog. Narrative: Glow.
+Flaaffy,Electric,7,6,6,8,6,5,Grasslands,Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Underdog. Narrative: Glow.
+Ampharos,Electric,9,8,9,12,9,6,Grasslands,Diet: Herbivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Narrative: Glow.
+Shinx,Electric,6,7,4,4,4,5,Grasslands,"Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog. Narrative: Pack Mon, Tracker."
+Luxio,Electric,6,9,5,6,5,6,Grasslands,"Diet: Carnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 2. Movement: Jumper, Quick. Combat: Underdog. Narrative: Pack Mon, Tracker."
+Luxray,Electric,8,12,8,10,8,7,Grasslands,"Diet: Carnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Jumper, Quick. Combat: Mountable. Narrative: Pack Mon, Tracker, X-Ray Vision."
+Tynamo,Electric,5,6,4,5,4,6,Cave,"Diet: Ergovore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier, Swimmer. Combat: Underdog. Narrative: Gilled, Glow."
+Eelektrik,Electric,7,9,7,8,7,4,Cave,"Diet: Ergovore. Size Medium · Weight class 2 · Power 4. Evolution stage 2. Movement: Flier, Swimmer. Combat: Underdog. Narrative: Gilled, Glow."
+Eelektross,Electric,9,12,9,12,9,6,Cave,"Diet: Ergovore. Size Large · Weight class 4 · Power 6. Evolution stage 3. Movement: Flier, Swimmer. Combat: Mountable. Narrative: Gilled, Glow."
+Pawmi,Electric,5,5,2,4,3,6,Grasslands,Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog.
+Pawmo,Electric|Fighting,6,8,4,5,4,9,Grasslands,Diet: Omnivore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Combat: Underdog.
+Pawmot,Electric|Fighting,7,12,7,7,7,11,Grasslands,Diet: Omnivore. Size Small · Weight class 3 · Power 5. Evolution stage 3. Narrative: Aura Reader.
+Cleffa,Fairy,5,3,3,5,6,2,"Cave, Space",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog.
+Clefairy,Fairy,7,5,5,6,7,4,"Cave, Space",Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog.
+Clefable,Fairy,10,7,7,11,10,6,"Cave, Space",Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3.
+Togepi,Fairy,4,2,7,4,7,2,Urban,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog.
+Togetic,Fairy|Flying,6,4,9,8,11,4,Urban,Diet: Herbivore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Togekiss,Fairy|Flying,9,5,10,12,12,8,Urban,Diet: Herbivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Flier.
+Flabebe,Fairy,4,4,4,6,8,4,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Underdog. Narrative: Alluring.
+Floette,Fairy,5,5,5,8,10,5,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Alluring.
+Florges,Fairy,8,7,7,11,15,8,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier. Narrative: Alluring.
+Tinkatink,Fairy|Steel,5,6,5,4,6,5,Urban,"Diet: Herbivore. Size Small · Weight class 1 · Power 5. Evolution stage 1. Combat: Wielder (Melee, Small), Underdog."
+Tinkatuff,Fairy|Steel,7,8,6,5,8,6,Urban,"Diet: Herbivore. Size Small · Weight class 4 · Power 5. Evolution stage 2. Combat: Wielder (Melee), Underdog."
+Tinkaton,Fairy|Steel,9,11,8,6,11,7,Urban,"Diet: Herbivore. Size Small · Weight class 5 · Power 11. Evolution stage 3. Combat: Reach, Wielder (Melee)."
+Machop,Fighting,7,8,5,4,4,4,Urban,Diet: Omnivore. Size Small · Weight class 2 · Power 5. Evolution stage 1. Combat: Underdog.
+Machoke,Fighting,8,10,7,5,6,5,Urban,Diet: Omnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 2. Combat: Underdog.
+Machamp,Fighting,9,13,8,7,9,6,Urban,Diet: Omnivore. Size Medium · Weight class 5 · Power 10. Evolution stage 3.
+Timburr,Fighting,8,8,6,3,4,4,Urban,"Diet: Omnivore. Size Small · Weight class 2 · Power 4. Evolution stage 1. Combat: Wielder (Melee), Underdog."
+Gurdurr,Fighting,9,11,9,4,5,4,Urban,"Diet: Omnivore. Size Medium · Weight class 3 · Power 8. Evolution stage 2. Combat: Wielder (Melee), Underdog."
+Conkeldurr,Fighting,11,14,10,6,7,5,Urban,Diet: Omnivore. Size Medium · Weight class 4 · Power 12. Evolution stage 3. Combat: Wielder (Melee).
+Magby,Fire,5,8,4,7,6,8,Cave,Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Combat: Underdog. Narrative: Heater.
+Magmar,Fire,7,10,6,10,9,10,Cave,"Diet: Omnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 2. Combat: Underdog. Narrative: Glow, Heater."
+Magmortar,Fire,8,10,7,13,10,8,Cave,"Diet: Omnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Narrative: Glow, Heater."
+Fletchling,Normal|Flying,5,6,4,4,5,6,Grasslands,Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Underdog.
+Fletchinder,Fire|Flying,6,7,6,6,5,8,Grasslands,"Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Flier, Quick. Combat: Underdog. Narrative: Heater."
+Talonflame,Fire|Flying,8,9,7,7,7,13,Grasslands,"Diet: Carnivore. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable. Narrative: Heater."
+Rookidee,Flying,5,6,5,3,5,6,Grasslands,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Underdog.
+Corvisquire,Flying,7,7,6,4,6,8,Grasslands,Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Corviknight,Flying|Steel,10,9,11,5,9,7,Grasslands,"Diet: Omnivore. Size Large · Weight class 4 · Power 7. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable."
+Gastly,Ghost|Poison,3,4,3,10,4,8,Urban,"Diet: Nullivore. Size Medium · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Haunter,Ghost|Poison,5,5,5,12,6,10,Urban,"Diet: Nullivore. Size Medium · Weight class 1 · Power 3. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Gengar,Ghost|Poison,6,7,6,13,8,11,Urban,"Diet: Nullivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Shadow Meld. Narrative: Dead Silent."
+Duskull,Ghost,2,4,9,3,9,3,"Forest, Urban","Diet: Nullivore. Size Small · Weight class 2 · Power 1. Evolution stage 1. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Dusclops,Ghost,4,7,13,5,13,3,"Forest, Urban","Diet: Nullivore. Size Medium · Weight class 3 · Power 3. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Dusknoir,Ghost,5,10,14,7,14,5,"Forest, Urban","Diet: Nullivore. Size Large · Weight class 5 · Power 5. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent, Soul Seer."
+Litwick,Ghost|Fire,5,3,6,7,6,3,"Forest, Urban","Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent, Glow, Heater."
+Lampent,Ghost|Fire,6,4,6,10,6,6,"Forest, Urban","Diet: Nullivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent, Glow, Heater."
+Chandelure,Ghost|Fire,6,6,9,15,9,8,"Forest, Urban","Diet: Nullivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent, Glow, Heater."
+Gimmighoul (Roaming),Ghost,1,2,1,5,1,20,"Cave, Urban","Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Phaser, Quick. Combat: Invisibility, Underdog. Narrative: Breathless, Dead Silent."
+Gimmighoul (Chest),Ghost,6,3,10,10,10,1,"Cave, Urban",Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Underdog. Narrative: Breathless.
+Gholdengo,Ghost|Steel,12,6,10,15,9,8,"Cave, Urban","Diet: Nullivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Flier, Phaser. Combat: Invisibility. Narrative: Breathless, Dead Silent."
+Oddish,Grass|Poison,5,5,6,8,7,3,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 1. Combat: Underdog.
+Gloom,Grass|Poison,6,7,7,9,8,4,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Repulsive.
+Vileplume,Grass|Poison,9,8,9,11,9,5,"Forest, Grasslands",Diet: Phototroph. Size Medium · Weight class 2 · Power 2. Evolution stage 3. Narrative: Repulsive.
+Bellossom,Grass,8,8,10,10,10,5,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 3. Narrative: Alluring.
+Bellsprout,Grass|Poison,5,8,4,7,3,4,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 1. Combat: Underdog.
+Weepinbell,Grass|Poison,7,9,5,9,5,6,"Forest, Grasslands",Diet: Phototroph. Size Medium · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog.
+Victreebel,Grass|Poison,8,11,7,11,7,7,"Forest, Grasslands",Diet: Phototroph. Size Medium · Weight class 2 · Power 4. Evolution stage 3.
+Hoppip,Grass|Flying,6,4,4,4,7,5,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Underdog.
+Skiploom,Grass|Flying,7,5,5,5,9,7,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Jumpluff,Grass|Flying,8,6,8,6,11,12,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier.
+Seedot,Grass,5,5,9,4,4,3,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog.
+Nuzleaf,Grass|Dark,8,9,4,7,4,6,Forest,"Diet: Herbivore. Size Medium · Weight class 2 · Power 4. Evolution stage 2. Combat: Darkvision, Underdog."
+Shiftry,Grass|Dark,10,11,6,9,6,9,Forest,"Diet: Herbivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Combat: Darkvision. Narrative: Mindlock, Telepath."
+Budew,Grass|Poison,4,3,4,6,7,6,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 1. Combat: Underdog.
+Roselia,Grass|Poison,5,6,5,10,8,7,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Alluring.
+Roserade,Grass|Poison,6,7,7,13,11,9,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 4. Evolution stage 3. Narrative: Alluring.
+Bounsweet,Grass,5,5,6,4,6,4,Forest,Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog. Narrative: Alluring.
+Steenee,Grass,7,7,7,5,7,7,Forest,Diet: Phototroph. Size Small · Weight class 1 · Power 3. Evolution stage 2. Combat: Underdog. Narrative: Alluring.
+Tsareena,Grass,7,12,10,5,10,7,Forest,Diet: Phototroph. Size Medium · Weight class 2 · Power 5. Evolution stage 3. Narrative: Alluring.
+Smoliv,Grass|Normal,5,4,6,6,6,3,Grasslands,Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog. Narrative: Repulsive.
+Dolliv,Grass|Normal,5,5,6,10,9,3,Grasslands,Diet: Phototroph. Size Small · Weight class 2 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Alluring.
+Arboliva,Grass|Normal,8,7,9,13,11,4,Grasslands,"Diet: Phototroph. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Narrative: Alluring, Mender."
+Rhyhorn,Ground|Rock,8,9,10,3,3,3,Mountain,"Diet: Herbivore. Size Medium · Weight class 5 · Power 6. Evolution stage 1. Combat: Mountable, Underdog. Narrative: Tracker."
+Rhydon,Ground|Rock,11,13,13,5,5,4,Mountain,Diet: Herbivore. Size Large · Weight class 5 · Power 8. Evolution stage 2. Combat: Mountable. Narrative: Tracker.
+Rhyperior,Ground|Rock,12,14,14,6,6,4,Mountain,"Diet: Herbivore. Size Large · Weight class 5 · Power 11. Evolution stage 3. Combat: Groundshaper, Mountable. Narrative: Tracker."
+Trapinch,Ground,5,10,5,5,5,1,Desert,Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 1. Movement: Burrower. Combat: Underdog.
+Vibrava,Ground|Dragon,6,8,6,6,6,8,Desert,"Diet: Carnivore. Size Medium · Weight class 2 · Power 2. Evolution stage 2. Movement: Burrower, Flier. Combat: Underdog."
+Flygon,Ground|Dragon,8,10,8,8,8,10,Desert,Diet: Carnivore. Size Large · Weight class 4 · Power 7. Evolution stage 3. Movement: Flier. Combat: Mountable.
+Sandile,Ground|Dark,5,7,4,4,4,7,Desert,"Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Combat: Darkvision, Underdog."
+Krokorok,Ground|Dark,6,8,5,5,5,7,Desert,"Diet: Carnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 2. Combat: Darkvision, Underdog."
+Krookodile,Ground|Dark,10,12,8,7,7,9,Desert,"Diet: Carnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Combat: Darkvision, Groundshaper."
+Swinub,Ice|Ground,7,6,6,3,3,5,Tundra,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog. Narrative: Tremorsense.
+Piloswine,Ice|Ground,10,10,8,6,6,5,Tundra,"Diet: Herbivore. Size Medium · Weight class 4 · Power 4. Evolution stage 2. Combat: Mountable, Underdog. Narrative: Tremorsense."
+Mamoswine,Ice|Ground,11,13,8,7,6,8,Tundra,Diet: Omnivore. Size Large · Weight class 6 · Power 10. Evolution stage 3. Combat: Mountable. Narrative: Tremorsense.
+Spheal,Ice|Water,7,4,5,6,5,3,"Ocean, Tundra",Diet: Herbivore. Size Small · Weight class 3 · Power 1. Evolution stage 1. Movement: Swimmer. Combat: Underdog.
+Sealeo,Ice|Water,9,6,7,8,7,5,"Ocean, Tundra",Diet: Herbivore. Size Medium · Weight class 4 · Power 4. Evolution stage 2. Movement: Swimmer. Combat: Underdog.
+Walrein,Ice|Water,11,8,9,10,9,7,"Ocean, Tundra",Diet: Omnivore. Size Large · Weight class 5 · Power 7. Evolution stage 3. Movement: Swimmer. Combat: Mountable.
+Vanillite,Ice,4,5,5,7,6,5,Tundra,Diet: Terravore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Underdog. Narrative: Chilled.
+Vanillish,Ice,5,7,7,8,8,6,Tundra,Diet: Terravore. Size Medium · Weight class 3 · Power 2. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Chilled.
+Vanilluxe,Ice,7,10,9,11,10,8,Tundra,Diet: Terravore. Size Medium · Weight class 4 · Power 3. Evolution stage 3. Movement: Flier. Narrative: Chilled.
+Pidgey,Normal|Flying,5,5,4,5,4,7,Grasslands,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Underdog.
+Pidgeotto,Normal|Flying,6,6,6,6,5,8,Grasslands,Diet: Carnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Pidgeot,Normal|Flying,8,9,8,9,7,10,Grasslands,"Diet: Carnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable."
+Igglybuff,Normal|Fairy,9,3,2,4,2,2,"Grasslands, Urban",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog.
+Jigglypuff,Normal|Fairy,12,6,3,6,3,3,"Grasslands, Urban",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Underdog.
+Wigglytuff,Normal|Fairy,15,8,6,10,6,6,"Grasslands, Urban",Diet: Herbivore. Size Medium · Weight class 2 · Power 3. Evolution stage 3.
+Happiny,Normal,15,1,1,3,7,3,"Grasslands, Urban",Diet: Herbivore. Size Small · Weight class 2 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog.
+Chansey,Normal,25,1,1,4,11,5,"Grasslands, Urban",Diet: Herbivore. Size Medium · Weight class 3 · Power 1. Evolution stage 2. Narrative: Mender.
+Blissey,Normal,26,1,1,8,14,6,"Grasslands, Urban","Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Narrative: Empath, Mender."
+Porygon,Normal,7,6,7,9,8,4,Urban,"Diet: Ergovore. Size Small · Weight class 3 · Power 2. Evolution stage 1. Movement: Flier. Combat: Underdog. Narrative: Breathless, Wired."
+Porygon2,Normal,9,8,9,11,10,6,Urban,"Diet: Ergovore. Size Small · Weight class 3 · Power 2. Evolution stage 2. Movement: Flier. Narrative: Breathless, Wired."
+Porygon-Z,Normal,9,8,7,14,8,9,Urban,"Diet: Ergovore. Size Small · Weight class 3 · Power 2. Evolution stage 3. Movement: Flier. Narrative: Breathless, Wired."
+Slakoth,Normal,7,6,6,4,4,3,Forest,"Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Movement: Climber, Slow. Combat: Truant, Underdog."
+Vigoroth,Normal,8,8,8,6,6,9,Forest,"Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 2. Movement: Climber, Quick. Combat: Underdog."
+Slaking,Normal,15,16,10,10,7,10,Forest,Diet: Omnivore. Size Large · Weight class 6 · Power 9. Evolution stage 3. Combat: Truant.
+Whismur,Normal,7,5,5,5,4,4,Cave,Diet: Herbivore. Size Small · Weight class 2 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog.
+Loudred,Normal,9,7,5,7,5,5,Cave,Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 2. Combat: Underdog.
+Exploud,Normal,10,10,7,10,7,7,Cave,Diet: Herbivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3.
+Starly,Normal|Flying,5,7,4,4,4,6,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Underdog.
+Staravia,Normal|Flying,7,9,6,4,4,8,Grasslands,"Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Flier, Quick. Combat: Underdog."
+Staraptor,Normal|Flying,9,12,9,5,6,10,Grasslands,"Diet: Carnivore. Size Medium · Weight class 2 · Power 5. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable."
+Lillipup,Normal,5,6,5,3,5,6,"Grasslands, Urban",Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog. Narrative: Tracker.
+Herdier,Normal,7,8,7,4,7,6,"Grasslands, Urban",Diet: Omnivore. Size Small · Weight class 2 · Power 4. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Stoutland,Normal,9,11,9,5,9,8,"Grasslands, Urban",Diet: Omnivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Combat: Mountable. Narrative: Tracker.
+Pidove,Normal|Flying,6,6,5,4,3,6,Urban,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Underdog.
+Tranquill,Normal|Flying,7,8,6,5,4,7,Urban,Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Unfezant,Normal|Flying,8,12,8,8,6,9,Urban,"Diet: Carnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Flier, Quick."
+Pikipek,Normal|Flying,5,8,4,3,3,7,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Underdog.
+Trumbeak,Normal|Flying,6,9,5,4,5,8,Grasslands,Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Toucannon,Normal|Flying,8,12,8,8,8,7,Grasslands,Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Flier.
+Nidoran F,Poison,6,5,5,5,5,4,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog.
+Nidorina,Poison,7,6,7,6,6,6,Grasslands,Diet: Herbivore. Size Small · Weight class 2 · Power 5. Evolution stage 2. Combat: Underdog.
+Nidoqueen,Poison|Ground,9,9,9,8,9,8,Grasslands,"Diet: Omnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Combat: Groundshaper, Mountable. Narrative: Pack Mon."
+Nidoran M,Poison,5,6,4,5,4,6,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Combat: Underdog.
+Nidorino,Poison,6,7,6,6,6,7,Grasslands,Diet: Omnivore. Size Small · Weight class 2 · Power 5. Evolution stage 2. Combat: Underdog.
+Nidoking,Poison|Ground,8,10,8,9,8,9,Grasslands,"Diet: Omnivore. Size Medium · Weight class 4 · Power 9. Evolution stage 3. Combat: Groundshaper, Mountable. Narrative: Pack Mon."
+Zubat,Poison|Flying,5,6,4,3,4,8,Cave,"Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Blindsense, Underdog. Narrative: Tracker."
+Golbat,Poison|Flying,8,8,7,7,8,9,Cave,Diet: Carnivore. Size Medium · Weight class 4 · Power 3. Evolution stage 2. Movement: Flier. Combat: Darkvision. Narrative: Tracker.
+Crobat,Poison|Flying,9,9,8,7,8,13,Cave,"Diet: Carnivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Flier, Quick. Combat: Darkvision. Narrative: Tracker."
+Abra,Psychic,3,2,2,11,6,9,Urban,"Diet: Omnivore. Size Small · Weight class 2 · Power 2. Evolution stage 1. Movement: Slow, Teleporter. Combat: Telekinetic, Underdog. Narrative: Telepath."
+Kadabra,Psychic,4,4,3,12,7,11,Urban,"Diet: Omnivore. Size Medium · Weight class 4 · Power 3. Evolution stage 2. Movement: Teleporter. Combat: Telekinetic, Underdog, Wielder (Arcane). Narrative: Telepath."
+Alakazam,Psychic,6,5,5,14,10,12,Urban,"Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Teleporter. Combat: Telekinetic, Wielder (Arcane). Narrative: Telepath."
+Ralts,Psychic|Fairy,4,4,4,7,6,5,Urban,"Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow, Teleporter. Combat: Telekinetic, Underdog. Narrative: Empath, Telepath."
+Kirlia,Psychic|Fairy,5,5,5,9,8,6,Urban,"Diet: Omnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Teleporter. Combat: Telekinetic, Underdog. Narrative: Empath, Premonition, Telepath."
+Gardevoir,Psychic|Fairy,7,7,7,13,12,8,Urban,"Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Teleporter. Combat: Telekinetic. Narrative: Empath, Premonition, Telepath."
+Gallade,Psychic|Fighting,7,13,7,7,12,8,Urban,"Diet: Omnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Quick, Teleporter. Combat: Telekinetic. Narrative: Aura Reader, Empath, Telepath."
+Gothita,Psychic,5,3,5,6,7,5,Urban,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow. Combat: Telekinetic, Underdog. Narrative: Telepath, True Sight."
+Gothorita,Psychic,6,5,7,8,9,6,Urban,"Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Telekinetic, Underdog. Narrative: Telepath, True Sight."
+Gothitelle,Psychic,7,6,10,10,11,7,Urban,"Diet: Herbivore. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Combat: Telekinetic. Narrative: Premonition, Telepath, True Sight."
+Solosis,Psychic,5,3,4,11,5,2,"Space, Urban","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Flier. Combat: Telekinetic, Underdog. Narrative: Amorphous, Telepath."
+Duosion,Psychic,7,4,5,13,6,3,"Space, Urban","Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Flier. Combat: Telekinetic, Underdog. Narrative: Amorphous, Telepath."
+Reuniclus,Psychic,11,7,8,13,9,3,"Space, Urban","Diet: Omnivore. Size Medium · Weight class 2 · Power 7. Evolution stage 3. Movement: Flier. Combat: Telekinetic. Narrative: Amorphous, Telepath."
+Hatenna,Psychic,5,3,6,6,6,4,Forest,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Combat: Telekinetic, Underdog. Narrative: Empath, Telepath."
+Hattrem,Psychic,6,4,7,9,7,5,Forest,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Telekinetic, Underdog. Narrative: Empath, Telepath."
+Hatterene,Psychic|Fairy,6,9,10,14,10,3,Forest,"Diet: Herbivore. Size Large · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier, Slow, Teleporter. Combat: Telekinetic. Narrative: Empath, Illusionist, Telepath."
+Geodude,Rock|Ground,4,8,10,3,3,2,"Cave, Mountain",Diet: Terravore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Movement: Flier. Combat: Underdog.
+Graveler,Rock|Ground,6,10,12,5,5,4,"Cave, Mountain",Diet: Terravore. Size Medium · Weight class 5 · Power 8. Evolution stage 2. Movement: Burrower. Combat: Underdog.
+Golem,Rock|Ground,8,12,13,6,7,5,"Cave, Mountain",Diet: Terravore. Size Medium · Weight class 6 · Power 10. Evolution stage 3. Movement: Burrower. Combat: Groundshaper.
+Larvitar,Rock|Ground,5,6,5,5,5,4,"Cave, Mountain","Diet: Terravore. Size Small · Weight class 4 · Power 7. Evolution stage 1. Movement: Burrower, Slow. Combat: Darkvision, Underdog."
+Pupitar,Rock|Ground,7,8,7,7,7,5,"Cave, Mountain","Diet: Terravore. Size Medium · Weight class 5 · Power 8. Evolution stage 2. Movement: Burrower, Slow. Combat: Darkvision, Underdog."
+Tyranitar,Rock|Dark,10,13,11,10,10,6,"Cave, Mountain","Diet: Carnivore, Terravore. Size Large · Weight class 6 · Power 11. Evolution stage 3. Combat: Darkvision."
+Roggenrola,Rock,6,8,9,3,3,2,"Cave, Mountain",Diet: Terravore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Movement: Slow. Combat: Underdog.
+Boldore,Rock,7,11,11,5,4,2,"Cave, Mountain",Diet: Terravore. Size Medium · Weight class 5 · Power 8. Evolution stage 2. Combat: Underdog.
+Gigalith,Rock,9,14,13,6,8,3,"Cave, Mountain",Diet: Terravore. Size Large · Weight class 6 · Power 12. Evolution stage 3.
+Rolycoly,Rock,4,5,7,5,5,4,Cave,"Diet: Terravore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Combat: Darkvision, Underdog."
+Carkol,Rock|Fire,8,6,9,6,7,5,Cave,"Diet: Terravore. Size Medium · Weight class 4 · Power 5. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Glow, Heater."
+Coalossal,Rock|Fire,11,8,12,8,9,3,Cave,"Diet: Terravore. Size Huge · Weight class 6 · Power 10. Evolution stage 3. Combat: Darkvision. Narrative: Glow, Heater."
+Nacli,Rock,6,6,8,4,4,3,"Cave, Mountain","Diet: Terravore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Movement: Burrower, Slow. Combat: Underdog. Narrative: Breathless."
+Naclstack,Rock,6,6,10,4,7,4,"Cave, Mountain",Diet: Terravore. Size Small · Weight class 5 · Power 8. Evolution stage 2. Movement: Burrower. Combat: Underdog. Narrative: Breathless.
+Garganacl,Rock,10,10,13,5,9,4,"Cave, Mountain",Diet: Terravore. Size Large · Weight class 6 · Power 12. Evolution stage 3. Movement: Burrower. Narrative: Breathless.
+Aron,Steel|Rock,5,7,10,4,4,3,"Cave, Mountain",Diet: Terravore. Size Small · Weight class 4 · Power 5. Evolution stage 1. Movement: Slow. Combat: Underdog.
+Lairon,Steel|Rock,6,9,14,5,5,4,"Cave, Mountain",Diet: Terravore. Size Medium · Weight class 5 · Power 9. Evolution stage 2. Combat: Underdog.
+Aggron,Steel|Rock,7,11,18,6,6,5,"Cave, Mountain",Diet: Terravore. Size Large · Weight class 6 · Power 13. Evolution stage 3.
+Beldum,Steel|Psychic,4,6,8,4,6,3,Urban,"Diet: Omnivore. Size Small · Weight class 4 · Power 5. Evolution stage 1. Movement: Climber, Flier. Combat: Underdog. Narrative: Breathless, Magnetic."
+Metang,Steel|Psychic,6,8,10,6,8,5,Urban,"Diet: Omnivore. Size Medium · Weight class 6 · Power 9. Evolution stage 2. Movement: Climber, Flier. Combat: Mountable, Underdog. Narrative: Breathless, Magnetic."
+Metagross,Steel|Psychic,8,14,13,10,9,7,"Tundra, Urban","Diet: Omnivore. Size Large · Weight class 6 · Power 14. Evolution stage 3. Movement: Climber, Flier. Combat: Mountable. Narrative: Breathless, Magnetic."
+Klink,Steel,4,6,7,5,6,3,Urban,"Diet: Terravore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Movement: Flier, Slow. Combat: Underdog. Narrative: Breathless."
+Klang,Steel,6,8,10,7,9,5,Urban,Diet: Terravore. Size Small · Weight class 4 · Power 5. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Breathless.
+Klinklang,Steel,6,10,12,8,9,9,Urban,Diet: Terravore. Size Small · Weight class 4 · Power 7. Evolution stage 3. Movement: Flier. Narrative: Breathless.
+Honedge,Steel|Ghost,5,8,10,4,4,3,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 2. Evolution stage 1. Movement: Flier, Phaser. Combat: Invisibility, Living Weapon, Underdog. Narrative: Breathless, Dead Silent."
+Doublade,Steel|Ghost,6,11,15,5,5,3,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Movement: Flier, Phaser. Combat: Invisibility, Living Weapon, Underdog. Narrative: Breathless, Dead Silent."
+Aegislash,Steel|Ghost,6,5,15,5,15,6,Urban,"Diet: Nullivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Flier, Phaser. Combat: Invisibility, Living Weapon. Narrative: Breathless, Dead Silent."
+Poliwag,Water,4,5,4,4,4,9,Wetlands,"Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 1. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Poliwhirl,Water,7,7,7,5,5,9,Wetlands,Diet: Omnivore. Size Medium · Weight class 2 · Power 4. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Poliwrath,Water|Fighting,9,10,10,7,9,7,Wetlands,Diet: Omnivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Politoed,Water,9,8,8,9,10,7,Wetlands,"Diet: Omnivore. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Movement: Jumper, Swimmer. Narrative: Gilled."
+Horsea,Water,3,4,7,7,3,6,Wetlands,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Seadra,Water,6,7,10,10,5,7,Wetlands,Diet: Omnivore. Size Medium · Weight class 2 · Power 3. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Kingdra,Water|Dragon,8,10,10,10,10,9,Wetlands,"Diet: Omnivore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Movement: Quick, Swimmer. Combat: Mountable. Narrative: Gilled."
+Azurill,Normal|Fairy,5,2,4,2,4,2,Wetlands,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Jumper, Slow, Swimmer. Combat: Underdog."
+Marill,Water|Fairy,7,3,6,3,6,5,Wetlands,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Jumper, Swimmer. Combat: Underdog."
+Azumarill,Water|Fairy,10,5,8,6,8,5,Wetlands,"Diet: Herbivore. Size Small · Weight class 3 · Power 2. Evolution stage 3. Movement: Jumper, Swimmer. Combat: Underdog."
+Lotad,Water|Grass,6,4,4,6,6,4,"Forest, Wetlands",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Swimmer. Combat: Underdog.
+Lombre,Water|Grass,7,6,5,8,7,5,"Forest, Wetlands",Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 2. Movement: Swimmer. Combat: Underdog.
+Ludicolo,Water|Grass,8,7,8,10,11,7,"Forest, Wetlands",Diet: Herbivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Swimmer.
+Tympole,Water,6,5,4,5,4,6,Wetlands,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Palpitoad,Water|Ground,8,7,6,7,6,7,Wetlands,Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Seismitoad,Water|Ground,11,10,8,9,8,7,Wetlands,Diet: Omnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Swimmer. Combat: Groundshaper. Narrative: Gilled.
+Paras,Bug|Grass,4,7,6,5,6,3,"Cave, Forest","Diet: Herbivore, Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber, Slow. Combat: Darkvision, Underdog."
+Parasect,Bug|Grass,6,10,8,9,8,3,"Cave, Forest","Diet: Herbivore, Phototroph. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Climber. Combat: Darkvision, Underdog. Narrative: Mindlock."
+Venonat,Bug|Poison,6,6,5,4,6,5,Forest,Diet: Herbivore. Size Medium · Weight class 3 · Power 1. Evolution stage 2. Combat: Underdog.
+Venomoth,Bug|Poison,8,7,7,10,9,10,Forest,Diet: Herbivore. Size Medium · Weight class 2 · Power 2. Evolution stage 3. Movement: Flier.
+Scyther,Bug|Flying,7,11,8,6,8,11,"Forest, Grasslands","Diet: Carnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 2. Movement: Flier, Jumper, Quick."
+Scizor,Bug|Steel,7,13,10,6,8,7,"Forest, Grasslands","Diet: Carnivore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Movement: Flier, Jumper, Quick."
+Kleavor,Bug|Rock,7,13,10,6,7,8,"Forest, Grasslands","Diet: Carnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Jumper, Quick."
+Ledyba,Bug|Flying,5,3,3,5,8,6,Forest,"Diet: Herbivore. Size Medium · Weight class 1 · Power 2. Evolution stage 2. Movement: Climber, Flier. Combat: Underdog."
+Ledian,Bug|Flying,6,4,5,6,11,9,Forest,"Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Climber, Flier. Combat: Underdog."
+Spinarak,Bug|Poison,5,6,5,4,5,5,Forest,"Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber, Slow. Combat: Darkvision, Threaded, Underdog."
+Ariados,Bug|Poison,7,9,7,6,7,4,Forest,"Diet: Carnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Climber. Combat: Darkvision, Threaded, Underdog."
+Yanma,Bug|Flying,7,7,5,8,5,10,"Forest, Wetlands","Diet: Carnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 2. Movement: Climber, Flier. Combat: Underdog."
+Yanmega,Bug|Flying,9,8,9,12,6,10,"Forest, Wetlands","Diet: Carnivore. Size Large · Weight class 3 · Power 5. Evolution stage 3. Movement: Climber, Flier, Quick."
+Pineco,Bug,5,7,9,4,4,2,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Forretress,Bug|Steel,9,9,16,6,7,4,Forest,Diet: Herbivore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Movement: Flier.
+Surskit,Bug|Water,4,4,4,5,5,8,Wetlands,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Threaded, Underdog."
+Masquerain,Bug|Flying,8,6,7,11,9,10,Wetlands,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier. Combat: Threaded.
+Nincada,Bug|Ground,4,6,9,3,4,4,"Desert, Forest","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Burrower, Climber, Slow. Combat: Threaded, Underdog."
+Ninjask,Bug|Flying,6,10,5,5,5,20,"Desert, Forest","Diet: Herbivore. Size Small · Weight class 2 · Power 1. Evolution stage 3. Movement: Climber, Flier, Quick. Combat: Threaded."
+Shedinja,Bug|Ghost,5,11,6,11,7,6,"Desert, Forest","Diet: Nullivore. Size Small · Weight class 2 · Power 1. Evolution stage 3. Movement: Climber, Flier, Phaser. Combat: Darkvision, Threaded. Narrative: Breathless, Dead Silent."
+Kricketot,Bug,4,3,4,3,4,3,Forest,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Jumper, Slow. Combat: Underdog."
+Kricketune,Bug,8,9,5,6,5,7,Forest,"Diet: Herbivore. Size Medium · Weight class 3 · Power 2. Evolution stage 3. Movement: Flier, Jumper, Quick. Combat: Underdog. Narrative: Alluring, Repulsive."
+Burmy,Bug,6,3,7,3,7,4,"Desert, Forest, Urban","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber, Slow. Combat: Threaded, Underdog."
+Wormadam Plant,Bug|Grass,6,6,9,8,11,4,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Combat: Threaded, Underdog."
+Wormadam Sandy,Bug|Ground,6,8,11,6,9,4,"Cave, Desert, Mountain","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Combat: Threaded, Underdog."
+Wormadam Trash,Bug|Steel,6,7,10,7,10,4,Urban,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Combat: Threaded, Underdog."
+Mothim,Bug|Flying,7,9,5,9,5,7,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 3. Movement: Flier. Combat: Threaded, Underdog."
+Combee,Bug|Flying,4,4,5,4,5,8,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Vespiquen,Bug|Flying,7,8,11,8,11,6,"Forest, Grasslands",Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier.
+Dwebble,Bug|Rock,5,7,9,4,4,6,Desert,"Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Burrower, Slow. Combat: Underdog."
+Crustle,Bug|Rock,7,11,13,7,8,5,Desert,"Diet: Herbivore, Terravore. Size Medium · Weight class 6 · Power 5. Evolution stage 3. Movement: Burrower. Combat: Groundshaper."
+Karrablast,Bug,5,8,5,4,5,6,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Escavalier,Bug|Steel,7,14,11,6,11,2,Forest,Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Flier.
+Shelmet,Bug,5,4,9,4,7,3,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Accelgor,Bug,8,7,4,10,7,15,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Quick.
+Joltik,Bug|Electric,5,5,5,6,5,7,"Cave, Forest","Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber. Combat: Threaded, Underdog."
+Galvantula,Bug|Electric,8,8,6,11,6,12,"Cave, Forest","Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 3. Movement: Climber. Combat: Threaded, Underdog."
+Larvesta,Bug|Fire,6,9,6,5,6,6,"Cave, Forest","Diet: Omnivore. Size Medium · Weight class 3 · Power 2. Evolution stage 2. Movement: Slow. Combat: Threaded, Underdog. Narrative: Heater."
+Volcarona,Bug|Fire,9,6,7,14,11,10,"Cave, Forest",Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier. Combat: Threaded. Narrative: Heater.
+Cutiefly,Bug|Fairy,4,5,4,6,4,8,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Slow. Combat: Underdog. Narrative: Aura Reader."
+Ribombee,Bug|Fairy,7,6,6,10,10,12,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier. Narrative: Aura Reader.
+Wimpod,Bug|Water,4,5,5,3,4,9,"Cave, Ocean",Diet: Omnivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Golisopod,Bug|Water,8,13,14,6,9,4,"Cave, Ocean",Diet: Omnivore. Size Large · Weight class 5 · Power 8. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Tarountula,Bug,5,5,7,4,6,3,Forest,"Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber. Combat: Threaded, Underdog."
+Spidops,Bug,6,8,9,5,9,4,Forest,"Diet: Carnivore. Size Medium · Weight class 2 · Power 3. Evolution stage 3. Movement: Burrower, Climber. Combat: Threaded, Underdog. Narrative: Dead Silent."
+Nymble,Bug,4,6,6,2,5,7,Forest,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Jumper. Combat: Underdog.
+Lokix,Bug|Dark,8,12,8,5,8,10,Forest,"Diet: Omnivore. Size Medium · Weight class 2 · Power 6. Evolution stage 3. Movement: Climber, Jumper, Quick. Combat: Darkvision."
+Rellor,Bug,5,5,7,3,7,3,Desert,"Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Burrower, Slow. Combat: Underdog."
+Rabsca,Bug|Psychic,9,5,10,12,10,5,Desert,Diet: Omnivore. Size Small · Weight class 1 · Power 6. Evolution stage 3. Movement: Flier. Combat: Telekinetic. Narrative: Mindlock.
+Murkrow,Dark|Flying,6,9,4,9,4,9,"Forest, Urban","Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Darkvision, Underdog. Narrative: Pack Mon."
+Honchkrow,Dark|Flying,10,13,5,11,5,7,"Forest, Urban",Diet: Omnivore. Size Small · Weight class 3 · Power 4. Evolution stage 3. Movement: Flier. Combat: Darkvision. Narrative: Pack Mon.
+Sneasel,Dark|Ice,7,12,6,4,8,14,"Cave, Tundra","Diet: Omnivore. Size Small · Weight class 3 · Power 2. Evolution stage 2. Movement: Climber, Jumper, Quick. Combat: Darkvision."
+Weavile,Dark|Ice,8,14,7,5,9,15,"Cave, Tundra","Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Climber, Jumper, Quick. Combat: Darkvision."
+Houndour,Dark|Fire,5,6,3,8,5,7,"Grasslands, Mountain","Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Pack Mon, Tracker."
+Houndoom,Dark|Fire,8,9,5,11,8,10,"Grasslands, Mountain","Diet: Carnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Combat: Darkvision. Narrative: Pack Mon, Tracker."
+Poochyena,Dark,5,7,4,4,4,6,Grasslands,"Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Pack Mon, Tracker."
+Mightyena,Dark,7,9,7,6,6,7,Grasslands,"Diet: Carnivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Combat: Darkvision, Underdog. Narrative: Pack Mon, Tracker."
+Purrloin,Dark,5,5,4,5,4,7,Urban,"Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Darkvision, Underdog."
+Liepard,Dark,7,10,6,10,6,12,Urban,Diet: Carnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Quick. Combat: Darkvision.
+Scraggy,Dark|Fighting,5,8,7,4,7,5,"Desert, Urban","Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Pack Mon."
+Scrafty,Dark|Fighting,7,9,12,5,12,6,"Desert, Urban",Diet: Herbivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Combat: Darkvision. Narrative: Pack Mon.
+Zorua,Dark,4,7,4,8,4,7,"Forest, Urban","Diet: Omnivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Illusionist, Pack Mon, Tracker."
+Zoroark,Dark,9,12,7,12,7,12,"Forest, Urban","Diet: Omnivore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Combat: Darkvision. Narrative: Illusionist, Pack Mon, Tracker."
+Vullaby,Dark|Flying,7,6,8,5,7,6,"Cave, Mountain","Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Darkvision, Underdog."
+Mandibuzz,Dark|Flying,11,7,11,6,10,8,"Cave, Mountain",Diet: Carnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier. Combat: Darkvision.
+Inkay,Dark|Psychic,5,5,5,5,5,5,"Forest, Ocean","Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Swimmer. Combat: Telekinetic, Underdog. Narrative: Gilled, Glow, Mindlock, Telepath."
+Malamar,Dark|Psychic,9,10,10,7,8,7,"Forest, Ocean","Diet: Carnivore. Size Medium · Weight class 3 · Power 1. Evolution stage 3. Movement: Flier, Swimmer. Combat: Telekinetic. Narrative: Gilled, Glow, Mindlock, Telepath."
+Nickit,Dark,5,5,5,5,5,5,"Forest, Urban","Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Darkvision, Underdog."
+Thievul,Dark,8,11,6,11,9,11,"Forest, Urban",Diet: Omnivore. Size Medium · Weight class 2 · Power 5. Evolution stage 3. Movement: Quick. Combat: Darkvision.
+Maschiff,Dark,6,8,6,4,5,5,"Desert, Grasslands","Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Tracker."
+Mabosstiff,Dark,8,12,9,6,7,9,"Desert, Grasslands",Diet: Carnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Combat: Darkvision. Narrative: Tracker.
+Voltorb,Electric,4,3,5,6,6,10,Urban,Diet: Ergovore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog.
+Electrode,Electric,6,5,7,9,8,16,Urban,Diet: Ergovore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Movement: Quick.
+Electrike,Electric,4,5,4,7,4,7,Grasslands,"Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Pack Mon, Tracker."
+Manectric,Electric,8,12,6,14,6,12,Grasslands,"Diet: Carnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Quick. Narrative: Pack Mon, Tracker."
+Blitzle,Electric,5,6,3,5,3,8,Grasslands,Diet: Herbivore. Size Small · Weight class 3 · Power 4. Evolution stage 2. Combat: Underdog. Narrative: Glow.
+Zebstrika,Electric,8,10,6,8,6,13,Grasslands,Diet: Herbivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Glow.
+Helioptile,Normal|Electric,4,4,3,7,5,7,"Cave, Desert",Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Underdog. Narrative: Glow.
+Heliolisk,Normal|Electric,6,6,5,12,10,12,"Cave, Desert",Diet: Phototroph. Size Medium · Weight class 2 · Power 3. Evolution stage 3. Movement: Quick. Narrative: Glow.
+Yamper,Electric,6,5,5,4,5,5,"Grasslands, Urban","Diet: Omnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Pack Mon, Tracker."
+Boltund,Electric,9,10,6,8,6,12,"Grasslands, Urban","Diet: Omnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Quick. Narrative: Pack Mon, Tracker."
+Toxel,Electric|Poison,6,5,5,5,5,4,"Urban, Wetlands",Diet: Omnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Slow. Combat: Underdog. Narrative: Glow.
+Toxtricity,Electric|Poison,8,10,7,11,7,8,"Urban, Wetlands",Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Narrative: Glow.
+Tadbulb,Electric,6,3,4,7,4,6,Wetlands,"Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Swimmer. Combat: Underdog. Narrative: Gilled, Glow."
+Bellibolt,Electric,12,6,9,10,9,5,Wetlands,Diet: Omnivore. Size Medium · Weight class 5 · Power 4. Evolution stage 3. Movement: Swimmer. Narrative: Glow.
+Snubbull,Fairy,6,8,5,4,4,3,"Grasslands, Urban",Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Granbull,Fairy,10,13,9,6,7,6,"Grasslands, Urban",Diet: Carnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Narrative: Tracker.
+Spritzee,Fairy,8,5,6,6,7,2,Forest,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Alluring, Repulsive."
+Aromatisse,Fairy,10,7,8,11,11,4,Forest,"Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 3. Movement: Flier. Narrative: Alluring, Repulsive."
+Swirlix,Fairy,6,5,7,6,6,5,Forest,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Threaded, Underdog. Narrative: Alluring."
+Slurpuff,Fairy,8,9,9,9,9,7,Forest,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Combat: Threaded. Narrative: Alluring, Tracker."
+Milcery,Fairy,5,4,5,6,7,3,Urban,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Alluring, Amorphous."
+Alcremie,Fairy,7,6,8,12,12,6,Urban,"Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier. Narrative: Alluring, Amorphous."
+Fidough,Fairy,4,6,7,3,6,7,Urban,Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Dachsbun,Fairy,6,9,12,5,9,10,Urban,"Diet: Omnivore. Size Small · Weight class 2 · Power 4. Evolution stage 3. Narrative: Alluring, Heater, Tracker."
+Mankey,Fighting,4,8,4,4,5,7,"Forest, Mountain","Diet: Omnivore. Size Small · Weight class 3 · Power 4. Evolution stage 2. Movement: Climber, Jumper. Combat: Underdog."
+Primeape,Fighting,8,13,7,6,7,13,"Forest, Mountain","Diet: Omnivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Climber, Jumper."
+Annihilape,Fighting|Ghost,11,12,8,5,9,9,"Forest, Mountain","Diet: Carnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Climber, Jumper."
+Tyrogue,Fighting,5,5,5,5,5,5,"Grasslands, Urban",Diet: Omnivore. Size Small · Weight class 2 · Power 4. Evolution stage 2. Combat: Underdog.
+Hitmonlee,Fighting,6,13,6,4,11,11,"Grasslands, Urban",Diet: Omnivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Jumper. Combat: Reach.
+Hitmonchan,Fighting,6,12,9,4,11,9,"Grasslands, Urban",Diet: Omnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3.
+Hitmontop,Fighting,6,11,11,4,11,8,"Grasslands, Urban",Diet: Omnivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3.
+Makuhita,Fighting,9,8,4,2,4,3,Cave,Diet: Omnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 2. Movement: Slow.
+Hariyama,Fighting,15,13,7,4,7,5,Cave,Diet: Omnivore. Size Large · Weight class 6 · Power 14. Evolution stage 3.
+Meditite,Fighting|Psychic,4,4,6,4,6,6,Cave,"Diet: Omnivore. Size Small · Weight class 1 · Power 4. Evolution stage 2. Combat: Underdog. Narrative: Aura Reader, Telepath."
+Medicham,Fighting|Psychic,6,6,8,6,8,8,Cave,"Diet: Omnivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Jumper. Combat: Blender, Underdog. Narrative: Aura Reader, Telepath."
+Riolu,Fighting,4,7,4,5,4,6,Cave,Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Underdog. Narrative: Aura Reader.
+Lucario,Fighting|Steel,7,11,7,12,7,9,Cave,"Diet: Omnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Jumper, Quick. Narrative: Aura Reader, Empath, Telepath."
+Mienfoo,Fighting,5,9,5,6,5,7,"Cave, Mountain",Diet: Omnivore. Size Small · Weight class 2 · Power 4. Evolution stage 2. Movement: Jumper. Combat: Underdog.
+Mienshao,Fighting,7,16,6,10,6,11,"Cave, Mountain",Diet: Omnivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Jumper. Combat: Reach.
+Pancham,Fighting,7,8,6,5,5,4,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Pack Mon.
+Pangoro,Fighting|Dark,10,13,8,7,7,6,Grasslands,Diet: Herbivore. Size Large · Weight class 5 · Power 9. Evolution stage 3. Narrative: Pack Mon.
+Crabrawler,Fighting,5,8,6,4,5,6,Tundra,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Gilled.
+Crabominable,Fighting|Ice,10,15,9,6,7,4,Tundra,Diet: Omnivore. Size Large · Weight class 5 · Power 8. Evolution stage 3. Narrative: Gilled.
+Clobbopus,Fighting,5,7,6,5,5,3,Ocean,Diet: Omnivore. Size Small · Weight class 1 · Power 4. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Grapploct,Fighting,8,13,10,7,9,4,Ocean,Diet: Omnivore. Size Medium · Weight class 3 · Power 7. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Vulpix,Fire,4,4,4,5,7,7,"Forest, Mountain",Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Ninetales,Fire,7,8,8,8,10,10,"Forest, Mountain",Diet: Omnivore. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Narrative: Tracker.
+Growlithe,Fire,6,7,5,7,5,6,Grasslands,"Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Underdog. Narrative: Pack Mon, Tracker."
+Arcanine,Fire,9,11,8,10,8,10,Grasslands,"Diet: Carnivore. Size Large · Weight class 5 · Power 8. Evolution stage 3. Movement: Jumper, Quick. Combat: Mountable. Narrative: Pack Mon, Tracker."
+Ponyta,Fire,5,9,6,7,7,9,Grasslands,"Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 2. Movement: Jumper, Quick. Combat: Mountable, Underdog. Narrative: Glow, Heater."
+Rapidash,Fire,7,10,7,8,8,11,Grasslands,"Diet: Herbivore. Size Large · Weight class 4 · Power 6. Evolution stage 3. Movement: Jumper, Quick. Combat: Mountable. Narrative: Glow, Heater."
+Slugma,Fire,5,5,5,8,5,2,Cave,"Diet: Terravore. Size Small · Weight class 3 · Power 3. Evolution stage 2. Movement: Grounded, Slow. Combat: Underdog. Narrative: Amorphous, Glow, Heater."
+Magcargo,Fire|Rock,6,5,12,9,8,3,Cave,"Diet: Terravore. Size Small · Weight class 4 · Power 4. Evolution stage 3. Movement: Grounded, Slow. Combat: Underdog. Narrative: Glow, Heater."
+Numel,Fire|Ground,6,6,4,7,5,4,"Desert, Mountain",Diet: Herbivore. Size Small · Weight class 2 · Power 5. Evolution stage 2. Movement: Slow. Combat: Underdog. Narrative: Heater.
+Camerupt,Fire|Ground,9,11,8,11,8,4,"Desert, Mountain",Diet: Herbivore. Size Large · Weight class 6 · Power 10. Evolution stage 3. Combat: Mountable. Narrative: Heater.
+Pansear,Fire,5,5,5,5,5,6,"Forest, Grasslands","Diet: Omnivore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Movement: Climber, Jumper. Combat: Underdog."
+Simisear,Fire,9,10,6,10,6,10,"Forest, Grasslands","Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Climber, Jumper."
+Darumaka,Fire,7,9,5,2,5,5,"Cave, Desert",Diet: Herbivore. Size Small · Weight class 3 · Power 4. Evolution stage 2. Combat: Underdog. Narrative: Heater.
+Darmanitan,Fire,11,15,6,3,6,10,"Cave, Desert",Diet: Omnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Narrative: Heater.
+Darmanitan Zen,Fire|Psychic,11,3,11,15,11,5,"Cave, Desert","Diet: Omnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Movement: Slow. Combat: Telekinetic. Narrative: Mindlock, Telepath."
+Litleo,Fire|Normal,6,5,6,7,6,7,Grasslands,"Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Pack Mon, Tracker."
+Pyroar,Fire|Normal,9,7,7,11,7,11,Grasslands,"Diet: Carnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Combat: Mountable. Narrative: Pack Mon, Tracker."
+Sizzlipede,Fire|Bug,5,7,5,5,5,5,Forest,"Diet: Carnivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Climber. Combat: Threaded, Underdog. Narrative: Heater."
+Centiskorch,Fire|Bug,10,12,7,9,9,7,Forest,"Diet: Carnivore. Size Huge · Weight class 5 · Power 7. Evolution stage 3. Movement: Climber. Combat: Mountable, Threaded. Narrative: Heater."
+Charcadet,Fire,5,6,4,6,4,5,Urban,Diet: Omnivore. Size Small · Weight class 1 · Power 4. Evolution stage 2. Combat: Underdog.
+Armarouge,Fire|Psychic,9,6,10,13,8,8,Urban,Diet: Omnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Combat: Telekinetic.
+Ceruledge,Fire|Ghost,8,13,8,6,10,9,Urban,Diet: Omnivore. Size Medium · Weight class 2 · Power 8. Evolution stage 3. Narrative: Dead Silent.
+Noibat,Flying|Dragon,4,4,4,6,4,8,Cave,"Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Blindsense, Underdog."
+Noivern,Flying|Dragon,9,7,8,10,8,12,Cave,"Diet: Omnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Flier, Quick. Combat: Blindsense."
+Wattrel,Flying|Electric,5,5,4,6,4,6,Ocean,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Kilowattrel,Flying|Electric,7,7,6,12,6,13,Ocean,Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier.
+Misdreavus,Ghost,6,6,6,9,9,9,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Mismagius,Ghost,6,6,6,11,11,11,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent."
+Shuppet,Ghost,4,8,4,6,3,5,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Banette,Ghost,9,12,8,8,7,7,Urban,"Diet: Nullivore. Size Medium · Weight class 2 · Power 2. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent."
+Drifloon,Ghost|Flying,9,5,3,6,4,7,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Darkvision, Underdog. Narrative: Dead Silent."
+Drifblim,Ghost|Flying,15,9,4,10,5,8,Urban,Diet: Nullivore. Size Medium · Weight class 2 · Power 5. Evolution stage 3. Movement: Flier. Combat: Darkvision. Narrative: Dead Silent.
+Yamask,Ghost,4,3,9,6,7,3,"Desert, Urban","Diet: Terravore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Cofagrigus,Ghost,6,5,15,10,12,3,"Desert, Urban","Diet: Terravore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent."
+Phantump,Ghost|Grass,4,7,5,5,6,4,Forest,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Trevenant,Ghost|Grass,11,11,8,7,8,6,Forest,"Diet: Nullivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent."
+Pumpkaboo,Ghost|Grass,5,7,7,4,6,5,"Forest, Urban","Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent, Glow."
+Gourgeist,Ghost|Grass,8,9,12,6,8,8,"Forest, Urban","Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent, Glow."
+Sandygast,Ghost|Ground,6,6,8,7,5,2,Desert,"Diet: Nullivore. Size Small · Weight class 4 · Power 1. Evolution stage 2. Movement: Burrower, Grounded, Slow. Combat: Darkvision, Underdog. Narrative: Amorphous, Dead Silent."
+Palossand,Ghost|Ground,9,8,12,10,8,4,Desert,"Diet: Nullivore. Size Medium · Weight class 6 · Power 4. Evolution stage 3. Movement: Burrower, Grounded. Combat: Darkvision, Groundshaper. Narrative: Amorphous, Dead Silent, Tremorsense."
+Sinistea,Ghost,4,5,5,7,5,5,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Underdog. Narrative: Amorphous, Dead Silent."
+Polteageist,Ghost,6,7,7,13,11,7,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision. Narrative: Amorphous, Dead Silent."
+Greavard,Ghost,5,6,6,3,6,4,Urban,"Diet: Carnivore. Size Small · Weight class 3 · Power 3. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Glow, Tracker."
+Houndstone,Ghost,8,10,10,5,10,8,Urban,"Diet: Carnivore. Size Large · Weight class 2 · Power 5. Evolution stage 3. Combat: Darkvision, Mountable. Narrative: Glow, Soul Seer, Tracker."
+Exeggcute,Grass|Psychic,6,4,8,6,5,4,Forest,Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Exeggutor,Grass|Psychic,10,10,9,13,8,6,Forest,Diet: Phototroph. Size Large · Weight class 5 · Power 6. Evolution stage 3.
+Alolan Exeggutor,Grass|Dragon,10,11,9,13,8,5,"Forest, Grasslands",Diet: Phototroph. Size Huge · Weight class 6 · Power 6. Evolution stage 3. Movement: Grounded. Combat: Reach.
+Tangela,Grass,7,6,12,10,4,6,"Forest, Grasslands","Diet: Phototroph. Size Medium · Weight class 3 · Power 4. Evolution stage 2. Combat: Reach, Threaded, Underdog."
+Tangrowth,Grass,10,10,13,11,5,5,"Forest, Grasslands","Diet: Phototroph. Size Large · Weight class 5 · Power 7. Evolution stage 3. Combat: Reach, Threaded."
+Sunkern,Grass,5,5,5,5,5,5,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Sunflora,Grass,9,9,7,12,10,4,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 3. Evolution stage 3.
+Shroomish,Grass,6,5,6,5,6,5,Forest,Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Breloom,Grass|Fighting,8,13,9,6,8,7,Forest,Diet: Phototroph. Size Medium · Weight class 3 · Power 6. Evolution stage 3.
+Cacnea,Grass,5,9,4,9,4,4,Desert,Diet: Phototroph. Size Small · Weight class 4 · Power 1. Evolution stage 2. Combat: Underdog.
+Cacturne,Grass|Dark,9,14,7,14,7,7,Desert,Diet: Phototroph. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Combat: Darkvision.
+Cherubi,Grass,5,5,5,6,5,4,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Cherrim,Grass,7,7,9,10,9,9,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 3. Evolution stage 3.
+Snover,Grass|Ice,6,6,5,6,6,5,"Forest, Tundra",Diet: Phototroph. Size Medium · Weight class 4 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Chilled.
+Abomasnow,Grass|Ice,10,9,8,9,9,6,"Forest, Tundra",Diet: Phototroph. Size Large · Weight class 5 · Power 10. Evolution stage 3. Narrative: Chilled.
+Pansage,Grass,5,5,5,5,5,6,"Forest, Grasslands","Diet: Omnivore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Movement: Climber, Jumper. Combat: Underdog."
+Simisage,Grass,9,10,6,10,6,10,"Forest, Grasslands","Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Climber, Jumper."
+Cottonee,Grass|Fairy,4,3,6,4,6,7,Grasslands,Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Whimsicott,Grass|Fairy,6,7,9,9,8,12,Grasslands,Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier.
+Petilil,Grass,5,4,5,7,5,4,"Forest, Grasslands",Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Mender.
+Lilligant,Grass,8,6,8,12,8,9,"Forest, Grasslands","Diet: Phototroph. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Narrative: Alluring, Mender."
+Hisuian Lilligant,Grass|Fighting,8,12,8,6,7,10,"Forest, Grasslands","Diet: Phototroph. Size Medium · Weight class 2 · Power 7. Evolution stage 3. Movement: Jumper, Quick. Narrative: Alluring."
+Foongus,Grass|Poison,7,6,5,6,6,2,Forest,Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Slow.
+Amoonguss,Grass|Poison,12,9,9,9,9,3,Forest,Diet: Phototroph. Size Small · Weight class 1 · Power 4. Evolution stage 3.
+Ferroseed,Grass|Steel,4,5,9,2,9,1,"Cave, Forest","Diet: Phototroph, Terravore. Size Small · Weight class 2 · Power 4. Evolution stage 2. Movement: Climber, Slow. Combat: Underdog."
+Ferrothorn,Grass|Steel,8,9,14,5,13,2,"Cave, Forest","Diet: Phototroph, Terravore. Size Medium · Weight class 5 · Power 7. Evolution stage 3. Movement: Climber. Combat: Reach."
+Skiddo,Grass,7,7,5,6,6,5,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 3 · Power 3. Evolution stage 2. Movement: Jumper. Combat: Mountable, Underdog."
+Gogoat,Grass,12,10,6,10,8,7,"Forest, Grasslands","Diet: Herbivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Jumper, Quick. Combat: Mountable."
+Fomantis,Grass,4,7,4,6,4,5,Forest,Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Alluring.
+Lurantis,Grass,7,12,9,8,9,6,Forest,Diet: Omnivore. Size Small · Weight class 2 · Power 4. Evolution stage 3. Movement: Quick. Narrative: Alluring.
+Morelull,Grass|Fairy,4,4,6,7,8,2,Forest,Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Combat: Underdog. Narrative: Glow.
+Shiinotic,Grass|Fairy,6,5,8,9,10,3,Forest,Diet: Phototroph. Size Medium · Weight class 2 · Power 3. Evolution stage 3. Combat: Underdog. Narrative: Glow.
+Gossifleur,Grass,5,5,7,5,7,1,Grasslands,Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Alluring.
+Eldegoss,Grass,7,5,10,9,13,7,Grasslands,Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier. Narrative: Alluring.
+Applin,Grass|Dragon,5,5,8,5,5,2,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 1. Movement: Slow. Combat: Underdog.
+Flapple,Grass|Dragon,7,12,8,10,6,8,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier.
+Appletun,Grass|Dragon,11,9,9,10,9,3,Forest,Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 3. Narrative: Alluring.
+Dipplin,Grass|Dragon,8,8,11,10,8,4,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Narrative: Alluring.
+Hydrapple,Grass|Dragon,11,8,11,12,8,5,Forest,Diet: Herbivore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Combat: Reach. Narrative: Alluring.
+Capsakid,Grass,5,6,4,6,4,5,Forest,Diet: Phototroph. Size Small · Weight class 1 · Power 3. Evolution stage 2. Combat: Underdog.
+Scovillain,Grass|Fire,7,13,7,13,7,8,Forest,Diet: Phototroph. Size Small · Weight class 2 · Power 6. Evolution stage 3.
+Bramblin,Grass|Ghost,5,7,3,5,4,6,Desert,"Diet: Nullivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Breathless."
+Brambleghast,Grass|Ghost,7,12,7,8,7,10,Desert,Diet: Nullivore. Size Medium · Weight class 1 · Power 4. Evolution stage 3. Movement: Quick. Combat: Darkvision. Narrative: Breathless.
+Sandshrew,Ground,5,8,9,2,3,4,Desert,Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Burrower. Combat: Underdog. Narrative: Tremorsense.
+Sandslash,Ground,9,11,11,5,6,9,Desert,Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Burrower. Combat: Groundshaper. Narrative: Tremorsense.
+Diglett,Ground,2,6,3,4,5,10,"Cave, Desert","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Burrower, Grounded, Quick. Combat: Underdog. Narrative: Tremorsense."
+Dugtrio,Ground,4,10,5,5,7,12,"Cave, Desert","Diet: Herbivore. Size Small · Weight class 3 · Power 4. Evolution stage 3. Movement: Burrower, Grounded, Quick. Combat: Groundshaper, Underdog. Narrative: Tremorsense."
+Cubone,Ground,5,5,10,4,5,4,"Cave, Grasslands","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Darkvision, Underdog, Wielder (Martial, Melee, Small)."
+Marowak,Ground,6,8,11,5,8,5,"Cave, Grasslands","Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Combat: Darkvision, Underdog, Wielder (Martial, Melee, Small)."
+Alolan Marowak,Fire|Ghost,6,8,11,5,8,5,"Cave, Mountain","Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Combat: Darkvision, Underdog, Wielder (Melee). Narrative: Glow."
+Gligar,Ground|Flying,7,8,11,4,7,9,Mountain,"Diet: Carnivore. Size Medium · Weight class 4 · Power 3. Evolution stage 2. Movement: Climber, Glider."
+Gliscor,Ground|Flying,8,10,13,5,8,10,Mountain,"Diet: Carnivore. Size Large · Weight class 3 · Power 5. Evolution stage 3. Movement: Climber, Glider."
+Phanpy,Ground,9,6,6,4,4,4,"Grasslands, Mountain",Diet: Herbivore. Size Small · Weight class 3 · Power 4. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Donphan,Ground,10,12,12,6,6,5,"Grasslands, Mountain",Diet: Omnivore. Size Medium · Weight class 5 · Power 7. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Tracker.
+Baltoy,Ground|Psychic,4,4,6,4,7,6,"Cave, Desert","Diet: Terravore. Size Small · Weight class 2 · Power 5. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Breathless, Dead Silent."
+Claydol,Ground|Psychic,6,7,11,7,12,8,"Cave, Desert","Diet: Terravore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Movement: Flier. Narrative: Breathless, Dead Silent."
+Hippopotas,Ground,7,7,8,4,4,3,Desert,"Diet: Herbivore. Size Small · Weight class 3 · Power 5. Evolution stage 2. Movement: Burrower, Slow. Combat: Groundshaper, Underdog. Narrative: Tremorsense."
+Hippowdon,Ground,10,11,12,7,7,5,Desert,Diet: Omnivore. Size Large · Weight class 6 · Power 9. Evolution stage 3. Movement: Burrower. Combat: Groundshaper. Narrative: Tremorsense.
+Drilbur,Ground,6,9,4,3,5,7,"Cave, Desert","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Burrower, Quick. Combat: Underdog. Narrative: Tremorsense."
+Excadrill,Ground|Steel,11,14,6,5,7,9,"Cave, Desert","Diet: Herbivore. Size Small · Weight class 3 · Power 6. Evolution stage 3. Movement: Burrower, Quick. Combat: Groundshaper. Narrative: Tremorsense."
+Golett,Ground|Ghost,6,7,5,4,5,4,"Desert, Urban","Diet: Terravore. Size Medium · Weight class 4 · Power 7. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Breathless."
+Golurk,Ground|Ghost,10,13,8,6,8,6,"Desert, Urban","Diet: Terravore. Size Huge · Weight class 6 · Power 14. Evolution stage 3. Movement: Flier. Combat: Darkvision, Groundshaper. Narrative: Breathless."
+Mudbray,Ground,7,10,7,5,6,5,"Grasslands, Mountain","Diet: Herbivore. Size Medium · Weight class 5 · Power 8. Evolution stage 2. Combat: Mountable, Underdog."
+Mudsdale,Ground,10,13,10,6,9,4,"Grasslands, Mountain","Diet: Herbivore. Size Large · Weight class 6 · Power 13. Evolution stage 3. Combat: Groundshaper, Mountable."
+Silicobra,Ground,5,6,8,4,5,5,Desert,Diet: Carnivore. Size Medium · Weight class 1 · Power 2. Evolution stage 2. Movement: Burrower. Combat: Underdog.
+Sandaconda,Ground,7,11,13,7,7,7,Desert,Diet: Carnivore. Size Large · Weight class 4 · Power 5. Evolution stage 3. Movement: Burrower.
+Smoochum,Ice|Psychic,5,3,2,9,7,7,Tundra,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Jynx,Ice|Psychic,7,5,5,13,11,10,Tundra,Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Combat: Telekinetic.
+Snorunt,Ice,5,5,5,5,5,5,"Cave, Tundra",Diet: Nullivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Slow. Combat: Underdog. Narrative: Chilled.
+Glalie,Ice,9,9,9,8,8,8,"Cave, Tundra","Diet: Carnivore. Size Medium · Weight class 6 · Power 5. Evolution stage 3. Movement: Flier. Combat: Darkvision. Narrative: Chilled, Dead Silent."
+Froslass,Ice|Ghost,7,8,7,10,7,12,"Cave, Tundra","Diet: Nullivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier. Combat: Darkvision. Narrative: Chilled, Dead Silent, Illusionist."
+Cubchoo,Ice,6,7,4,6,4,4,Tundra,Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Chilled.
+Beartic,Ice,10,13,8,7,8,5,Tundra,Diet: Omnivore. Size Large · Weight class 6 · Power 9. Evolution stage 3. Movement: Swimmer. Narrative: Chilled.
+Bergmite,Ice,6,7,9,3,4,3,Tundra,Diet: Terravore. Size Medium · Weight class 4 · Power 3. Evolution stage 2. Movement: Slow. Combat: Underdog. Narrative: Chilled.
+Avalugg,Ice,10,12,18,4,5,3,Tundra,Diet: Terravore. Size Huge · Weight class 6 · Power 8. Evolution stage 3. Combat: Mountable. Narrative: Chilled.
+Hisuian Avalugg,Ice|Rock,10,12,18,4,5,3,Tundra,Diet: Terravore. Size Huge · Weight class 6 · Power 8. Evolution stage 3. Combat: Mountable. Narrative: Chilled.
+Snom,Ice|Bug,6,4,5,7,5,3,Tundra,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber, Slow. Combat: Threaded, Underdog. Narrative: Chilled."
+Frosmoth,Ice|Bug,7,7,6,14,10,7,Tundra,"Diet: Herbivore. Size Medium · Weight class 1 · Power 3. Evolution stage 3. Movement: Climber, Flier. Combat: Threaded. Narrative: Chilled."
+Cetoddle,Ice,11,7,5,3,4,4,Tundra,Diet: Carnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 2. Combat: Underdog.
+Cetitan,Ice,17,11,7,5,6,7,Tundra,Diet: Carnivore. Size Huge · Weight class 6 · Power 12. Evolution stage 3. Movement: Swimmer. Combat: Mountable.
+Rattata,Normal,4,7,4,4,4,7,"Grasslands, Urban",Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Quick. Combat: Underdog.
+Raticate,Normal,6,8,6,5,7,10,"Grasslands, Urban",Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 3. Movement: Quick. Combat: Underdog. Narrative: Tracker.
+Spearow,Normal|Flying,5,6,4,4,4,7,Mountain,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Fearow,Normal|Flying,8,11,8,6,6,12,Mountain,Diet: Omnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Flier. Combat: Mountable.
+Meowth,Normal,4,5,4,4,4,9,Urban,Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Persian,Normal,7,9,7,9,7,12,Urban,"Diet: Carnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Narrative: Pack Mon, Tracker."
+Doduo,Normal|Flying,4,9,5,4,4,8,Grasslands,"Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 2. Movement: Jumper, Quick. Combat: Underdog."
+Dodrio,Normal|Flying,6,12,8,6,7,12,Grasslands,"Diet: Herbivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Jumper, Quick. Combat: Mountable."
+Lickitung,Normal,9,6,8,6,8,3,"Forest, Grasslands","Diet: Omnivore. Size Medium · Weight class 4 · Power 2. Evolution stage 2. Combat: Reach, Underdog."
+Lickilicky,Normal,11,9,10,8,10,5,"Forest, Grasslands",Diet: Omnivore. Size Medium · Weight class 5 · Power 5. Evolution stage 3. Combat: Reach.
+Munchlax,Normal,14,9,4,4,9,1,"Forest, Mountain",Diet: Omnivore. Size Small · Weight class 4 · Power 4. Evolution stage 2. Movement: Slow. Combat: Underdog. Narrative: Tracker.
+Snorlax,Normal,16,11,7,7,11,3,"Forest, Mountain",Diet: Omnivore. Size Large · Weight class 6 · Power 12. Evolution stage 3. Movement: Slow. Narrative: Tracker.
+Sentret,Normal,5,6,5,5,6,3,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Underdog.
+Furret,Normal,9,8,6,5,6,9,"Forest, Grasslands",Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Quick. Combat: Underdog. Narrative: Tracker.
+Hoothoot,Normal|Flying,6,3,4,5,7,5,Forest,"Diet: Carnivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Flier, Jumper. Combat: Darkvision, Underdog."
+Noctowl,Normal|Flying,10,5,5,9,10,7,Forest,"Diet: Carnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier, Jumper. Combat: Darkvision. Narrative: Dead Silent."
+Aipom,Normal,6,7,6,5,6,9,Forest,"Diet: Omnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Climber, Jumper, Quick. Combat: Underdog."
+Ambipom,Normal,8,11,7,6,7,12,Forest,"Diet: Omnivore. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Movement: Climber, Jumper, Quick."
+Teddiursa,Normal,6,8,5,5,5,4,"Cave, Mountain",Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Ursaring,Normal,9,13,8,8,8,6,"Cave, Mountain",Diet: Omnivore. Size Medium · Weight class 5 · Power 8. Evolution stage 3. Movement: Swimmer. Narrative: Tracker.
+Ursaluna,Normal|Ground,13,12,10,4,7,5,"Cave, Wetlands","Diet: Omnivore. Size Large · Weight class 6 · Power 9. Evolution stage 3. Movement: Burrower, Swimmer. Combat: Groundshaper. Narrative: Tracker, Tremorsense."
+Ursaluna (Blood Moon),Normal|Ground,11,7,12,14,7,5,"Cave, Wetlands","Diet: Omnivore. Size Large · Weight class 6 · Power 9. Evolution stage 3. Movement: Burrower, Swimmer. Combat: Groundshaper. Narrative: Mindlock, Tracker, Tremorsense."
+Girafarig,Normal|Psychic,8,8,7,11,7,10,Grasslands,Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 2. Combat: Mountable.
+Farigiraf,Normal|Psychic,13,11,8,12,8,6,Grasslands,Diet: Herbivore. Size Huge · Weight class 5 · Power 5. Evolution stage 3. Combat: Mountable.
+Dunsparce,Normal,10,7,7,7,7,5,Cave,"Diet: Herbivore. Size Medium · Weight class 2 · Power 1. Evolution stage 2. Movement: Burrower, Swimmer. Combat: Darkvision."
+Dudunsparce,Normal,13,10,8,9,8,6,Cave,"Diet: Herbivore. Size Huge · Weight class 3 · Power 2. Evolution stage 3. Movement: Burrower, Swimmer. Combat: Darkvision."
+Stantler,Normal,7,9,6,8,7,7,"Grasslands, Tundra","Diet: Herbivore. Size Medium · Weight class 4 · Power 4. Evolution stage 2. Movement: Jumper, Quick. Combat: Underdog. Narrative: Tracker."
+Wyrdeer,Normal|Psychic,10,9,6,11,9,8,"Grasslands, Tundra","Diet: Herbivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Jumper, Quick. Combat: Mountable. Narrative: Premonition, Tracker."
+Zigzagoon,Normal,5,4,5,4,5,7,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Jumper. Combat: Underdog. Narrative: Tracker.
+Linoone,Normal,8,7,6,5,6,10,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Movement: Jumper, Quick. Combat: Underdog. Narrative: Tracker."
+Taillow,Normal|Flying,4,6,4,3,4,9,Grasslands,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Swellow,Normal|Flying,7,9,7,8,7,13,Grasslands,Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 3. Movement: Flier.
+Skitty,Normal,5,5,5,5,5,5,Grasslands,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Delcatty,Normal,7,7,7,6,6,9,Grasslands,Diet: Omnivore. Size Medium · Weight class 3 · Power 2. Evolution stage 3. Combat: Underdog. Narrative: Tracker.
+Swablu,Normal|Flying,5,4,6,4,8,5,Mountain,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Altaria,Dragon|Flying,9,7,9,7,11,8,Mountain,Diet: Herbivore. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Movement: Flier.
+Bidoof,Normal,7,7,4,4,4,4,"Grasslands, Wetlands",Diet: Herbivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Underdog.
+Bibarel,Normal|Water,8,9,6,6,6,6,"Grasslands, Wetlands",Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Swimmer.
+Buneary,Normal,6,7,4,5,6,9,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Jumper. Combat: Underdog.
+Lopunny,Normal,7,9,8,5,10,12,Grasslands,Diet: Herbivore. Size Medium · Weight class 3 · Power 2. Evolution stage 3. Movement: Jumper.
+Glameow,Normal,5,6,4,4,4,9,"Grasslands, Urban",Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Quick. Combat: Underdog.
+Purugly,Normal,7,8,6,6,6,11,"Grasslands, Urban",Diet: Carnivore. Size Medium · Weight class 3 · Power 2. Evolution stage 3. Movement: Quick. Combat: Underdog. Narrative: Tracker.
+Patrat,Normal,6,6,4,4,5,5,Grasslands,Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Watchog,Normal,6,9,7,6,7,8,Grasslands,Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Narrative: Tracker.
+Minccino,Normal,6,5,4,4,4,8,"Grasslands, Urban",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Underdog.
+Cinccino,Normal,8,11,6,8,6,12,"Grasslands, Urban",Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3.
+Deerling,Normal|Grass,6,6,5,4,5,8,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Pack Mon.
+Sawsbuck,Normal|Grass,9,10,8,6,8,10,"Forest, Grasslands",Diet: Herbivore. Size Large · Weight class 4 · Power 5. Evolution stage 3. Combat: Mountable. Narrative: Pack Mon.
+Rufflet,Normal|Flying,7,8,5,4,5,6,Mountain,Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Braviary,Normal|Flying,10,12,8,6,8,8,Mountain,"Diet: Carnivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable."
+Hisuian Braviary,Normal|Psychic,11,6,8,11,9,7,Mountain,"Diet: Omnivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable, Telekinetic."
+Bunnelby,Normal,5,5,5,4,5,6,"Grasslands, Mountain","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Burrower, Jumper. Combat: Underdog."
+Diggersby,Normal|Ground,9,6,8,5,8,8,"Grasslands, Mountain","Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Burrower, Jumper. Combat: Groundshaper, Underdog. Narrative: Tremorsense."
+Yungoos,Normal,6,7,4,4,4,5,Grasslands,Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Gumshoos,Normal,9,11,6,6,6,5,Grasslands,Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 3. Combat: Underdog. Narrative: Tracker.
+Stufful,Normal|Fighting,7,8,5,5,5,5,Forest,Diet: Omnivore. Size Small · Weight class 1 · Power 6. Evolution stage 2. Combat: Underdog.
+Bewear,Normal|Fighting,12,13,8,6,6,6,Forest,Diet: Omnivore. Size Large · Weight class 5 · Power 11. Evolution stage 3.
+Skwovet,Normal,7,6,6,5,4,3,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Climber. Combat: Underdog.
+Greedent,Normal,13,10,11,6,9,2,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Climber.
+Wooloo,Normal,5,4,6,4,6,5,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 4. Evolution stage 2. Combat: Underdog.
+Dubwool,Normal,7,8,11,6,10,9,Grasslands,Diet: Herbivore. Size Medium · Weight class 3 · Power 7. Evolution stage 3.
+Lechonk,Normal,8,5,4,4,5,4,"Grasslands, Wetlands",Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Oinkologne Female,Normal,13,9,7,6,9,7,"Grasslands, Wetlands","Diet: Omnivore. Size Medium · Weight class 5 · Power 4. Evolution stage 3. Narrative: Alluring, Tracker."
+Oinkologne Male,Normal,12,10,8,6,8,7,"Grasslands, Wetlands","Diet: Omnivore. Size Medium · Weight class 5 · Power 4. Evolution stage 3. Narrative: Alluring, Tracker."
+Tandemaus,Normal,5,5,5,4,5,8,Urban,Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog.
+Maushold,Normal,7,9,7,7,9,12,Urban,Diet: Omnivore. Size Small · Weight class 1 · Power 4. Evolution stage 3.
+Ekans,Poison,4,6,4,6,5,6,Grasslands,"Diet: Carnivore. Size Medium · Weight class 1 · Power 1. Evolution stage 2. Combat: Darkvision, Underdog."
+Arbok,Poison,8,12,8,7,8,8,Grasslands,Diet: Carnivore. Size Large · Weight class 4 · Power 3. Evolution stage 3. Combat: Darkvision.
+Grimer,Poison,8,8,5,4,5,3,"Wetlands, Urban","Diet: Terravore. Size Small · Weight class 3 · Power 2. Evolution stage 2. Movement: Grounded, Slow. Combat: Underdog. Narrative: Amorphous, Dead Silent, Repulsive."
+Muk,Poison,11,11,8,7,10,5,"Wetlands, Urban","Diet: Terravore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Grounded, Slow. Narrative: Amorphous, Dead Silent, Repulsive."
+Koffing,Poison,4,7,10,6,5,4,Urban,Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Repulsive.
+Weezing,Poison,8,9,12,9,7,6,Urban,Diet: Nullivore. Size Medium · Weight class 1 · Power 4. Evolution stage 3. Movement: Flier. Narrative: Repulsive.
+Galarian Weezing,Poison|Fairy,7,9,12,9,7,6,Urban,Diet: Nullivore. Size Huge · Weight class 2 · Power 4. Evolution stage 3. Movement: Flier.
+Gulpin,Poison,8,4,5,4,5,4,Wetlands,"Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber, Grounded, Slow. Combat: Underdog. Narrative: Amorphous."
+Swalot,Poison,13,8,8,8,8,6,Wetlands,"Diet: Omnivore. Size Medium · Weight class 4 · Power 3. Evolution stage 3. Movement: Climber, Grounded. Narrative: Amorphous."
+Stunky,Poison|Dark,6,6,5,4,4,7,Grasslands,"Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Repulsive."
+Skuntank,Poison|Dark,10,10,7,10,6,8,Grasslands,Diet: Herbivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Combat: Darkvision. Narrative: Repulsive.
+Skorupi,Poison|Bug,4,5,9,3,6,7,"Desert, Forest",Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Drapion,Poison|Dark,7,9,11,6,8,10,"Desert, Forest",Diet: Carnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Combat: Darkvision.
+Croagunk,Poison|Fighting,5,6,4,6,4,5,Wetlands,"Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Jumper, Swimmer. Combat: Underdog."
+Toxicroak,Poison|Fighting,8,11,7,9,7,9,Wetlands,"Diet: Herbivore. Size Medium · Weight class 3 · Power 8. Evolution stage 3. Movement: Jumper, Swimmer."
+Trubbish,Poison,5,5,6,4,6,7,Urban,Diet: Terravore. Size Small · Weight class 3 · Power 2. Evolution stage 2. Movement: Slow. Combat: Underdog. Narrative: Repulsive.
+Garbodor,Poison,8,11,9,6,9,8,Urban,Diet: Terravore. Size Large · Weight class 5 · Power 6. Evolution stage 3. Narrative: Repulsive.
+Skrelp,Poison|Water,5,6,6,6,6,3,Ocean,Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Dragalge,Poison|Dragon,7,8,9,11,12,4,Ocean,Diet: Carnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Swimmer. Combat: Mountable. Narrative: Gilled.
+Mareanie,Poison|Water,5,5,6,4,5,5,"Ocean, Wetlands","Diet: Carnivore, Terravore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Toxapex,Poison|Water,5,7,15,5,15,4,"Ocean, Wetlands","Diet: Carnivore, Terravore. Size Small · Weight class 2 · Power 4. Evolution stage 3. Movement: Swimmer. Narrative: Gilled."
+Salandit,Poison|Fire,5,4,4,7,4,8,Mountain,"Diet: Carnivore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Combat: Underdog. Narrative: Alluring, Pack Mon."
+Salazzle,Poison|Fire,8,6,6,12,7,12,Mountain,"Diet: Carnivore. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Narrative: Alluring, Pack Mon."
+Shroodle,Poison|Normal,4,7,4,4,4,8,Forest,"Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber, Slow. Combat: Underdog."
+Grafaiai,Poison|Normal,6,11,7,8,7,12,Forest,"Diet: Omnivore. Size Small · Weight class 3 · Power 5. Evolution stage 3. Movement: Climber, Jumper, Quick."
+Varoom,Poison|Steel,5,7,6,3,5,5,Urban,"Diet: Nullivore. Size Medium · Weight class 3 · Power 6. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Breathless, Engine, Magnetic."
+Revavroom,Poison|Steel,8,12,9,5,8,9,Urban,"Diet: Nullivore. Size Medium · Weight class 5 · Power 10. Evolution stage 3. Movement: Flier. Combat: Mountable. Narrative: Breathless, Engine, Magnetic."
+Drowzee,Psychic,6,5,5,4,9,4,"Grasslands, Urban","Diet: Herbivore. Size Medium · Weight class 3 · Power 4. Evolution stage 2. Combat: Underdog. Narrative: Dream Reader, Mindlock."
+Hypno,Psychic,9,7,7,8,13,7,"Grasslands, Urban","Diet: Herbivore. Size Medium · Weight class 7 · Power 6. Evolution stage 3. Narrative: Dream Reader, Illusionist, Mindlock."
+Mime Jr.,Psychic|Fairy,2,3,5,7,9,6,Urban,"Diet: Omnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Slow. Combat: Underdog, Wallshaper."
+Mr. Mime,Psychic|Fairy,5,5,8,11,13,9,Urban,"Diet: Omnivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Combat: Telekinetic, Wallshaper. Narrative: Telepath."
+Galarian Mr. Mime,Ice|Psychic,6,7,8,10,10,10,Tundra,"Diet: Omnivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Combat: Telekinetic, Wallshaper. Narrative: Chilled, Telepath."
+Mr. Rime,Ice|Psychic,9,9,8,11,11,8,Tundra,"Diet: Omnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Combat: Telekinetic, Wallshaper. Narrative: Chilled, Telepath."
+Natu,Psychic|Flying,4,5,5,7,5,7,"Forest, Mountain","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Jumper, Slow. Combat: Underdog."
+Xatu,Psychic|Flying,8,8,7,11,7,10,"Forest, Mountain","Diet: Herbivore. Size Medium · Weight class 2 · Power 2. Evolution stage 3. Movement: Flier, Jumper. Narrative: Premonition, Telepath."
+Wynaut,Psychic,10,3,5,4,5,3,Urban,Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Wobbuffet,Psychic,19,5,7,8,7,5,Urban,Diet: Herbivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Slow.
+Spoink,Psychic,6,3,4,7,8,6,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 3 · Power 1. Evolution stage 2. Movement: Jumper. Combat: Underdog. Narrative: Telepath.
+Grumpig,Psychic,8,5,7,10,12,9,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 4 · Power 5. Evolution stage 3. Movement: Jumper. Narrative: Telepath.
+Chingling,Psychic,5,3,5,7,5,5,"Cave, Urban",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Chimecho,Psychic,9,5,9,11,10,7,"Cave, Urban",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier.
+Munna,Psychic,8,3,5,7,6,2,"Space, Urban","Diet: Herbivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Flier. Combat: Telekinetic, Underdog. Narrative: Dream Reader, Telepath."
+Musharna,Psychic,12,6,9,11,10,3,"Space, Urban","Diet: Herbivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Flier. Combat: Telekinetic. Narrative: Dream Reader, Telepath."
+Woobat,Psychic|Flying,7,5,4,6,4,7,Cave,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Darkvision, Underdog. Narrative: Tracker."
+Swoobat,Psychic|Flying,7,6,6,8,6,11,Cave,"Diet: Herbivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier. Combat: Darkvision, Telekinetic. Narrative: Tracker."
+Elgyem,Psychic,6,6,6,9,6,3,"Space, Urban","Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Teleporter. Combat: Telekinetic, Underdog. Narrative: Telepath."
+Beheeyem,Psychic,8,8,8,13,10,4,"Space, Urban","Diet: Nullivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier, Teleporter. Combat: Telekinetic. Narrative: Telepath."
+Espurr,Psychic,6,5,5,6,6,7,"Grasslands, Urban","Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Combat: Telekinetic, Underdog. Narrative: Telepath."
+Meowstic Male,Psychic,8,5,9,9,9,11,"Grasslands, Urban",Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Combat: Telekinetic. Narrative: Telepath.
+Meowstic Female,Psychic,8,5,9,11,9,9,"Grasslands, Urban",Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Combat: Telekinetic. Narrative: Telepath.
+Flittle,Psychic,4,4,3,8,3,8,"Desert, Grasslands","Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Flier. Combat: Telekinetic, Underdog."
+Espathra,Psychic,11,6,6,11,6,11,"Desert, Grasslands","Diet: Omnivore. Size Large · Weight class 4 · Power 8. Evolution stage 3. Movement: Jumper, Quick. Combat: Telekinetic."
+Onix,Rock|Ground,4,5,16,3,5,7,Cave,"Diet: Terravore. Size Huge · Weight class 6 · Power 10. Evolution stage 2. Movement: Burrower. Combat: Groundshaper, Mountable, Reach, Underdog. Narrative: Tremorsense."
+Steelix,Steel|Ground,8,9,20,6,7,3,Cave,"Diet: Terravore. Size Huge · Weight class 6 · Power 14. Evolution stage 3. Movement: Burrower. Combat: Groundshaper, Mountable, Reach. Narrative: Tremorsense."
+Omanyte,Rock|Water,4,4,10,9,6,4,Ocean,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Omastar,Rock|Water,7,6,13,12,7,6,Ocean,Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Kabuto,Rock|Water,3,8,9,6,5,6,"Cave, Ocean","Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Kabutops,Rock|Water,6,12,11,7,7,8,"Cave, Ocean","Diet: Omnivore. Size Medium · Weight class 2 · Power 5. Evolution stage 3. Movement: Climber, Swimmer. Narrative: Gilled."
+Nosepass,Rock,3,5,14,5,9,4,Cave,Diet: Terravore. Size Medium · Weight class 4 · Power 7. Evolution stage 2. Movement: Slow. Combat: Underdog. Narrative: Magnetic.
+Probopass,Rock|Steel,6,6,15,8,15,4,Cave,"Diet: Terravore. Size Medium · Weight class 6 · Power 11. Evolution stage 3. Movement: Flier, Slow. Narrative: Magnetic."
+Lileep,Rock|Grass,7,4,8,6,9,2,Cave,"Diet: Carnivore. Size Medium · Weight class 2 · Power 4. Evolution stage 2. Movement: Grounded, Slow. Combat: Reach, Underdog. Narrative: Gilled."
+Cradily,Rock|Grass,9,8,11,8,11,4,Cave,"Diet: Carnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Movement: Grounded, Slow. Combat: Reach. Narrative: Gilled."
+Anorith,Rock|Bug,5,10,5,4,5,8,"Cave, Ocean","Diet: Omnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Armaldo,Rock|Bug,8,13,10,7,8,5,"Cave, Ocean",Diet: Omnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Cranidos,Rock,7,13,4,3,3,6,Desert,Diet: Carnivore. Size Small · Weight class 3 · Power 5. Evolution stage 2. Combat: Underdog.
+Rampardos,Rock,10,17,6,7,5,6,Desert,Diet: Carnivore. Size Medium · Weight class 5 · Power 10. Evolution stage 3. Combat: Mountable.
+Shieldon,Rock|Steel,3,4,12,4,9,3,"Cave, Mountain",Diet: Herbivore. Size Small · Weight class 4 · Power 5. Evolution stage 2. Combat: Underdog.
+Bastiodon,Rock|Steel,6,5,17,5,15,3,"Cave, Mountain",Diet: Herbivore. Size Medium · Weight class 5 · Power 8. Evolution stage 3. Combat: Mountable.
+Bonsly,Rock,5,8,10,1,5,1,Forest,Diet: Phototroph. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Sudowoodo,Rock,7,10,12,3,7,3,Forest,Diet: Phototroph. Size Medium · Weight class 3 · Power 5. Evolution stage 3.
+Tirtouga,Rock|Water,6,8,10,5,5,2,Ocean,Diet: Carnivore. Size Small · Weight class 2 · Power 4. Evolution stage 2. Movement: Swimmer. Combat: Underdog.
+Carracosta,Rock|Water,8,11,13,8,8,3,Ocean,Diet: Carnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Swimmer. Combat: Mountable.
+Archen,Rock|Flying,6,11,5,7,5,7,Mountain,"Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Glider, Jumper. Combat: Underdog."
+Archeops,Rock|Flying,8,14,7,11,7,11,Mountain,"Diet: Carnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Flier, Jumper, Quick. Combat: Mountable."
+Binacle,Rock|Water,4,5,7,4,6,5,"Cave, Ocean","Diet: Herbivore. Size Small · Weight class 3 · Power 2. Evolution stage 2. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Barbaracle,Rock|Water,7,11,12,5,9,7,"Cave, Ocean",Diet: Herbivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Tyrunt,Rock|Dragon,6,9,8,5,5,5,Mountain,Diet: Carnivore. Size Small · Weight class 3 · Power 3. Evolution stage 2. Combat: Underdog.
+Tyrantrum,Rock|Dragon,8,12,12,7,6,7,Mountain,Diet: Carnivore. Size Large · Weight class 6 · Power 10. Evolution stage 3. Combat: Mountable.
+Amaura,Rock|Ice,8,6,5,7,6,5,"Cave, Tundra",Diet: Herbivore. Size Medium · Weight class 3 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Chilled.
+Aurorus,Rock|Ice,12,8,7,10,9,6,"Cave, Tundra",Diet: Herbivore. Size Large · Weight class 6 · Power 8. Evolution stage 3. Combat: Mountable. Narrative: Chilled.
+Rockruff,Rock,6,7,4,3,4,6,"Cave, Mountain","Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Jumper. Combat: Darkvision, Underdog. Narrative: Tracker."
+Lycanroc Midday,Rock,8,12,8,6,7,10,"Cave, Mountain","Diet: Omnivore. Size Small · Weight class 3 · Power 4. Evolution stage 3. Movement: Jumper, Quick. Combat: Darkvision. Narrative: Tracker."
+Lycanroc Midnight,Rock,9,12,8,6,8,8,"Cave, Mountain","Diet: Carnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Jumper, Quick. Combat: Darkvision. Narrative: Tracker."
+Lycanroc Dusk,Rock,8,12,11,6,7,7,"Cave, Mountain","Diet: Omnivore. Size Small · Weight class 3 · Power 4. Evolution stage 3. Movement: Jumper, Quick. Combat: Darkvision. Narrative: Tracker."
+Glimmet,Rock|Poison,5,4,4,11,6,6,Cave,"Diet: Terravore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Movement: Climber, Flier. Combat: Underdog."
+Glimmora,Rock|Poison,8,6,9,13,8,9,Cave,"Diet: Terravore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Climber, Flier."
+Bronzor,Steel|Psychic,6,2,9,2,9,2,Cave,"Diet: Nullivore. Size Small · Weight class 4 · Power 4. Evolution stage 2. Movement: Flier. Combat: Underdog. Narrative: Breathless, Dead Silent."
+Bronzong,Steel|Psychic,7,9,12,8,12,3,Cave,"Diet: Nullivore. Size Medium · Weight class 5 · Power 8. Evolution stage 3. Movement: Flier. Narrative: Breathless, Dead Silent."
+Meltan,Steel,5,7,7,6,4,3,Urban,"Diet: Terravore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Grounded, Slow. Combat: Underdog. Narrative: Amorphous, Dead Silent, Magnetic."
+Melmetal,Steel,14,14,14,8,7,3,Urban,"Diet: Terravore. Size Large · Weight class 6 · Power 11. Evolution stage 3. Narrative: Amorphous, Magnetic."
+Cufant,Steel,7,8,5,4,5,4,Mountain,"Diet: Terravore. Size Medium · Weight class 5 · Power 8. Evolution stage 2. Movement: Grounded. Combat: Groundshaper, Mountable, Underdog."
+Copperajah,Steel,12,13,7,8,7,3,Mountain,"Diet: Terravore. Size Huge · Weight class 6 · Power 12. Evolution stage 3. Movement: Grounded. Combat: Groundshaper, Mountable."
+Duraludon,Steel|Dragon,7,10,12,12,5,9,Mountain,"Diet: Terravore. Size Medium · Weight class 2 · Power 8. Evolution stage 2. Narrative: Magnetic, X-Ray Vision."
+Archaludon,Steel|Dragon,9,11,13,13,6,8,Mountain,"Diet: Terravore. Size Medium · Weight class 3 · Power 9. Evolution stage 3. Narrative: Magnetic, X-Ray Vision."
+Psyduck,Water,5,5,5,7,5,6,Wetlands,"Diet: Herbivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Slow, Swimmer. Combat: Underdog."
+Golduck,Water,8,8,8,10,8,9,Wetlands,Diet: Omnivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Swimmer. Combat: Telekinetic. Narrative: Telepath.
+Tentacool,Water|Poison,4,4,4,5,10,7,Ocean,"Diet: Carnivore. Size Small · Weight class 3 · Power 2. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled, Glow."
+Tentacruel,Water|Poison,8,7,7,8,12,10,Ocean,"Diet: Carnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Swimmer. Combat: Reach. Narrative: Gilled, Glow."
+Slowpoke,Water|Psychic,9,7,7,4,4,2,Wetlands,Diet: Herbivore. Size Medium · Weight class 3 · Power 2. Evolution stage 2. Movement: Slow. Combat: Underdog.
+Slowbro,Water|Psychic,10,8,11,11,8,3,Wetlands,Diet: Herbivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Slow.
+Slowking,Water|Psychic,10,8,8,11,11,3,Wetlands,"Diet: Herbivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Slow. Combat: Telekinetic. Narrative: Pack Mon, Telepath."
+Seel,Water,7,5,6,5,7,5,"Ocean, Tundra",Diet: Carnivore. Size Medium · Weight class 4 · Power 3. Evolution stage 2. Movement: Swimmer. Combat: Underdog.
+Dewgong,Water|Ice,10,7,9,7,10,8,"Ocean, Tundra",Diet: Carnivore. Size Medium · Weight class 5 · Power 5. Evolution stage 3. Movement: Swimmer.
+Shellder,Water,3,7,10,5,3,4,Ocean,"Diet: Herbivore. Size Small · Weight class 1 · Power 4. Evolution stage 2. Movement: Grounded, Swimmer. Combat: Underdog. Narrative: Gilled."
+Cloyster,Water|Ice,5,10,19,9,5,7,Ocean,"Diet: Herbivore. Size Medium · Weight class 5 · Power 4. Evolution stage 3. Movement: Grounded, Swimmer. Narrative: Gilled."
+Krabby,Water,3,11,9,3,3,5,Ocean,Diet: Carnivore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Combat: Underdog. Narrative: Gilled.
+Kingler,Water,7,14,12,5,5,8,Ocean,Diet: Carnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Narrative: Gilled.
+Goldeen,Water,5,7,6,4,5,6,Ocean,Diet: Omnivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Seaking,Water,9,10,8,8,8,8,Ocean,Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Staryu,Water,3,5,6,7,6,9,"Ocean, Space","Diet: Nullivore. Size Small · Weight class 3 · Power 2. Evolution stage 2. Movement: Flier, Swimmer. Combat: Underdog. Narrative: Gilled, Glow."
+Starmie,Water|Psychic,6,8,9,10,9,12,"Ocean, Space","Diet: Nullivore. Size Medium · Weight class 4 · Power 3. Evolution stage 3. Movement: Flier, Swimmer. Combat: Telekinetic. Narrative: Gilled, Glow."
+Magikarp,Water,3,3,7,4,4,9,Ocean,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Jumper, Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Gyarados,Water|Flying,10,13,8,6,10,8,Ocean,"Diet: Carnivore. Size Huge · Weight class 6 · Power 13. Evolution stage 3. Movement: Jumper, Swimmer. Combat: Mountable, Reach. Narrative: Gilled."
+Chinchou,Water|Electric,8,4,4,6,6,7,Ocean,"Diet: Herbivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled, Glow."
+Lanturn,Water|Electric,14,6,6,9,9,7,Ocean,"Diet: Herbivore. Size Medium · Weight class 2 · Power 2. Evolution stage 3. Movement: Swimmer. Narrative: Gilled, Glow."
+Wooper,Water|Ground,7,6,6,4,4,3,Wetlands,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Quagsire,Water|Ground,11,9,9,9,9,4,Wetlands,Diet: Herbivore. Size Medium · Weight class 4 · Power 3. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Remoraid,Water,4,7,4,7,4,7,Ocean,Diet: Carnivore. Size Small · Weight class 2 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Octillery,Water,8,11,8,11,8,5,Ocean,"Diet: Carnivore. Size Small · Weight class 3 · Power 4. Evolution stage 3. Movement: Swimmer. Narrative: Amorphous, Gilled."
+Mantyke,Water|Flying,5,2,5,6,12,5,Ocean,"Diet: Herbivore. Size Medium · Weight class 4 · Power 2. Evolution stage 2. Movement: Flier, Swimmer. Combat: Underdog. Narrative: Gilled."
+Mantine,Water|Flying,9,4,7,9,14,8,Ocean,"Diet: Omnivore. Size Large · Weight class 6 · Power 5. Evolution stage 3. Movement: Flier, Quick, Swimmer. Combat: Mountable. Narrative: Gilled."
+Wingull,Water|Flying,5,3,3,7,3,9,"Grasslands, Ocean",Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Pelipper,Water|Flying,11,5,10,10,8,7,"Grasslands, Ocean",Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier.
+Carvanha,Water|Dark,5,9,2,7,2,7,Ocean,"Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Quick, Swimmer. Combat: Darkvision, Underdog. Narrative: Gilled."
+Sharpedo,Water|Dark,7,12,5,10,5,12,Ocean,"Diet: Carnivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Quick, Swimmer. Combat: Darkvision, Mountable, Underdog. Narrative: Gilled."
+Wailmer,Water,13,7,4,7,4,6,Ocean,"Diet: Filter Feeder. Size Large · Weight class 5 · Power 5. Evolution stage 2. Movement: Swimmer. Combat: Mountable, Underdog."
+Wailord,Water,17,9,5,9,5,6,Ocean,Diet: Filter Feeder. Size Huge · Weight class 6 · Power 12. Evolution stage 3. Movement: Swimmer. Combat: Mountable.
+Barboach,Water|Ground,6,5,4,5,4,6,Wetlands,Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Whiscash,Water|Ground,11,9,8,9,8,6,Wetlands,"Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 3. Movement: Swimmer. Narrative: Gilled, Tremorsense."
+Corphish,Water,4,8,7,5,4,4,Ocean,"Diet: Carnivore. Size Small · Weight class 2 · Power 2. Evolution stage 2. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Crawdaunt,Water|Dark,7,12,10,10,6,6,Ocean,Diet: Carnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Swimmer. Combat: Darkvision. Narrative: Gilled.
+Feebas,Water,4,4,4,2,7,9,Ocean,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Milotic,Water,10,6,8,10,13,8,Ocean,Diet: Herbivore. Size Large · Weight class 5 · Power 8. Evolution stage 3. Movement: Swimmer. Combat: Mountable. Narrative: Gilled.
+Clamperl,Water,4,6,9,7,6,3,Ocean,"Diet: Carnivore. Size Small · Weight class 5 · Power 2. Evolution stage 2. Movement: Grounded, Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Huntail,Water,6,12,11,9,8,5,Ocean,Diet: Carnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Gorebyss,Water,6,8,12,12,8,5,Ocean,Diet: Carnivore. Size Medium · Weight class 2 · Power 3. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Buizel,Water,6,7,4,6,3,9,"Grasslands, Wetlands","Diet: Omnivore. Size Small · Weight class 3 · Power 2. Evolution stage 2. Movement: Quick, Swimmer. Combat: Underdog."
+Floatzel,Water,9,11,6,9,5,12,"Grasslands, Wetlands","Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Quick, Swimmer."
+Shellos,Water,8,5,5,6,6,3,Wetlands,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber, Grounded, Slow, Swimmer. Combat: Underdog. Narrative: Amorphous, Gilled."
+Gastrodon,Water|Ground,12,8,8,10,9,4,Wetlands,"Diet: Herbivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Movement: Climber, Grounded, Slow, Swimmer. Narrative: Amorphous, Gilled."
+Finneon,Water,5,5,6,5,6,7,Ocean,"Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled, Glow."
+Lumineon,Water,7,7,9,8,10,10,Ocean,"Diet: Carnivore. Size Medium · Weight class 2 · Power 2. Evolution stage 3. Movement: Swimmer. Narrative: Gilled, Glow."
+Panpour,Water,5,5,5,5,5,6,"Forest, Grasslands","Diet: Omnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Climber, Jumper. Combat: Underdog."
+Simipour,Water,9,10,6,10,6,10,"Forest, Grasslands","Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Climber, Jumper."
+Ducklett,Water|Flying,6,4,5,4,5,6,"Forest, Wetlands","Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Swimmer. Combat: Underdog."
+Swanna,Water|Flying,9,9,7,9,7,10,"Forest, Wetlands","Diet: Herbivore. Size Medium · Weight class 2 · Power 2. Evolution stage 3. Movement: Flier, Swimmer."
+Basculin,Water,7,9,7,8,6,10,Ocean,"Diet: Omnivore. Size Medium · Weight class 2 · Power 3. Evolution stage 2. Movement: Quick, Swimmer. Narrative: Gilled."
+Basculegion,Water|Ghost,10,12,8,8,7,11,Ocean,"Diet: Omnivore. Size Huge · Weight class 5 · Power 9. Evolution stage 3. Movement: Jumper, Quick, Swimmer. Combat: Mountable. Narrative: Gilled."
+Frillish,Water|Ghost,6,4,5,7,9,4,Ocean,"Diet: Carnivore. Size Medium · Weight class 3 · Power 1. Evolution stage 2. Movement: Flier, Swimmer. Combat: Darkvision, Invisibility, Underdog. Narrative: Amorphous, Dead Silent, Gilled."
+Jellicent,Water|Ghost,10,6,8,10,11,6,Ocean,"Diet: Carnivore. Size Large · Weight class 5 · Power 3. Evolution stage 3. Movement: Flier, Swimmer. Combat: Darkvision, Invisibility. Narrative: Amorphous, Dead Silent, Gilled."
+Clauncher,Water,5,5,6,6,6,4,Ocean,Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Clawitzer,Water,8,7,9,12,9,6,Ocean,Diet: Carnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Dewpider,Water|Bug,5,4,6,4,8,3,Wetlands,Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Climber. Combat: Underdog. Narrative: Gilled.
+Araquanid,Water|Bug,9,9,10,5,13,5,Wetlands,Diet: Carnivore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Movement: Climber. Narrative: Gilled.
+Chewtle,Water,5,7,6,4,4,4,Cave,"Diet: Carnivore. Size Small · Weight class 1 · Power 4. Evolution stage 2. Movement: Slow, Swimmer. Combat: Underdog. Narrative: Gilled."
+Drednaw,Water|Rock,9,13,10,5,7,7,Cave,Diet: Carnivore. Size Medium · Weight class 5 · Power 8. Evolution stage 3. Movement: Swimmer. Combat: Mountable. Narrative: Gilled.
+Arrokuda,Water,6,6,4,4,3,7,Ocean,"Diet: Carnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Quick, Swimmer. Combat: Underdog. Narrative: Gilled."
+Barraskewda,Water,6,12,6,6,6,15,Ocean,"Diet: Carnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Quick, Swimmer. Narrative: Gilled."
+Pinsir,Bug,7,13,10,6,7,9,Forest,Diet: Herbivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3.
+Shuckle,Bug|Rock,2,1,23,1,23,1,"Cave, Mountain","Diet: Herbivore. Size Small · Weight class 2 · Power 4. Evolution stage 3. Movement: Grounded, Slow."
+Heracross,Bug|Fighting,8,13,8,4,10,9,Forest,Diet: Herbivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Movement: Flier.
+Volbeat,Bug,8,6,8,9,10,10,Forest,"Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 3. Movement: Climber, Flier. Narrative: Glow."
+Illumise,Bug,8,5,9,7,11,11,Forest,"Diet: Herbivore. Size Small · Weight class 2 · Power 2. Evolution stage 3. Movement: Climber, Flier. Narrative: Glow."
+Durant,Bug|Steel,6,11,12,5,5,12,"Cave, Forest","Diet: Carnivore. Size Small · Weight class 3 · Power 5. Evolution stage 3. Movement: Burrower, Climber."
+Sableye,Dark|Ghost,5,8,8,7,7,5,Cave,"Diet: Terravore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Burrower. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Absol,Dark,8,13,6,8,6,10,"Forest, Mountain","Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Quick. Narrative: Premonition, Tracker."
+Druddigon,Dragon,9,13,9,6,9,5,Cave,"Diet: Carnivore, Terravore. Size Medium · Weight class 5 · Power 8. Evolution stage 3. Combat: Darkvision."
+Cyclizar,Dragon|Normal,7,10,7,9,7,12,Urban,Diet: Omnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Movement: Quick. Combat: Mountable.
+Tatsugiri,Dragon|Water,7,5,6,13,11,9,"Ocean, Wetlands","Diet: Herbivore. Size Small · Weight class 1 · Power 4. Evolution stage 3. Movement: Jumper, Swimmer. Narrative: Gilled."
+Plusle,Electric,6,5,4,9,8,10,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Combat: Underdog.
+Minun,Electric,6,4,5,8,9,10,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Combat: Underdog.
+Pachirisu,Electric,6,5,7,5,9,10,"Forest, Urban",Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Climber. Combat: Underdog.
+Rotom,Electric|Ghost,5,5,8,10,8,9,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Form Change, Invisibility. Narrative: Dead Silent, Glow, Wired."
+Rotom Heat,Electric|Fire,5,7,11,11,11,9,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Form Change, Invisibility. Narrative: Dead Silent, Glow, Heater, Wired."
+Rotom Wash,Electric|Water,5,7,11,11,11,9,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Form Change, Invisibility. Narrative: Dead Silent, Glow, Wired."
+Rotom Frost,Electric|Ice,5,7,11,11,11,9,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Form Change, Invisibility. Narrative: Chilled, Dead Silent, Glow, Wired."
+Rotom Fan,Electric|Flying,5,7,11,11,11,9,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Form Change, Invisibility. Narrative: Dead Silent, Glow, Wired."
+Rotom Mow,Electric|Grass,5,7,11,11,11,9,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Form Change, Invisibility. Narrative: Dead Silent, Glow, Wired."
+Emolga,Electric|Flying,6,8,6,8,6,10,Forest,Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Glider. Combat: Underdog.
+Dedenne,Electric|Fairy,7,6,6,8,7,10,"Forest, Grasslands","Diet: Ergovore, Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Combat: Underdog."
+Togedemaru,Electric|Steel,7,10,6,4,7,10,Urban,"Diet: Ergovore, Herbivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Combat: Underdog. Narrative: Glow."
+Pincurchin,Electric,5,11,11,11,11,2,Ocean,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Grounded, Slow, Swimmer. Narrative: Gilled, Glow."
+Morpeko,Electric|Dark,7,11,7,8,7,11,Forest,Diet: Omnivore. Size Small · Weight class 1 · Power 4. Evolution stage 3. Combat: Darkvision.
+Dracozolt,Electric|Dragon,9,10,9,8,7,8,"Forest, Grasslands",Diet: Herbivore. Size Medium · Weight class 5 · Power 7. Evolution stage 3. Movement: Quick. Combat: Mountable.
+Arctozolt,Electric|Ice,9,10,9,9,8,6,Tundra,Diet: Herbivore. Size Large · Weight class 5 · Power 6. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Chilled.
+Comfey,Fairy,6,5,10,8,12,10,Forest,"Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier. Combat: Threaded. Narrative: Alluring, Mender."
+Throh,Fighting,12,11,11,3,9,5,Urban,Diet: Omnivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3.
+Sawk,Fighting,9,13,8,3,8,10,Urban,Diet: Omnivore. Size Medium · Weight class 4 · Power 6. Evolution stage 3.
+Hawlucha,Fighting|Flying,8,10,8,7,6,12,Grasslands,"Diet: Carnivore. Size Small · Weight class 2 · Power 4. Evolution stage 3. Movement: Glider, Jumper, Quick."
+Passimian,Fighting,10,12,10,3,6,10,Forest,"Diet: Herbivore. Size Large · Weight class 4 · Power 7. Evolution stage 3. Movement: Climber, Jumper, Quick. Narrative: Pack Mon."
+Falinks,Fighting,7,11,11,7,6,9,Mountain,"Diet: Omnivore. Size Huge · Weight class 4 · Power 8. Evolution stage 3. Narrative: Mindlock, Pack Mon."
+Torkoal,Fire,9,9,14,9,8,2,Mountain,Diet: Terravore. Size Small · Weight class 4 · Power 6. Evolution stage 3. Movement: Slow. Narrative: Heater.
+Heatmor,Fire,9,10,7,11,7,7,Cave,Diet: Carnivore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Movement: Burrower. Narrative: Heater.
+Turtonator,Fire|Dragon,7,8,14,9,9,4,"Cave, Mountain",Diet: Herbivore. Size Large · Weight class 6 · Power 7. Evolution stage 3.
+Cramorant,Flying|Water,7,9,6,9,10,10,"Ocean, Wetlands",Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 3. Movement: Flier.
+Bombirdier,Flying|Dark,7,11,9,6,9,9,Mountain,Diet: Carnivore. Size Medium · Weight class 3 · Power 10. Evolution stage 3. Movement: Flier.
+Flamigo,Flying|Fighting,8,12,7,8,7,9,Wetlands,Diet: Omnivore. Size Medium · Weight class 3 · Power 8. Evolution stage 3. Movement: Flier. Combat: Reach.
+Spiritomb,Ghost|Dark,5,9,12,9,12,4,Cave,"Diet: Nullivore. Size Medium · Weight class 5 · Power 2. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent."
+Mimikyu,Ghost|Fairy,7,10,8,5,11,10,Forest,"Diet: Nullivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Combat: Darkvision, Reach. Narrative: Amorphous, Dead Silent."
+Dhelmise,Grass|Ghost,7,13,10,9,9,4,Ocean,"Diet: Nullivore. Size Huge · Weight class 6 · Power 7. Evolution stage 3. Movement: Grounded, Slow, Swimmer. Combat: Darkvision. Narrative: Breathless, Dead Silent."
+Tropius,Grass|Flying,11,8,9,8,10,5,Forest,Diet: Phototroph. Size Large · Weight class 5 · Power 8. Evolution stage 3. Movement: Flier. Combat: Mountable.
+Carnivine,Grass,9,12,9,10,9,5,"Forest, Grasslands","Diet: Carnivore, Phototroph. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Movement: Flier."
+Maractus,Grass,8,9,8,12,8,6,Desert,Diet: Phototroph. Size Medium · Weight class 3 · Power 4. Evolution stage 3.
+Stunfisk,Ground|Electric,11,7,8,11,11,3,Wetlands,"Diet: Carnivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Burrower, Slow. Narrative: Tremorsense."
+Delibird,Ice|Flying,5,6,5,7,5,8,Tundra,"Diet: Omnivore. Size Small · Weight class 2 · Power 4. Evolution stage 3. Movement: Flier, Swimmer. Combat: Underdog. Narrative: Chilled, Pack Mon."
+Cryogonal,Ice,8,5,5,10,14,11,"Cave, Tundra","Diet: Carnivore, Terravore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Movement: Flier. Narrative: Chilled."
+Eiscue Ice Face,Ice,9,8,12,7,10,5,Tundra,Diet: Carnivore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Movement: Swimmer. Combat: Form Change. Narrative: Chilled.
+Eiscue Noice,Ice,9,8,7,7,5,15,Tundra,"Diet: Carnivore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Movement: Quick, Swimmer. Combat: Form Change. Narrative: Chilled."
+Farfetch'd,Normal|Flying,5,9,6,6,6,6,Grasslands,"Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 3. Combat: Underdog, Wielder (Melee, Small)."
+Kangaskhan,Normal,11,11,8,4,8,9,Grasslands,Diet: Herbivore. Size Large · Weight class 4 · Power 7. Evolution stage 3.
+Tauros,Normal,8,11,10,4,7,11,Grasslands,Diet: Herbivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Pack Mon.
+Smeargle,Normal,6,2,4,2,5,8,"Forest, Urban",Diet: Omnivore. Size Medium · Weight class 4 · Power 3. Evolution stage 3. Combat: Underdog. Narrative: Tracker.
+Miltank,Normal,11,8,11,4,7,10,Grasslands,Diet: Herbivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3.
+Spinda,Normal,6,9,9,9,9,9,Grasslands,Diet: Herbivore. Size Medium · Weight class 1 · Power 1. Evolution stage 3.
+Zangoose,Normal,8,13,7,6,7,10,Grasslands,Diet: Carnivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Quick.
+Castform,Normal,7,7,7,7,7,7,Urban,Diet: Phototroph. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier. Combat: Underdog.
+Kecleon,Normal,6,9,7,6,12,4,Grasslands,"Diet: Carnivore. Size Medium · Weight class 2 · Power 5. Evolution stage 3. Combat: Blender, Underdog."
+Chatot,Normal|Flying,8,7,5,9,4,9,Forest,Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier. Combat: Underdog.
+Audino,Normal,10,7,11,7,11,5,Urban,Diet: Herbivore. Size Medium · Weight class 3 · Power 2. Evolution stage 3. Combat: Blindsense. Narrative: Empath.
+Bouffalant,Normal,10,11,10,4,10,6,Grasslands,Diet: Herbivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Pack Mon.
+Furfrou,Normal,9,8,7,7,10,10,Urban,Diet: Omnivore. Size Medium · Weight class 3 · Power 4. Evolution stage 3. Narrative: Tracker.
+Oranguru,Normal|Psychic,9,6,8,11,11,6,Forest,Diet: Herbivore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Movement: Climber. Narrative: Telepath.
+Komala,Normal,7,12,7,8,10,7,Forest,"Diet: Herbivore. Size Small · Weight class 2 · Power 4. Evolution stage 3. Movement: Climber, Slow."
+Drampa,Normal|Dragon,9,6,9,14,9,4,Mountain,"Diet: Herbivore. Size Huge · Weight class 5 · Power 6. Evolution stage 3. Movement: Flier. Combat: Mountable, Reach."
+Squawkabilly,Normal|Flying,8,10,5,5,5,9,Urban,Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier. Combat: Underdog. Narrative: Pack Mon.
+Seviper,Poison,7,12,7,11,7,7,"Desert, Forest",Diet: Carnivore. Size Large · Weight class 4 · Power 4. Evolution stage 3. Combat: Darkvision.
+Unown,Psychic,5,7,5,7,5,5,"Cave, Space","Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier. Combat: Invisibility, Underdog. Narrative: Magnetic, Telepath."
+Sigilyph,Psychic|Flying,7,6,8,10,10,10,"Desert, Space","Diet: Herbivore. Size Medium · Weight class 2 · Power 3. Evolution stage 3. Movement: Flier. Combat: Invisibility, Telekinetic."
+Indeedee M,Psychic|Normal,7,7,6,11,10,10,Forest,"Diet: Herbivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Combat: Telekinetic. Narrative: Empath, Telepath."
+Indeedee F,Psychic|Normal,8,6,7,10,11,9,Forest,"Diet: Herbivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Combat: Telekinetic. Narrative: Empath, Telepath."
+Aerodactyl,Rock|Flying,8,11,7,6,8,13,Mountain,"Diet: Carnivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable."
+Lunatone,Rock|Psychic,9,6,8,11,10,7,"Cave, Space","Diet: Phototroph. Size Medium · Weight class 5 · Power 1. Evolution stage 3. Movement: Flier. Combat: Telekinetic. Narrative: Breathless, Dead Silent."
+Solrock,Rock|Psychic,10,11,10,6,7,7,"Cave, Space","Diet: Phototroph. Size Medium · Weight class 5 · Power 1. Evolution stage 3. Movement: Flier. Combat: Telekinetic. Narrative: Breathless, Dead Silent."
+Carbink,Rock|Fairy,6,5,15,5,15,5,Cave,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Burrower, Flier."
+Minior Meteor,Rock|Flying,7,6,13,6,13,6,"Mountain, Space","Diet: Nullivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Movement: Flier. Combat: Form Change. Narrative: Breathless, Glow."
+Minior Core,Rock|Flying,7,10,6,10,6,12,"Mountain, Space","Diet: Nullivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Flier. Combat: Form Change. Narrative: Breathless, Glow."
+Stonjourner,Rock,13,13,14,2,2,7,Mountain,"Diet: Terravore. Size Large · Weight class 5 · Power 9. Evolution stage 3. Combat: Groundshaper, Telekinetic."
+Klawf,Rock,8,10,13,4,7,9,Desert,"Diet: Omnivore. Size Medium · Weight class 4 · Power 9. Evolution stage 3. Movement: Burrower, Climber, Jumper, Swimmer."
+Skarmory,Steel|Flying,8,9,14,4,8,9,Mountain,"Diet: Carnivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable."
+Mawile,Steel|Fairy,5,9,9,6,6,5,Cave,Diet: Omnivore. Size Small · Weight class 2 · Power 1. Evolution stage 3. Combat: Underdog.
+Klefki,Steel|Fairy,7,8,10,8,10,8,Urban,Diet: Terravore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier.
+Orthworm,Steel,7,9,16,6,6,7,"Cave, Desert","Diet: Detritivore. Size Large · Weight class 6 · Power 9. Evolution stage 3. Movement: Burrower. Combat: Groundshaper, Mountable, Reach. Narrative: Tremorsense."
+Lapras,Water|Ice,13,9,8,9,10,6,"Ocean, Tundra","Diet: Omnivore. Size Large · Weight class 6 · Power 8. Evolution stage 3. Movement: Grounded, Swimmer. Combat: Mountable. Narrative: Gilled."
+Qwilfish,Water|Poison,9,10,9,6,8,9,Ocean,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Corsola,Water|Rock,7,6,10,7,10,4,Ocean,Diet: Phototroph. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Relicanth,Water|Rock,10,10,13,5,7,6,"Cave, Ocean",Diet: Herbivore. Size Medium · Weight class 2 · Power 2. Evolution stage 3. Movement: Swimmer. Combat: Darkvision. Narrative: Gilled.
+Luvdisc,Water,7,3,6,7,7,10,Ocean,Diet: Herbivore. Size Small · Weight class 1 · Power 3. Evolution stage 3. Movement: Swimmer. Combat: Underdog. Narrative: Gilled.
+Alomomola,Water,17,8,9,4,9,4,Ocean,Diet: Herbivore. Size Medium · Weight class 3 · Power 5. Evolution stage 3. Movement: Swimmer. Narrative: Gilled.
+Wishiwashi,Water,5,2,2,3,4,4,Ocean,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Swimmer. Combat: Form Change. Narrative: Gilled, Glow."
+Wishiwashi Schooling,Water,5,14,13,14,14,3,Ocean,"Diet: Herbivore. Size Huge · Weight class 3 · Power 8. Evolution stage 3. Movement: Swimmer. Combat: Form Change. Narrative: Gilled, Glow, Mindlock."
+Pyukumuku,Water,6,6,13,3,13,1,Ocean,"Diet: Omnivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Slow, Swimmer. Combat: Reach, Underdog. Narrative: Amorphous, Gilled."
+Bruxish,Water|Psychic,8,11,7,7,7,11,Ocean,Diet: Carnivore. Size Small · Weight class 2 · Power 5. Evolution stage 3. Movement: Swimmer. Combat: Telekinetic. Narrative: Gilled.
+Dracovish,Water|Dragon,9,9,10,7,8,8,"Cave, Ocean",Diet: Herbivore. Size Large · Weight class 5 · Power 6. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Gilled.
+Arctovish,Water|Ice,9,9,10,8,9,6,"Ocean, Tundra","Diet: Herbivore. Size Large · Weight class 5 · Power 7. Evolution stage 3. Movement: Quick, Swimmer. Combat: Mountable. Narrative: Chilled, Gilled."
+Finizen,Water,10,9,8,7,7,10,Ocean,"Diet: Carnivore. Size Medium · Weight class 4 · Power 1. Evolution stage 3. Movement: Jumper, Swimmer. Combat: Form Change."
+Palafin,Water,10,16,10,11,9,10,Ocean,"Diet: Carnivore. Size Medium · Weight class 4 · Power 11. Evolution stage 3. Movement: Jumper, Quick, Swimmer. Combat: Form Change."
+Dondozo,Water,15,10,12,7,7,4,"Ocean, Wetlands",Diet: Carnivore. Size Huge · Weight class 6 · Power 12. Evolution stage 3. Movement: Swimmer. Combat: Mountable. Narrative: Gilled.
+Veluza,Water|Psychic,9,11,7,9,7,8,Ocean,"Diet: Carnivore. Size Large · Weight class 4 · Power 7. Evolution stage 3. Movement: Quick, Swimmer. Combat: Telekinetic. Narrative: Gilled."
+Ditto,Normal,5,5,5,5,5,5,Urban,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Combat: Underdog. Narrative: Amorphous, Shapeshifter."
+Oricorio Baile,Fire|Flying,10,7,7,10,7,10,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier.
+Oricorio Pom-Pom,Electric|Flying,10,7,7,10,7,10,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier.
+Oricorio Pa'u,Psychic|Flying,10,7,7,10,7,10,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier.
+Oricorio Sensu,Ghost|Flying,10,7,7,10,7,10,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier.
+Eevee,Normal,6,6,5,5,7,6,Grasslands,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Jumper. Combat: Underdog. Narrative: Tracker.
+Umbreon,Dark,10,7,11,6,13,7,"Grasslands, Urban",Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Jumper. Combat: Darkvision. Narrative: Tracker.
+Jolteon,Electric,7,7,6,11,10,13,"Grasslands, Urban","Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Jumper, Quick. Narrative: Tracker."
+Sylveon,Fairy,10,7,7,11,13,6,"Grasslands, Urban","Diet: Omnivore. Size Medium · Weight class 2 · Power 3. Evolution stage 3. Movement: Jumper. Narrative: Empath, Tracker."
+Flareon,Fire,7,13,6,10,11,7,"Grasslands, Mountain","Diet: Omnivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Movement: Jumper. Narrative: Heater, Tracker."
+Leafeon,Grass,7,11,13,6,7,10,"Forest, Grasslands",Diet: Phototroph. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Jumper. Narrative: Tracker.
+Glaceon,Ice,7,6,11,13,10,7,"Grasslands, Tundra","Diet: Omnivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Movement: Jumper. Narrative: Chilled, Tracker."
+Espeon,Psychic,7,7,6,13,10,11,"Grasslands, Urban","Diet: Omnivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Movement: Jumper. Combat: Telekinetic. Narrative: Telepath, Tracker."
+Vaporeon,Water,13,7,6,11,10,7,"Grasslands, Ocean","Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Jumper, Swimmer. Narrative: Amorphous, Gilled, Tracker."
+Alolan Rattata,Dark|Normal,4,7,4,4,4,7,Urban,"Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Jumper, Quick. Combat: Darkvision, Underdog."
+Alolan Raticate,Dark|Normal,6,8,6,5,7,10,Urban,"Diet: Omnivore. Size Small · Weight class 3 · Power 3. Evolution stage 3. Movement: Jumper, Quick. Combat: Darkvision, Underdog."
+Alolan Meowth,Dark,4,4,4,5,4,9,Urban,"Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Darkvision, Underdog. Narrative: Pack Mon, Tracker."
+Alolan Persian,Dark,7,6,6,8,7,12,Urban,"Diet: Carnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Combat: Darkvision. Narrative: Pack Mon, Tracker."
+Alolan Diglett,Ground|Steel,2,6,4,4,5,9,Cave,"Diet: Herbivore. Size Small · Weight class 1 · Power 3. Evolution stage 2. Movement: Burrower, Grounded. Combat: Underdog. Narrative: Tremorsense."
+Alolan Dugtrio,Ground|Steel,4,10,6,5,7,11,Cave,"Diet: Herbivore. Size Small · Weight class 4 · Power 6. Evolution stage 3. Movement: Burrower, Grounded. Combat: Groundshaper, Underdog. Narrative: Tremorsense."
+Alolan Vulpix,Ice,4,4,4,5,7,7,"Mountain, Tundra","Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Chilled, Tracker."
+Alolan Ninetales,Ice|Fairy,7,7,8,8,10,11,"Mountain, Tundra","Diet: Herbivore. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Narrative: Chilled, Tracker."
+Alolan Sandshrew,Ice|Steel,5,8,9,1,4,4,"Cave, Tundra","Diet: Herbivore. Size Small · Weight class 3 · Power 3. Evolution stage 2. Movement: Burrower. Combat: Underdog. Narrative: Chilled, Tremorsense."
+Alolan Sandslash,Ice|Steel,9,10,13,3,9,7,"Cave, Tundra","Diet: Herbivore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Movement: Burrower. Narrative: Chilled, Tremorsense."
+Alolan Grimer,Poison|Dark,8,8,5,4,3,5,Urban,"Diet: Omnivore, Terravore. Size Small · Weight class 3 · Power 3. Evolution stage 2. Movement: Grounded, Slow. Combat: Darkvision, Underdog. Narrative: Amorphous, Dead Silent, Repulsive."
+Alolan Muk,Poison|Dark,11,11,8,7,10,5,Urban,"Diet: Omnivore, Terravore. Size Medium · Weight class 4 · Power 6. Evolution stage 3. Movement: Grounded. Combat: Darkvision. Narrative: Amorphous, Dead Silent, Repulsive."
+Alolan Geodude,Rock|Electric,4,8,10,3,3,2,"Cave, Mountain",Diet: Terravore. Size Small · Weight class 2 · Power 3. Evolution stage 1. Movement: Flier. Combat: Underdog. Narrative: Magnetic.
+Alolan Graveler,Rock|Electric,6,10,12,5,5,4,"Cave, Mountain",Diet: Terravore. Size Medium · Weight class 5 · Power 8. Evolution stage 2. Movement: Burrower. Combat: Underdog. Narrative: Magnetic.
+Alolan Golem,Rock|Electric,8,12,13,6,7,5,"Cave, Mountain",Diet: Terravore. Size Medium · Weight class 6 · Power 10. Evolution stage 3. Movement: Burrower. Combat: Groundshaper. Narrative: Magnetic.
+Galarian Zigzagoon,Dark|Normal,5,4,5,4,5,7,"Forest, Grasslands",Diet: Herbivore. Size Small · Weight class 2 · Power 1. Evolution stage 1. Combat: Underdog. Narrative: Tracker.
+Galarian Linoone,Dark|Normal,8,7,6,5,6,10,"Forest, Grasslands","Diet: Herbivore. Size Small · Weight class 3 · Power 3. Evolution stage 2. Movement: Quick. Combat: Darkvision, Underdog. Narrative: Tracker."
+Obstagoon,Dark|Normal,9,9,10,6,8,10,"Forest, Grasslands",Diet: Herbivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Quick. Combat: Darkvision. Narrative: Tracker.
+Galarian Farfetch'd,Fighting,5,10,6,6,6,6,Grasslands,"Diet: Herbivore. Size Small · Weight class 3 · Power 5. Evolution stage 2. Combat: Underdog, Wielder (Melee, Small)."
+Sirfetch'd,Fighting,6,14,10,7,8,7,Grasslands,Diet: Herbivore. Size Small · Weight class 5 · Power 7. Evolution stage 3. Combat: Wielder (Melee).
+Galarian Corsola,Ghost,6,6,10,7,10,3,Ocean,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Phaser, Swimmer. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent, Gilled."
+Cursola,Ghost,6,10,5,14,13,3,Ocean,"Diet: Nullivore. Size Medium · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier, Phaser, Swimmer. Combat: Darkvision, Invisibility. Narrative: Dead Silent, Gilled."
+Galarian Yamask,Ground|Ghost,4,6,9,3,7,3,Desert,"Diet: Terravore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Invisibility, Underdog. Narrative: Dead Silent."
+Runerigus,Ground|Ghost,7,10,15,5,11,3,Desert,"Diet: Terravore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent."
+Galarian Stunfisk,Ground|Steel,11,11,11,7,8,3,Cave,"Diet: Carnivore. Size Small · Weight class 2 · Power 5. Evolution stage 3. Movement: Burrower, Slow. Combat: Blender. Narrative: Tremorsense."
+Galarian Darumaka,Ice,7,9,5,2,5,5,Tundra,Diet: Herbivore. Size Small · Weight class 3 · Power 4. Evolution stage 2. Combat: Underdog. Narrative: Chilled.
+Galarian Darmanitan,Ice,11,15,6,3,6,10,Tundra,Diet: Omnivore. Size Medium · Weight class 5 · Power 8. Evolution stage 3. Narrative: Chilled.
+Galarian Darmanitan (Zen),Ice|Fire,11,15,6,3,6,10,Tundra,"Diet: Omnivore. Size Medium · Weight class 5 · Power 8. Evolution stage 3. Narrative: Chilled, Heater."
+Galarian Slowpoke,Psychic,9,7,7,4,4,2,Wetlands,"Diet: Herbivore. Size Medium · Weight class 3 · Power 2. Evolution stage 2. Movement: Slow. Combat: Telekinetic, Underdog."
+Galarian Slowbro,Poison|Psychic,10,10,10,11,7,3,Wetlands,Diet: Herbivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Slow. Combat: Telekinetic.
+Galarian Slowking,Poison|Psychic,10,7,8,12,11,3,Wetlands,Diet: Herbivore. Size Medium · Weight class 4 · Power 5. Evolution stage 3. Movement: Slow. Combat: Telekinetic. Narrative: Telepath.
+Galarian Ponyta,Psychic,5,9,6,7,7,9,Forest,"Diet: Herbivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Movement: Jumper, Quick. Combat: Telekinetic, Underdog. Narrative: Mender, Soul Seer."
+Galarian Rapidash,Psychic|Fairy,7,10,7,8,8,11,Forest,"Diet: Herbivore. Size Large · Weight class 4 · Power 6. Evolution stage 3. Movement: Jumper, Quick. Combat: Mountable, Telekinetic. Narrative: Mender, Soul Seer."
+Galarian Meowth,Steel,5,7,6,4,4,4,Forest,Diet: Carnivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog. Narrative: Tracker.
+Perrserker,Steel,7,11,10,5,6,5,Forest,"Diet: Carnivore. Size Small · Weight class 3 · Power 4. Evolution stage 3. Combat: Underdog, Wielder (Martial, Small). Narrative: Tracker."
+Hisuian Qwilfish,Dark|Poison,9,10,9,6,8,9,Ocean,Diet: Herbivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Movement: Swimmer. Combat: Darkvision.
+Overqwil,Dark|Poison,9,12,10,8,8,8,Ocean,Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Swimmer. Combat: Darkvision.
+Hisuian Voltorb,Electric|Grass,4,3,5,6,6,10,"Forest, Urban",Diet: Phototroph. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Underdog.
+Hisuian Electrode,Electric|Grass,6,5,7,11,9,13,"Forest, Urban",Diet: Phototroph. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Movement: Quick.
+Hisuian Growlithe,Fire|Rock,6,7,7,5,5,6,"Grasslands, Mountain","Diet: Carnivore. Size Small · Weight class 2 · Power 3. Evolution stage 2. Combat: Underdog. Narrative: Pack Mon, Tracker."
+Hisuian Arcanine,Fire|Rock,9,11,10,8,8,10,"Grasslands, Mountain","Diet: Carnivore. Size Large · Weight class 5 · Power 8. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Pack Mon, Tracker."
+Hisuian Zorua,Normal|Ghost,6,7,4,5,7,5,"Forest, Tundra","Diet: Nullivore. Size Small · Weight class 1 · Power 2. Evolution stage 2. Combat: Darkvision, Invisibility, Underdog. Narrative: Chilled, Illusionist, Pack Mon, Tracker."
+Hisuian Zoroark,Normal|Ghost,8,13,6,7,11,6,"Forest, Tundra","Diet: Nullivore. Size Medium · Weight class 4 · Power 4. Evolution stage 3. Combat: Darkvision, Invisibility. Narrative: Chilled, Illusionist, Pack Mon, Tracker."
+Hisuian Sneasel,Poison|Fighting,7,12,6,4,8,14,Wetlands,"Diet: Omnivore. Size Small · Weight class 3 · Power 2. Evolution stage 2. Movement: Climber, Quick."
+Sneasler,Poison|Fighting,8,14,7,5,9,15,Wetlands,"Diet: Omnivore. Size Medium · Weight class 3 · Power 3. Evolution stage 3. Movement: Climber, Quick."
+Paldean Wooper,Poison|Ground,8,6,6,4,4,2,Wetlands,"Diet: Herbivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Swimmer. Combat: Groundshaper, Underdog. Narrative: Gilled, Tremorsense."
+Clodsire,Poison|Ground,15,12,6,6,10,2,Wetlands,"Diet: Herbivore. Size Medium · Weight class 6 · Power 4. Evolution stage 3. Movement: Swimmer. Combat: Groundshaper. Narrative: Gilled, Tremorsense."
+Toedscool,Ground|Grass,4,4,4,5,10,7,Forest,"Diet: Detritivore. Size Small · Weight class 3 · Power 3. Evolution stage 2. Movement: Quick. Combat: Groundshaper, Reach, Underdog. Narrative: Pack Mon."
+Toedscruel,Ground|Grass,8,7,7,8,12,10,Forest,"Diet: Detritivore. Size Medium · Weight class 4 · Power 8. Evolution stage 3. Movement: Quick. Combat: Groundshaper, Reach. Narrative: Pack Mon."
+Tauros (Combat Breed),Fighting,8,11,11,4,7,10,Grasslands,Diet: Herbivore. Size Medium · Weight class 5 · Power 10. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Pack Mon.
+Tauros (Blaze Breed),Fighting|Fire,8,11,11,4,7,10,Grasslands,Diet: Herbivore. Size Medium · Weight class 4 · Power 9. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Pack Mon.
+Tauros (Aqua Breed),Fighting|Water,8,11,11,4,7,10,Grasslands,Diet: Herbivore. Size Medium · Weight class 5 · Power 8. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Pack Mon.
+Poltchageist,Grass|Ghost,4,5,5,7,5,5,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier, Phaser. Combat: Darkvision, Underdog. Narrative: Amorphous, Dead Silent."
+Sinistcha,Grass|Ghost,7,6,11,12,8,7,Urban,"Diet: Nullivore. Size Small · Weight class 1 · Power 1. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision. Narrative: Amorphous, Dead Silent."
+Wiglett,Water,2,6,3,6,5,8,"Desert, Wetlands","Diet: Carnivore. Size Medium · Weight class 1 · Power 3. Evolution stage 2. Movement: Burrower, Grounded. Combat: Underdog. Narrative: Tremorsense."
+Wugtrio,Water,4,9,5,8,7,10,"Desert, Wetlands","Diet: Carnivore. Size Medium · Weight class 1 · Power 6. Evolution stage 3. Movement: Burrower, Grounded. Narrative: Tremorsense."
+Slither Wing,Bug|Fighting,9,15,8,9,11,8,Forest,Diet: Omnivore. Size Huge · Weight class 5 · Power 6. Evolution stage 3. Combat: Threaded.
+Iron Jugulis,Dark|Flying,10,8,8,14,8,12,Mountain,"Diet: Carnivore. Size Medium · Weight class 5 · Power 6. Evolution stage 3. Movement: Flier, Quick. Combat: Darkvision, Mountable. Narrative: Mindlock."
+Roaring Moon,Dragon|Dark,11,14,7,6,10,12,"Cave, Mountain","Diet: Carnivore. Size Large · Weight class 6 · Power 6. Evolution stage 3. Movement: Flier, Quick. Combat: Mountable."
+Sandy Shocks,Electric|Ground,9,8,10,14,9,10,Urban,"Diet: Ergovore. Size Large · Weight class 4 · Power 4. Evolution stage 3. Movement: Flier. Narrative: Breathless, Magnetic."
+Iron Valiant,Fairy|Fighting,7,14,9,12,6,12,Urban,Diet: Omnivore. Size Medium · Weight class 3 · Power 9. Evolution stage 3. Movement: Quick. Narrative: Aura Reader.
+Scream Tail,Fairy|Psychic,12,11,7,11,12,7,Urban,Diet: Herbivore. Size Medium · Weight class 1 · Power 3. Evolution stage 3.
+Iron Hands,Fighting|Electric,15,14,14,5,7,5,Urban,Diet: Omnivore. Size Medium · Weight class 6 · Power 14. Evolution stage 3.
+Iron Moth,Fire|Poison,8,7,6,15,13,11,Urban,Diet: Nullivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Flier. Narrative: Heater.
+Flutter Mane,Ghost|Fairy,6,6,6,14,14,14,Urban,"Diet: Nullivore. Size Medium · Weight class 1 · Power 2. Evolution stage 3. Movement: Flier, Phaser. Combat: Darkvision, Invisibility. Narrative: Dead Silent."
+Brute Bonnet,Grass|Dark,13,13,10,8,10,6,Forest,Diet: Phototroph. Size Medium · Weight class 2 · Power 4. Evolution stage 3. Combat: Darkvision.
+Great Tusk,Ground|Fighting,12,15,14,5,5,9,Cave,Diet: Omnivore. Size Large · Weight class 6 · Power 8. Evolution stage 3. Combat: Mountable. Narrative: Tracker.
+Iron Treads,Ground|Steel,9,11,15,7,7,11,Urban,Diet: Nullivore. Size Medium · Weight class 4 · Power 7. Evolution stage 3. Movement: Quick. Combat: Mountable. Narrative: Tracker.
+Iron Bundle,Ice|Water,6,8,13,13,6,14,Tundra,Diet: Nullivore. Size Small · Weight class 1 · Power 5. Evolution stage 3. Movement: Swimmer. Narrative: Chilled.
+Iron Thorns,Rock|Electric,10,14,14,7,8,7,Cave,Diet: Carnivore. Size Medium · Weight class 6 · Power 11. Evolution stage 3. Combat: Darkvision. Narrative: Glow.
+Buzzwole,Bug|Fighting,11,17,14,5,5,8,"Forest, Space","Diet: Carnivore. Size Large · Weight class 6 · Power 12. Evolution stage 3. Movement: Flier, Jumper."
+Pheromosa,Bug|Fighting,7,15,4,15,4,15,"Forest, Space","Diet: Herbivore. Size Medium · Weight class 3 · Power 6. Evolution stage 3. Movement: Jumper, Quick. Narrative: Alluring."
+Guzzlord,Dark|Dragon,25,10,5,10,5,5,"Space, Urban","Diet: Omnivore. Size Huge · Weight class 6 · Power 12. Evolution stage 3. Movement: Burrower, Grounded. Combat: Darkvision, Reach."
+Xurkitree,Electric,8,9,7,17,10,9,"Space, Urban",Diet: Ergovore. Size Huge · Weight class 5 · Power 9. Evolution stage 3. Combat: Reach. Narrative: Glow.
+Blacephalon,Fire|Ghost,5,13,5,18,8,11,Space,Diet: Phototroph. Size Medium · Weight class 2 · Power 5. Evolution stage 3. Narrative: Glow.
+Kartana,Grass|Steel,7,18,15,6,3,11,"Forest, Space","Diet: Nullivore. Size Small · Weight class 1 · Power 7. Evolution stage 3. Movement: Flier, Quick. Narrative: Breathless."
+Poipole,Poison,7,7,7,7,7,7,Space,Diet: Omnivore. Size Small · Weight class 1 · Power 1. Evolution stage 2. Movement: Flier. Combat: Underdog.
+Naganadel,Poison|Dragon,8,8,8,15,8,13,Space,Diet: Omnivore. Size Huge · Weight class 5 · Power 8. Evolution stage 3. Movement: Flier.
+Nihilego,Rock|Poison,12,5,5,14,14,10,"Ocean, Space","Diet: Phototroph. Size Medium · Weight class 3 · Power 2. Evolution stage 3. Movement: Flier. Narrative: Breathless, Chilled, Dead Silent."
+Stakataka,Rock|Steel,6,13,25,5,10,1,"Space, Urban","Diet: Nullivore. Size Huge · Weight class 6 · Power 10. Evolution stage 3. Movement: Slow. Combat: Reach. Narrative: Breathless, Mindlock."
+Celesteela,Steel|Flying,13,10,10,11,10,6,"Space, Urban","Diet: Phototroph. Size Huge · Weight class 6 · Power 8. Evolution stage 3. Movement: Flier, Quick. Combat: Reach."

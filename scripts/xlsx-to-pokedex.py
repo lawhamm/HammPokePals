@@ -62,6 +62,40 @@ def types(row):
     return "|".join(t for t in (t1, t2) if t)
 
 
+# Skill ranks worth recording; "Unlisted" is the default (no training) and skipped.
+SKILL_SKIP = {"", "unlisted"}
+
+
+def load_skills(wb):
+    """Map species name -> "Skill:Rank|Skill:Rank" from the Poke Skills sheet."""
+    if "Poke Skills" not in wb.sheetnames:
+        return {}
+    ws = wb["Poke Skills"]
+    header = None
+    out = {}
+    for row in ws.iter_rows(values_only=True):
+        if not row:
+            continue
+        first = real(row[0])
+        if header is None:
+            # The header row is the one labelling the skill columns.
+            if first.lower().startswith("pokemon"):
+                header = [clean(c) for c in row]
+            continue
+        if not first:
+            continue
+        pairs = []
+        for i in range(1, len(header)):
+            skill = header[i]
+            rank = clean(row[i]) if i < len(row) else ""
+            if not skill or rank.lower() in SKILL_SKIP:
+                continue
+            pairs.append(f"{skill}:{rank.capitalize() if rank.islower() else rank}")
+        if pairs:
+            out[first] = "|".join(pairs)
+    return out
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit("Usage: python3 scripts/xlsx-to-pokedex.py <workbook.xlsx>")
@@ -69,12 +103,13 @@ def main():
     out = Path(__file__).resolve().parent.parent / "seed-content" / "pokedex.csv"
 
     wb = openpyxl.load_workbook(src, read_only=True, data_only=True)
+    skills_by_name = load_skills(wb)
     ws = wb["Poke Data"]
 
     header = [
         "Name", "Type", "HP", "Attack", "Defense", "Sp. Atk", "Sp. Def",
         "Speed", "Habitat", "Power", "Size", "Weight Class", "Diet",
-        "Evolution Stage", "Movement", "Combat", "Narrative",
+        "Evolution Stage", "Movement", "Combat", "Narrative", "Skills",
     ]
     written = 0
     with out.open("w", newline="", encoding="utf-8") as fh:
@@ -99,6 +134,7 @@ def main():
                 "|".join(caps(row, MOVEMENT_COLS)),
                 "|".join(caps(row, COMBAT_COLS)),
                 "|".join(caps(row, NARRATIVE_COLS)),
+                skills_by_name.get(name, ""),
             ])
             written += 1
 

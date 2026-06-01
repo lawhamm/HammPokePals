@@ -48,6 +48,7 @@ db.exec(`
     diet         TEXT,             -- e.g. "Herbivore, Phototroph"
     evo_stage    INTEGER,          -- 1 = base, 2 = stage 1, 3 = stage 2 ...
     capabilities TEXT NOT NULL DEFAULT '{}',  -- JSON: {movement:[],combat:[],narrative:[]}
+    skills       TEXT NOT NULL DEFAULT '{}',  -- JSON: {"Athletics":"Mastered", ...}
     visibility   TEXT NOT NULL DEFAULT 'public',
     created_at   TEXT NOT NULL DEFAULT (datetime('now')),
     updated_at   TEXT NOT NULL DEFAULT (datetime('now'))
@@ -124,6 +125,7 @@ const POKEMON_ADDITIONS = {
   diet: 'TEXT',
   evo_stage: 'INTEGER',
   capabilities: "TEXT NOT NULL DEFAULT '{}'",
+  skills: "TEXT NOT NULL DEFAULT '{}'",
 };
 for (const [col, type] of Object.entries(POKEMON_ADDITIONS)) {
   if (!pokemonCols.has(col)) db.exec(`ALTER TABLE pokemon ADD COLUMN ${col} ${type}`);

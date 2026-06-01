@@ -98,6 +98,7 @@ const ALIASES = {
   cap_movement: ['movement', 'movementcaps', 'movementcapabilities'],
   cap_combat: ['combat', 'combatcaps', 'combatcapabilities'],
   cap_narrative: ['narrative', 'narrativecaps', 'narrativecapabilities'],
+  skills: ['skills', 'skill'],
 };
 
 // Individual stat columns -> key inside the stats object.
@@ -176,7 +177,7 @@ export const POKEMON_COLUMNS = [
   'dex_no', 'name', 'category', 'types', 'description', 'habitat', 'rarity',
   'stats', 'abilities', 'moves', 'capture_rules', 'gm_notes', 'image',
   'power', 'size', 'weight_class', 'diet', 'evo_stage', 'capabilities',
-  'visibility',
+  'skills', 'visibility',
 ];
 
 // Prepare the shared bulk-insert statement (named @params from entryToParams).
@@ -214,6 +215,40 @@ function buildCapabilities(p) {
   return out;
 }
 
+// Parse skills as a {Skill: Rank} map. Accepts an object, a JSON string, or a
+// "Skill:Rank|Skill:Rank" / comma-separated string (the form the loader emits).
+export function parseSkills(v) {
+  if (v && typeof v === 'object' && !Array.isArray(v)) {
+    const out = {};
+    for (const [k, val] of Object.entries(v)) {
+      const key = String(k).trim();
+      const rank = String(val ?? '').trim();
+      if (key && rank) out[key] = rank;
+    }
+    return out;
+  }
+  if (typeof v === 'string' && v.trim()) {
+    const parsed = (() => {
+      try {
+        return JSON.parse(v);
+      } catch {
+        return null;
+      }
+    })();
+    if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) return parseSkills(parsed);
+    const out = {};
+    for (const pair of v.split(/[|;,]/)) {
+      const idx = pair.indexOf(':');
+      if (idx === -1) continue;
+      const key = pair.slice(0, idx).trim();
+      const rank = pair.slice(idx + 1).trim();
+      if (key && rank) out[key] = rank;
+    }
+    return out;
+  }
+  return {};
+}
+
 // Normalize one raw entry into the exact named params the `pokemon` INSERT
 // expects. Returns null for entries without a usable name.
 export function entryToParams(p) {
@@ -240,6 +275,7 @@ export function entryToParams(p) {
     diet: p.diet ?? null,
     evo_stage: numOrNull(p.evo_stage),
     capabilities: JSON.stringify(buildCapabilities(p)),
+    skills: JSON.stringify(parseSkills(p.skills)),
     visibility: p.visibility === 'gm' ? 'gm' : 'public',
   };
 }

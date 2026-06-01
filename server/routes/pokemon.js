@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import db from '../db.js';
 import { requireGM } from '../auth.js';
 import { visibilityClause, parseJSON, redactForPlayer, normVisibility } from '../util.js';
+import { parseSkills } from '../pokedex-source.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const router = express.Router();
@@ -24,7 +25,7 @@ const upload = multer({
 });
 
 // JSON columns that need parse on the way out / stringify on the way in.
-const JSON_FIELDS = ['types', 'stats', 'abilities', 'moves', 'capabilities'];
+const JSON_FIELDS = ['types', 'stats', 'abilities', 'moves', 'capabilities', 'skills'];
 
 function rowToApi(row, isGM) {
   if (!row) return row;
@@ -34,6 +35,7 @@ function rowToApi(row, isGM) {
   out.abilities = parseJSON(row.abilities, []);
   out.moves = parseJSON(row.moves, []);
   out.capabilities = parseJSON(row.capabilities, {});
+  out.skills = parseJSON(row.skills, {});
   return isGM ? out : redactForPlayer(out);
 }
 
@@ -79,6 +81,7 @@ function bodyToColumns(body) {
     diet: body.diet ?? null,
     evo_stage: body.evo_stage === '' || body.evo_stage == null ? null : Number(body.evo_stage),
     capabilities: JSON.stringify(coerceCapabilities(body.capabilities)),
+    skills: JSON.stringify(parseSkills(body.skills)),
     visibility: normVisibility(body.visibility),
   };
 }

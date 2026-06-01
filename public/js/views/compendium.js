@@ -108,6 +108,7 @@ export async function renderPokemonDetail(ctx, id) {
         ${kv('Evolution stage', p.evo_stage)}
         ${chips('Abilities', p.abilities)}
         ${capabilitiesHTML(p.capabilities)}
+        ${skillsHTML(p.skills)}
       </div>
       <div>
         ${p.description ? `<p>${esc(p.description)}</p>` : ''}
@@ -156,11 +157,25 @@ function capabilitiesHTML(caps) {
   return rows ? `<div class="kv"><span class="k">Capabilities</span></div>${rows}` : '';
 }
 
+// Trained skills as chips, each showing the skill and its rank.
+function skillsHTML(skills) {
+  if (!skills || typeof skills !== 'object') return '';
+  const entries = Object.entries(skills);
+  if (!entries.length) return '';
+  const chipList = entries
+    .map(([skill, rank]) => `<span class="chip">${esc(skill)} · ${esc(rank)}</span>`)
+    .join('');
+  return `<div class="kv"><span class="k">Skills</span><div class="chip-list">${chipList}</div></div>`;
+}
+
 // --- GM editor modal ------------------------------------------------------
 function openEditor(ctx, existing, onDone) {
   const p = existing || {};
   const stats = p.stats || {};
   const cap = p.capabilities || {};
+  const skillStr = Object.entries(p.skills || {})
+    .map(([k, v]) => `${k}: ${v}`)
+    .join(', ');
   const body = `
     <div class="form-row">
       ${field({ label: 'Name', name: 'name', value: p.name || '', placeholder: 'e.g. Bulbasaur' })}
@@ -196,6 +211,7 @@ function openEditor(ctx, existing, onDone) {
       ${field({ label: 'Combat capab. (comma sep.)', name: 'cap_combat', value: (cap.combat || []).join(', ') })}
       ${field({ label: 'Narrative capab. (comma sep.)', name: 'cap_narrative', value: (cap.narrative || []).join(', ') })}
     </div>
+    ${field({ label: 'Skills (Name: Rank, comma separated)', name: 'skills', value: skillStr, full: true, placeholder: 'Athletics: Mastered, Stealth: Proficient' })}
     <div class="kv full" style="grid-column:1/-1"><span class="k">Base stats</span></div>
     <div class="form-row">
       ${field({ label: 'HP', name: 's_hp', type: 'number', value: stats.hp ?? '' })}
@@ -244,6 +260,7 @@ function openEditor(ctx, existing, onDone) {
           combat: data.cap_combat,
           narrative: data.cap_narrative,
         },
+        skills: data.skills,
         stats: {
           hp: num(data.s_hp), atk: num(data.s_atk), def: num(data.s_def),
           spatk: num(data.s_spatk), spdef: num(data.s_spdef), speed: num(data.s_speed),

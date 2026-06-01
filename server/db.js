@@ -41,6 +41,13 @@ db.exec(`
     capture_rules TEXT,            -- homebrew capture / encounter notes (player-facing)
     image        TEXT,             -- uploaded filename or external URL
     gm_notes     TEXT,             -- GM-only secrets, even on a public entry
+    -- Homebrew PTE profile fields:
+    power        INTEGER,          -- PTE Power rating
+    size         TEXT,             -- Small / Medium / Large ...
+    weight_class INTEGER,
+    diet         TEXT,             -- e.g. "Herbivore, Phototroph"
+    evo_stage    INTEGER,          -- 1 = base, 2 = stage 1, 3 = stage 2 ...
+    capabilities TEXT NOT NULL DEFAULT '{}',  -- JSON: {movement:[],combat:[],narrative:[]}
     visibility   TEXT NOT NULL DEFAULT 'public',
     created_at   TEXT NOT NULL DEFAULT (datetime('now')),
     updated_at   TEXT NOT NULL DEFAULT (datetime('now'))
@@ -105,6 +112,22 @@ db.exec(`
     updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
   );
 `);
+
+// --- Lightweight migrations ----------------------------------------------
+// Add any columns missing from an older pokemon table (the PTE profile fields
+// were introduced after the first release). Safe to run on every startup.
+const pokemonCols = new Set(db.prepare('PRAGMA table_info(pokemon)').all().map((c) => c.name));
+const POKEMON_ADDITIONS = {
+  power: 'INTEGER',
+  size: 'TEXT',
+  weight_class: 'INTEGER',
+  diet: 'TEXT',
+  evo_stage: 'INTEGER',
+  capabilities: "TEXT NOT NULL DEFAULT '{}'",
+};
+for (const [col, type] of Object.entries(POKEMON_ADDITIONS)) {
+  if (!pokemonCols.has(col)) db.exec(`ALTER TABLE pokemon ADD COLUMN ${col} ${type}`);
+}
 
 export default db;
 export { DATA_DIR };

@@ -17,7 +17,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import db from './db.js';
-import { parsePokedexFile, entryToParams } from './pokedex-source.js';
+import { parsePokedexFile, entryToParams, buildInsert } from './pokedex-source.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -125,10 +125,7 @@ if (dexPath) {
     console.error(`Could not parse ${dexPath}: ${e.message}`);
     process.exit(1);
   }
-  const insert = db.prepare(
-    `INSERT INTO pokemon (dex_no, name, category, types, description, habitat, rarity, stats, abilities, moves, capture_rules, gm_notes, image, visibility)
-     VALUES (@dex_no, @name, @category, @types, @description, @habitat, @rarity, @stats, @abilities, @moves, @capture_rules, @gm_notes, @image, @visibility)`
-  );
+  const insert = buildInsert(db);
   const existsByName = db.prepare('SELECT 1 FROM pokemon WHERE name = ? COLLATE NOCASE');
   let dexSkipped = 0;
   const tx = db.transaction(() => {

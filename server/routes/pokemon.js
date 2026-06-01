@@ -24,7 +24,7 @@ const upload = multer({
 });
 
 // JSON columns that need parse on the way out / stringify on the way in.
-const JSON_FIELDS = ['types', 'stats', 'abilities', 'moves'];
+const JSON_FIELDS = ['types', 'stats', 'abilities', 'moves', 'capabilities'];
 
 function rowToApi(row, isGM) {
   if (!row) return row;
@@ -33,7 +33,28 @@ function rowToApi(row, isGM) {
   out.stats = parseJSON(row.stats, {});
   out.abilities = parseJSON(row.abilities, []);
   out.moves = parseJSON(row.moves, []);
+  out.capabilities = parseJSON(row.capabilities, {});
   return isGM ? out : redactForPlayer(out);
+}
+
+// Accept capabilities as a grouped object {movement,combat,narrative} (each an
+// array or comma string), a JSON string of the same (as stored in the DB, so
+// PUT round-trips an unchanged value), or a flat array/string -> "movement".
+function coerceCapabilities(v) {
+  if (typeof v === 'string') {
+    const parsed = parseJSON(v, null);
+    if (parsed && typeof parsed === 'object') v = parsed;
+  }
+  if (v && typeof v === 'object' && !Array.isArray(v)) {
+    const out = {};
+    for (const g of ['movement', 'combat', 'narrative']) {
+      const list = coerceArray(v[g]);
+      if (list.length) out[g] = list;
+    }
+    return out;
+  }
+  const list = coerceArray(v);
+  return list.length ? { movement: list } : {};
 }
 
 function bodyToColumns(body) {
@@ -51,6 +72,13 @@ function bodyToColumns(body) {
     capture_rules: body.capture_rules ?? null,
     image: body.image ?? null,
     gm_notes: body.gm_notes ?? null,
+    power: body.power === '' || body.power == null ? null : Number(body.power),
+    size: body.size ?? null,
+    weight_class:
+      body.weight_class === '' || body.weight_class == null ? null : Number(body.weight_class),
+    diet: body.diet ?? null,
+    evo_stage: body.evo_stage === '' || body.evo_stage == null ? null : Number(body.evo_stage),
+    capabilities: JSON.stringify(coerceCapabilities(body.capabilities)),
     visibility: normVisibility(body.visibility),
   };
 }

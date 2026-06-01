@@ -89,6 +89,15 @@ const ALIASES = {
   gm_notes: ['gmnotes', 'gm', 'secret', 'secrets', 'notesgm'],
   image: ['image', 'img', 'sprite', 'art', 'picture'],
   visibility: ['visibility', 'vis', 'visible'],
+  // Homebrew PTE profile fields:
+  power: ['power'],
+  size: ['size'],
+  weight_class: ['weightclass', 'wc'],
+  diet: ['diet'],
+  evo_stage: ['evostage', 'evolutionstage', 'evo', 'stage', 'evolution'],
+  cap_movement: ['movement', 'movementcaps', 'movementcapabilities'],
+  cap_combat: ['combat', 'combatcaps', 'combatcapabilities'],
+  cap_narrative: ['narrative', 'narrativecaps', 'narrativecapabilities'],
 };
 
 // Individual stat columns -> key inside the stats object.
@@ -162,6 +171,49 @@ export function parsePokedexFile(filePath) {
   throw new Error('Expected a JSON array (or an object with a "pokemon" array).');
 }
 
+// Columns the `pokemon` INSERT binds, in order. Keep in sync with entryToParams.
+export const POKEMON_COLUMNS = [
+  'dex_no', 'name', 'category', 'types', 'description', 'habitat', 'rarity',
+  'stats', 'abilities', 'moves', 'capture_rules', 'gm_notes', 'image',
+  'power', 'size', 'weight_class', 'diet', 'evo_stage', 'capabilities',
+  'visibility',
+];
+
+// Prepare the shared bulk-insert statement (named @params from entryToParams).
+export function buildInsert(db) {
+  return db.prepare(
+    `INSERT INTO pokemon (${POKEMON_COLUMNS.join(', ')})
+     VALUES (${POKEMON_COLUMNS.map((c) => '@' + c).join(', ')})`
+  );
+}
+
+function numOrNull(v) {
+  if (v == null || v === '') return null;
+  const n = Number(v);
+  return Number.isFinite(n) ? n : null;
+}
+
+// Assemble the grouped capabilities object from either separate movement/
+// combat/narrative inputs (CSV) or a pre-built capabilities object (JSON).
+// Empty groups are dropped so the stored JSON stays compact.
+function buildCapabilities(p) {
+  const base =
+    p.capabilities && typeof p.capabilities === 'object' && !Array.isArray(p.capabilities)
+      ? p.capabilities
+      : {};
+  const raw = {
+    movement: p.cap_movement ?? base.movement,
+    combat: p.cap_combat ?? base.combat,
+    narrative: p.cap_narrative ?? base.narrative,
+  };
+  const out = {};
+  for (const g of ['movement', 'combat', 'narrative']) {
+    const list = arr(raw[g]);
+    if (list.length) out[g] = list;
+  }
+  return out;
+}
+
 // Normalize one raw entry into the exact named params the `pokemon` INSERT
 // expects. Returns null for entries without a usable name.
 export function entryToParams(p) {
@@ -182,6 +234,12 @@ export function entryToParams(p) {
     capture_rules: p.capture_rules ?? null,
     gm_notes: p.gm_notes ?? null,
     image: p.image ?? null,
+    power: numOrNull(p.power),
+    size: p.size ?? null,
+    weight_class: numOrNull(p.weight_class),
+    diet: p.diet ?? null,
+    evo_stage: numOrNull(p.evo_stage),
+    capabilities: JSON.stringify(buildCapabilities(p)),
     visibility: p.visibility === 'gm' ? 'gm' : 'public',
   };
 }

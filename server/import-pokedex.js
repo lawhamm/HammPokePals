@@ -16,7 +16,7 @@
 //   --replace   wipe the existing compendium before importing.
 
 import db from './db.js';
-import { parsePokedexFile, entryToParams } from './pokedex-source.js';
+import { parsePokedexFile, entryToParams, buildInsert } from './pokedex-source.js';
 
 const args = process.argv.slice(2);
 if (args.includes('--help') || args.length === 0) {
@@ -40,10 +40,7 @@ try {
   process.exit(1);
 }
 
-const insert = db.prepare(
-  `INSERT INTO pokemon (dex_no, name, category, types, description, habitat, rarity, stats, abilities, moves, capture_rules, gm_notes, image, visibility)
-   VALUES (@dex_no, @name, @category, @types, @description, @habitat, @rarity, @stats, @abilities, @moves, @capture_rules, @gm_notes, @image, @visibility)`
-);
+const insert = buildInsert(db);
 
 let imported = 0;
 let skipped = 0;

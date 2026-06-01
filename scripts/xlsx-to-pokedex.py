@@ -10,9 +10,10 @@ have a header row (Pokemon:, Type1, Type2, HP, Attack, Defense, Special Attack,
 Special Defense, Speed, Power, Size, Weight Class, Naturewalk, Movement…,
 Combat…, Narrative…, Evo, Diet) with species rows below it.
 
-Stats are kept on the PTE scale as-is. Each species' PTE extras (capabilities,
-diet, size/weight/power, evolution stage) are folded into the Description so no
-data is lost; types come from Type1/Type2 and habitat from Naturewalk.
+Stats are kept on the PTE scale as-is. Types come from Type1/Type2, habitat from
+Naturewalk, and each PTE profile field (Power, Size, Weight Class, Diet,
+Evolution stage) plus the Movement/Combat/Narrative capability groups become
+their own columns the loader maps to structured fields.
 """
 import csv
 import sys
@@ -55,42 +56,6 @@ def caps(row, cols):
     return out
 
 
-def build_description(row):
-    parts = []
-    diet = real(row[COL["diet"]])
-    if diet:
-        parts.append(f"Diet: {diet}.")
-
-    phys = []
-    size = real(row[COL["size"]])
-    weight = real(row[COL["weight"]])
-    power = real(row[COL["power"]])
-    if size:
-        phys.append(f"Size {size}")
-    if weight:
-        phys.append(f"Weight class {weight}")
-    if power:
-        phys.append(f"Power {power}")
-    if phys:
-        parts.append(" · ".join(phys) + ".")
-
-    evo = real(row[COL["evo"]])
-    if evo:
-        parts.append(f"Evolution stage {evo}.")
-
-    movement = caps(row, MOVEMENT_COLS)
-    combat = caps(row, COMBAT_COLS)
-    narrative = caps(row, NARRATIVE_COLS)
-    if movement:
-        parts.append("Movement: " + ", ".join(movement) + ".")
-    if combat:
-        parts.append("Combat: " + ", ".join(combat) + ".")
-    if narrative:
-        parts.append("Narrative: " + ", ".join(narrative) + ".")
-
-    return " ".join(parts)
-
-
 def types(row):
     t1 = real(row[COL["type1"]])
     t2 = real(row[COL["type2"]])
@@ -108,7 +73,8 @@ def main():
 
     header = [
         "Name", "Type", "HP", "Attack", "Defense", "Sp. Atk", "Sp. Def",
-        "Speed", "Habitat", "Description",
+        "Speed", "Habitat", "Power", "Size", "Weight Class", "Diet",
+        "Evolution Stage", "Movement", "Combat", "Narrative",
     ]
     written = 0
     with out.open("w", newline="", encoding="utf-8") as fh:
@@ -121,14 +87,18 @@ def main():
             # Skip the header row and any blank/label rows.
             if not name or name.lower() in ("pokemon:", "pokemon"):
                 continue
-            stat = lambda key: real(row[COL[key]]) if COL[key] < len(row) else ""
+            cell = lambda key: real(row[COL[key]]) if COL[key] < len(row) else ""
             w.writerow([
                 name,
                 types(row),
-                stat("hp"), stat("atk"), stat("def"),
-                stat("spatk"), stat("spdef"), stat("speed"),
-                real(row[COL["naturewalk"]]) if COL["naturewalk"] < len(row) else "",
-                build_description(row),
+                cell("hp"), cell("atk"), cell("def"),
+                cell("spatk"), cell("spdef"), cell("speed"),
+                cell("naturewalk"),
+                cell("power"), cell("size"), cell("weight"), cell("diet"),
+                cell("evo"),
+                "|".join(caps(row, MOVEMENT_COLS)),
+                "|".join(caps(row, COMBAT_COLS)),
+                "|".join(caps(row, NARRATIVE_COLS)),
             ])
             written += 1
 

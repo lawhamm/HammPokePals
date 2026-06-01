@@ -83,10 +83,19 @@ on their own. Recognized columns:
 | `capture` / `encounter` / `capture rules`         | capture rules  |
 | `gm` / `gm notes` / `secret`                      | GM-only notes  |
 | `visibility` (`public` or `gm`)                   | visibility     |
+| `power`                                          | PTE power      |
+| `size`                                           | size class     |
+| `weight class` / `wc`                             | weight class   |
+| `diet`                                           | diet           |
+| `evolution stage` / `evo` / `stage`               | evolution stage|
+| `movement`                                       | movement capabilities |
+| `combat`                                         | combat capabilities   |
+| `narrative`                                      | narrative capabilities|
 
-List columns (`types`, `abilities`, `moves`) can hold multiple values separated
-by `|`, `;`, or commas — e.g. `Grass|Poison` or a quoted `"Tackle, Vine Whip"`.
-Unknown columns are ignored, so extra spreadsheet columns do no harm.
+List columns (`types`, `abilities`, `moves`, and the three capability columns)
+can hold multiple values separated by `|`, `;`, or commas — e.g. `Grass|Poison`,
+or a quoted `"Tackle, Vine Whip"`, or `Climber|Quick`. Unknown columns are
+ignored, so extra spreadsheet columns do no harm.
 
 Prefer JSON? It still works exactly as above — and if both a `pokedex.json` and
 a `pokedex.csv` are present, the JSON wins.

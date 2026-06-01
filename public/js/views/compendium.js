@@ -101,7 +101,13 @@ export async function renderPokemonDetail(ctx, id) {
         <div class="types" style="margin-top:0.6rem">${(p.types || []).map(typeChip).join('')}</div>
         ${kv('Habitat', p.habitat)}
         ${kv('Rarity', p.rarity)}
+        ${kv('Diet', p.diet)}
+        ${kv('Size', p.size)}
+        ${kv('Weight class', p.weight_class)}
+        ${kv('Power', p.power)}
+        ${kv('Evolution stage', p.evo_stage)}
         ${chips('Abilities', p.abilities)}
+        ${capabilitiesHTML(p.capabilities)}
       </div>
       <div>
         ${p.description ? `<p>${esc(p.description)}</p>` : ''}
@@ -140,10 +146,21 @@ function chips(k, arr) {
     .join('')}</div></div>`;
 }
 
+// Grouped PTE capabilities (movement / combat / narrative) as labelled chip rows.
+function capabilitiesHTML(caps) {
+  if (!caps || typeof caps !== 'object') return '';
+  const rows = [['movement', 'Movement'], ['combat', 'Combat'], ['narrative', 'Narrative']]
+    .filter(([key]) => Array.isArray(caps[key]) && caps[key].length)
+    .map(([key, label]) => chips(label, caps[key]))
+    .join('');
+  return rows ? `<div class="kv"><span class="k">Capabilities</span></div>${rows}` : '';
+}
+
 // --- GM editor modal ------------------------------------------------------
 function openEditor(ctx, existing, onDone) {
   const p = existing || {};
   const stats = p.stats || {};
+  const cap = p.capabilities || {};
   const body = `
     <div class="form-row">
       ${field({ label: 'Name', name: 'name', value: p.name || '', placeholder: 'e.g. Bulbasaur' })}
@@ -161,6 +178,23 @@ function openEditor(ctx, existing, onDone) {
     <div class="form-row">
       ${field({ label: 'Abilities (comma sep.)', name: 'abilities', value: (p.abilities || []).join(', ') })}
       ${field({ label: 'Moves (comma sep.)', name: 'moves', value: (p.moves || []).join(', ') })}
+    </div>
+    <div class="kv full" style="grid-column:1/-1"><span class="k">PTE profile</span></div>
+    <div class="form-row">
+      ${field({ label: 'Diet', name: 'diet', value: p.diet || '', placeholder: 'Herbivore, Phototroph' })}
+      ${field({ label: 'Size', name: 'size', value: p.size || '', placeholder: 'Small / Medium / Large' })}
+    </div>
+    <div class="form-row">
+      ${field({ label: 'Weight class', name: 'weight_class', type: 'number', value: p.weight_class ?? '' })}
+      ${field({ label: 'Power', name: 'power', type: 'number', value: p.power ?? '' })}
+    </div>
+    <div class="form-row">
+      ${field({ label: 'Evolution stage', name: 'evo_stage', type: 'number', value: p.evo_stage ?? '' })}
+      ${field({ label: 'Movement capab. (comma sep.)', name: 'cap_movement', value: (cap.movement || []).join(', ') })}
+    </div>
+    <div class="form-row">
+      ${field({ label: 'Combat capab. (comma sep.)', name: 'cap_combat', value: (cap.combat || []).join(', ') })}
+      ${field({ label: 'Narrative capab. (comma sep.)', name: 'cap_narrative', value: (cap.narrative || []).join(', ') })}
     </div>
     <div class="kv full" style="grid-column:1/-1"><span class="k">Base stats</span></div>
     <div class="form-row">
@@ -200,6 +234,16 @@ function openEditor(ctx, existing, onDone) {
         gm_notes: data.gm_notes,
         image: data.image,
         visibility: data.visibility,
+        diet: data.diet,
+        size: data.size,
+        weight_class: data.weight_class,
+        power: data.power,
+        evo_stage: data.evo_stage,
+        capabilities: {
+          movement: data.cap_movement,
+          combat: data.cap_combat,
+          narrative: data.cap_narrative,
+        },
         stats: {
           hp: num(data.s_hp), atk: num(data.s_atk), def: num(data.s_def),
           spatk: num(data.s_spatk), spdef: num(data.s_spdef), speed: num(data.s_speed),

@@ -15,7 +15,7 @@ to wipe and reimport the Pokédex.)
 ```
 seed-content/
   pdfs/                 ← your PTE rule PDFs (core rules, GM guide, bestiary…)
-  pokedex.json          ← your Pokédex as a JSON array
+  pokedex.json  or .csv ← your Pokédex as a JSON array OR a CSV export
   manifest.json         ← OPTIONAL: fine-tune titles/categories/visibility
 ```
 
@@ -51,8 +51,36 @@ entry; everything else is optional:
 ]
 ```
 
-If your PTE Pokédex is in a spreadsheet or some other format, export it to CSV
-and tell me the column names — I'll convert it to this JSON for you.
+#### …or just drop in a CSV
+
+If your Pokédex lives in a spreadsheet, export it to CSV and save it as
+`seed-content/pokedex.csv` — no conversion needed. The first row must be a
+header; column names are matched loosely (case, spaces, and punctuation are
+ignored), so headers like `Dex No`, `Sp. Atk`, or `Special Defense` all line up
+on their own. Recognized columns:
+
+| Column (any of)                                  | Goes to        |
+| ------------------------------------------------ | -------------- |
+| `name` / `pokemon` / `species`                   | name (required)|
+| `dex_no` / `dex` / `number` / `#`                | dex number     |
+| `category` / `kind` / `classification`           | category       |
+| `type` / `types`                                 | types          |
+| `hp`, `attack`, `defense`, `sp. atk`, `sp. def`, `speed` | stats  |
+| `ability` / `abilities`                          | abilities      |
+| `move` / `moves` / `moveset`                      | moves          |
+| `rarity`                                         | rarity         |
+| `habitat` / `location`                            | habitat        |
+| `description` / `flavor` / `dex entry`            | description    |
+| `capture` / `encounter` / `capture rules`         | capture rules  |
+| `gm` / `gm notes` / `secret`                      | GM-only notes  |
+| `visibility` (`public` or `gm`)                   | visibility     |
+
+List columns (`types`, `abilities`, `moves`) can hold multiple values separated
+by `|`, `;`, or commas — e.g. `Grass|Poison` or a quoted `"Tackle, Vine Whip"`.
+Unknown columns are ignored, so extra spreadsheet columns do no harm.
+
+Prefer JSON? It still works exactly as above — and if both a `pokedex.json` and
+a `pokedex.csv` are present, the JSON wins.
 
 ## Important
 

@@ -1,25 +1,29 @@
-// Bulk Pokedex importer. Loads an array of Pokemon entries from a JSON file into
-// the compendium. Useful for loading a full PTE dex in one shot instead of
+// Bulk Pokedex importer. Loads Pokemon entries from a JSON or CSV file into the
+// compendium. Useful for loading a full PTE dex in one shot instead of
 // hand-entering every species.
 //
 //   node server/import-pokedex.js path/to/pokedex.json [--replace]
+//   node server/import-pokedex.js path/to/pokedex.csv  [--replace]
 //
 // JSON shape: an array of objects, each with at least { "name": "..." }.
+// CSV shape : a header row whose column names loosely match the fields below
+//             (a plain spreadsheet export works). List columns (types,
+//             abilities, moves) may separate values with | ; or commas.
 // Recognized fields: name, dex_no, category, types, description, habitat,
-// rarity, stats {hp,atk,def,spatk,spdef,speed}, abilities, moves,
-// capture_rules, gm_notes, image, visibility.
+// rarity, stats {hp,atk,def,spatk,spdef,speed} (as columns in CSV), abilities,
+// moves, capture_rules, gm_notes, image, visibility.
 //
 //   --replace   wipe the existing compendium before importing.
 
-import fs from 'node:fs';
 import db from './db.js';
+import { parsePokedexFile, entryToParams } from './pokedex-source.js';
 
 const args = process.argv.slice(2);
 if (args.includes('--help') || args.length === 0) {
   console.log(`
-Usage: node server/import-pokedex.js <file.json> [--replace]
+Usage: node server/import-pokedex.js <file.json|file.csv> [--replace]
 
-  <file.json>  A JSON array of Pokemon entries (see README).
+  <file>       A JSON array or CSV of Pokemon entries (see README).
   --replace    Delete all existing compendium entries first.
 `);
   process.exit(0);
@@ -28,24 +32,12 @@ Usage: node server/import-pokedex.js <file.json> [--replace]
 const file = args.find((a) => !a.startsWith('--'));
 const replace = args.includes('--replace');
 
-let raw;
+let list;
 try {
-  raw = JSON.parse(fs.readFileSync(file, 'utf8'));
+  list = parsePokedexFile(file);
 } catch (e) {
   console.error(`Could not read/parse ${file}: ${e.message}`);
   process.exit(1);
-}
-
-const list = Array.isArray(raw) ? raw : raw.pokemon;
-if (!Array.isArray(list)) {
-  console.error('Expected a JSON array of entries (or an object with a "pokemon" array).');
-  process.exit(1);
-}
-
-function arr(v) {
-  if (Array.isArray(v)) return v.map((x) => String(x).trim()).filter(Boolean);
-  if (typeof v === 'string') return v.split(',').map((s) => s.trim()).filter(Boolean);
-  return [];
 }
 
 const insert = db.prepare(
@@ -62,26 +54,12 @@ const tx = db.transaction(() => {
     console.log(`Cleared ${n} existing entries (--replace).`);
   }
   for (const p of list) {
-    if (!p || !p.name) {
+    const params = entryToParams(p);
+    if (!params) {
       skipped++;
       continue;
     }
-    insert.run({
-      dex_no: p.dex_no ?? null,
-      name: String(p.name).trim(),
-      category: p.category ?? null,
-      types: JSON.stringify(arr(p.types)),
-      description: p.description ?? null,
-      habitat: p.habitat ?? null,
-      rarity: p.rarity ?? null,
-      stats: JSON.stringify(p.stats && typeof p.stats === 'object' ? p.stats : {}),
-      abilities: JSON.stringify(arr(p.abilities)),
-      moves: JSON.stringify(arr(p.moves)),
-      capture_rules: p.capture_rules ?? null,
-      gm_notes: p.gm_notes ?? null,
-      image: p.image ?? null,
-      visibility: p.visibility === 'gm' ? 'gm' : 'public',
-    });
+    insert.run(params);
     imported++;
   }
 });

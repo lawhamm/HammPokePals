@@ -62,8 +62,8 @@ The seed data is just samples — replace it with your own. The easiest way is t
 
 ```
 seed-content/
-  pdfs/           ← your PTE rule PDFs + GM guide
-  pokedex.json    ← your Pokédex as a JSON array
+  pdfs/                 ← your PTE rule PDFs + GM guide
+  pokedex.json  or .csv ← your Pokédex as a JSON array OR a CSV export
 ```
 
 ```bash
@@ -83,13 +83,21 @@ You can also add content **inside the app** at any time (GM view):
 - **Pokédex:** add entries by hand in the Compendium.
 - **Lore / maps / items:** add them in their tabs.
 
-### Pokédex JSON format
+### Pokédex format (JSON or CSV)
 
-Each entry may include: `name` (required), `dex_no`, `category`, `types` (array
-or comma string), `description`, `habitat`, `rarity`, `stats`
-(`{hp,atk,def,spatk,spdef,speed}`), `abilities`, `moves`, `capture_rules`,
-`gm_notes`, `image`, `visibility`. Missing fields are fine. A standalone importer
-is also available: `node server/import-pokedex.js path/to/dex.json --help`.
+**JSON** — an array of entries; each may include: `name` (required), `dex_no`,
+`category`, `types` (array or comma string), `description`, `habitat`, `rarity`,
+`stats` (`{hp,atk,def,spatk,spdef,speed}`), `abilities`, `moves`,
+`capture_rules`, `gm_notes`, `image`, `visibility`. Missing fields are fine.
+
+**CSV** — export your spreadsheet and save it as `seed-content/pokedex.csv`. The
+header row's column names are matched loosely (case/space/punctuation ignored),
+each stat is its own column (`HP`, `Attack`, `Sp. Atk`…), and list columns may
+use `|`, `;`, or commas. Full column reference:
+[`seed-content/README.md`](seed-content/README.md).
+
+A standalone importer handles either format:
+`node server/import-pokedex.js path/to/dex.csv --help`.
 
 ## Where your data lives
 

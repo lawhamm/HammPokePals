@@ -1,5 +1,6 @@
 {
   "_comment": "OPTIONAL. Copy this to manifest.json to override auto-detection. Delete the _comment keys.",
+  "_comment_pokedex": "Point at your dex file; either a .json or a .csv works.",
   "pokedex": "pokedex.json",
   "pdfs": [
     {

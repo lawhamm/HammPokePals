@@ -3,12 +3,12 @@
 //
 //   seed-content/
 //     pdfs/                 <- put PTE rules, GM guide, bestiary PDFs here
-//     pokedex.json          <- your Pokedex as a JSON array (see README)
+//     pokedex.json|.csv     <- your Pokedex as a JSON array OR a CSV (see README)
 //     manifest.json         <- OPTIONAL: titles/categories/visibility per PDF
 //
 // Without a manifest the loader auto-detects: every *.pdf under seed-content/
 // becomes a rules document (a file whose name looks like a GM guide is marked
-// GM-only), and pokedex*.json is imported into the compendium.
+// GM-only), and pokedex*.json / pokedex*.csv is imported into the compendium.
 //
 // Re-running is safe: a PDF already loaded (same stored filename) is skipped,
 // and the pokedex import only adds entries (use --replace-dex to wipe first).
@@ -17,6 +17,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import db from './db.js';
+import { parsePokedexFile, entryToParams } from './pokedex-source.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -105,29 +106,25 @@ function findDex() {
     const p = path.join(SEED_DIR, manifest.pokedex);
     return fs.existsSync(p) ? p : null;
   }
-  for (const name of fs.existsSync(SEED_DIR) ? fs.readdirSync(SEED_DIR) : []) {
-    if (/pokedex.*\.json$/i.test(name)) return path.join(SEED_DIR, name);
-  }
-  return null;
-}
-
-function arr(v) {
-  if (Array.isArray(v)) return v.map((x) => String(x).trim()).filter(Boolean);
-  if (typeof v === 'string') return v.split(',').map((s) => s.trim()).filter(Boolean);
-  return [];
+  // Prefer JSON, then CSV, when both happen to be present.
+  const names = fs.existsSync(SEED_DIR) ? fs.readdirSync(SEED_DIR) : [];
+  return (
+    names.map((n) => path.join(SEED_DIR, n)).find((p) => /pokedex.*\.json$/i.test(p)) ||
+    names.map((n) => path.join(SEED_DIR, n)).find((p) => /pokedex.*\.csv$/i.test(p)) ||
+    null
+  );
 }
 
 let dexImported = 0;
 const dexPath = findDex();
 if (dexPath) {
-  let raw;
+  let list;
   try {
-    raw = JSON.parse(fs.readFileSync(dexPath, 'utf8'));
+    list = parsePokedexFile(dexPath);
   } catch (e) {
     console.error(`Could not parse ${dexPath}: ${e.message}`);
     process.exit(1);
   }
-  const list = Array.isArray(raw) ? raw : raw.pokemon || [];
   const insert = db.prepare(
     `INSERT INTO pokemon (dex_no, name, category, types, description, habitat, rarity, stats, abilities, moves, capture_rules, gm_notes, image, visibility)
      VALUES (@dex_no, @name, @category, @types, @description, @habitat, @rarity, @stats, @abilities, @moves, @capture_rules, @gm_notes, @image, @visibility)`
@@ -140,28 +137,14 @@ if (dexPath) {
       console.log(`  Cleared ${n} existing compendium entries (--replace-dex).`);
     }
     for (const p of list) {
-      if (!p || !p.name) continue;
+      const params = entryToParams(p);
+      if (!params) continue;
       // Skip duplicates by name so re-running the loader is safe.
-      if (!replaceDex && existsByName.get(String(p.name).trim())) {
+      if (!replaceDex && existsByName.get(params.name)) {
         dexSkipped++;
         continue;
       }
-      insert.run({
-        dex_no: p.dex_no ?? null,
-        name: String(p.name).trim(),
-        category: p.category ?? null,
-        types: JSON.stringify(arr(p.types)),
-        description: p.description ?? null,
-        habitat: p.habitat ?? null,
-        rarity: p.rarity ?? null,
-        stats: JSON.stringify(p.stats && typeof p.stats === 'object' ? p.stats : {}),
-        abilities: JSON.stringify(arr(p.abilities)),
-        moves: JSON.stringify(arr(p.moves)),
-        capture_rules: p.capture_rules ?? null,
-        gm_notes: p.gm_notes ?? null,
-        image: p.image ?? null,
-        visibility: p.visibility === 'gm' ? 'gm' : 'public',
-      });
+      insert.run(params);
       dexImported++;
     }
   });

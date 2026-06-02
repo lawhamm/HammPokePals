@@ -1,36 +1,52 @@
-# HammPokePals
+# HammPokePals — POKEPALS
 
 A compendium, catalogue, and campaign manager for a homebrew Pokémon tabletop
-RPG (built around the **PTE** ruleset). One local app gives **players** a clean
-view of the rules, lore, and Pokédex, while the **GM** unlocks a private command
-center with session notes, plot secrets, GM-only map markers, and full editing.
+RPG (built around the **PTE** ruleset), styled like a **Gen 2/3 Game Boy
+game**: chunky bordered boxes, a muted GBC palette, a monospace look, a cursor
+arrow, and snappy nested menus you drill into and back out of. One local app
+gives **players** a read-only view; the **GM** unlocks editing with a passcode.
 
 > Players and the GM use the **same app**. Players never log in and only ever
-> see content marked *public*. The GM unlocks the extra view with a passcode.
+> see content marked *public*. The GM toggles GM Mode in **OPTIONS**.
 
-## Features
+## Menus
 
-- **Compendium (Pokédex)** — searchable, type-filterable catalogue with detail
-  pages (types, base stats, abilities, moves, habitat, rarity, capture rules,
-  plus the PTE profile: diet, size, weight, power, evolution stage, grouped
-  capabilities, and trained skills). GM can add/edit/delete entries and upload
-  artwork. *(The centerpiece.)*
-- **Reference** — searchable catalogue of moves, abilities, and items from the
-  rulebook, with a detail card for each. Read-only, loaded from your materials.
-- **Rules & PDFs** — upload your PTE core rules, GM guide, bestiary, etc. and
-  read them in-app. Mark the **GM guide** as *GM only* so it never reaches a
-  player's device.
-- **Story** — your plot storybook and lore, grouped by chapter/act, with
-  GM-only plot secrets alongside public lore.
-- **Maps** — region maps with pin markers; GM-only markers (ambushes, caches)
-  are filtered out before a player ever receives the data.
-- **Inventory** — party items, Poké Balls, TMs, key items, with quantity/owner.
-- **Sessions** — session-by-session notes: a player-facing recap plus secret GM
-  prep on each entry.
+Everything hangs off a title-screen **MAIN MENU**:
 
-Every item carries a **visibility** flag (`public` or `gm`) enforced on the
-server, so GM secrets are never sent to a player's browser — not just hidden in
-the UI.
+- **CAMPAIGN** — *Session Log* (GM-editable, datestamped, newest first) and
+  *Story So Far* (a curated living canon summary the GM writes).
+- **PLAYERS** — each player character's sheet: stats, **Pokémon roster** (each
+  with moveset, level, status, and GM notes), inventory, and a GM-only Notes
+  field for things the player doesn't know yet.
+- **WORLD** — searchable **NPCs** (description, relationship, last seen),
+  **Locations**, and **Factions**.
+- **POKEDEX** — search the species compendium (types, PTE stats, capabilities,
+  skills, diet/size/power/evolution…).
+- **RULES** — a keyword **and natural-language** searchable rules compendium
+  (entries tagged by category — Combat, Catching, Status, Movement…), plus the
+  **Moves / Abilities / Items** reference catalogues.
+- **OPTIONS** — GM Mode toggle (off = read-only), campaign name, session
+  counter, and current date.
+
+GM Mode unlocks inline **create / edit / delete** across every section. Every
+record carries a **visibility** flag (`public` or `gm`) enforced on the server,
+so GM secrets are never sent to a player's browser — not just hidden in the UI.
+Everything persists in a local SQLite database, so nothing is lost between
+sessions.
+
+### Natural-language rules search (optional)
+
+RULES → *Search* answers plain-English questions ("how does catching work?")
+over your rulebook using Claude (`claude-opus-4-8`). Set an API key to enable
+it:
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+npm start
+```
+
+Without a key (or if the call fails) it gracefully falls back to keyword search
+— no setup required.
 
 ## Quick start
 
@@ -46,9 +62,9 @@ When it starts, the console also prints a **Players (LAN)** address (e.g.
 `http://192.168.1.20:3000`). Anyone on your home wifi — players on their phones
 or laptops at game night — can open that address and get the player view.
 
-### Unlocking the GM view
+### Unlocking GM Mode
 
-Click **GM login** (top-right) and enter the passcode. The default passcode is
+Go to **OPTIONS → GM MODE** and enter the passcode. The default passcode is
 `changeme`, stored in `server/config.local.json` (which is git-ignored).
 
 **Change it before sharing with players:** edit `server/config.local.json`:

@@ -101,8 +101,8 @@ app.use(
   '/api/story',
   makeContentRouter({
     table: 'story_entries',
-    fields: ['title', 'chapter', 'body', 'order_index'],
-    orderBy: 'order_index, id',
+    fields: ['title', 'chapter', 'body'],
+    orderBy: 'id',
     gmFields: [],
     required: 'title',
   })
@@ -112,8 +112,8 @@ app.use(
   '/api/sessions',
   makeContentRouter({
     table: 'sessions',
-    fields: ['title', 'played_on', 'summary', 'gm_notes', 'order_index'],
-    orderBy: 'order_index, played_on, id',
+    fields: ['title', 'played_on', 'summary', 'gm_notes'],
+    orderBy: 'played_on DESC, id DESC',
     required: 'title',
   })
 );

@@ -13,6 +13,9 @@ import pokemonRouter from './routes/pokemon.js';
 import pdfRouter from './routes/pdfs.js';
 import mapsRouter from './routes/maps.js';
 import referenceRouter from './routes/reference.js';
+import campaignRouter from './routes/campaign.js';
+import playersRouter from './routes/players.js';
+import rulesRouter from './routes/rules.js';
 import { makeContentRouter } from './routes/content.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -49,6 +52,40 @@ app.use('/api/pokemon', pokemonRouter);
 app.use('/api/pdfs', pdfRouter);
 app.use('/api/maps', mapsRouter);
 app.use('/api/reference', referenceRouter);
+app.use('/api/campaign', campaignRouter);
+app.use('/api/players', playersRouter);
+app.use('/api/rules', rulesRouter);
+
+// WORLD: NPCs, locations, factions — straightforward visibility-filtered CRUD.
+app.use(
+  '/api/npcs',
+  makeContentRouter({
+    table: 'npcs',
+    fields: ['name', 'description', 'relationship', 'last_seen', 'gm_notes'],
+    orderBy: 'name',
+    required: 'name',
+  })
+);
+
+app.use(
+  '/api/locations',
+  makeContentRouter({
+    table: 'locations',
+    fields: ['name', 'region', 'description', 'gm_notes'],
+    orderBy: 'name',
+    required: 'name',
+  })
+);
+
+app.use(
+  '/api/factions',
+  makeContentRouter({
+    table: 'factions',
+    fields: ['name', 'description', 'relationship', 'gm_notes'],
+    orderBy: 'name',
+    required: 'name',
+  })
+);
 
 app.use(
   '/api/items',

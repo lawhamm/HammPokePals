@@ -126,7 +126,98 @@ db.exec(`
     created_at  TEXT NOT NULL DEFAULT (datetime('now')),
     updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
   );
+
+  -- Singleton campaign meta (OPTIONS screen: name, running summary, counters).
+  CREATE TABLE IF NOT EXISTS campaign (
+    id            INTEGER PRIMARY KEY CHECK (id = 1),
+    name          TEXT NOT NULL DEFAULT 'POKEPALS',
+    story_so_far  TEXT NOT NULL DEFAULT '',   -- curated living canon summary
+    updated_at    TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+
+  -- Player characters (PLAYERS menu). gm_notes is always GM-only.
+  CREATE TABLE IF NOT EXISTS players (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    name        TEXT NOT NULL,         -- character name
+    player_name TEXT,                  -- the person playing them
+    stats       TEXT NOT NULL DEFAULT '{}',   -- JSON freeform stat block
+    inventory   TEXT NOT NULL DEFAULT '[]',   -- JSON: [{name, qty, notes}]
+    gm_notes    TEXT,                  -- GM-only: things the player doesn't know
+    order_index INTEGER NOT NULL DEFAULT 0,
+    created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+
+  -- A player's Pokémon roster.
+  CREATE TABLE IF NOT EXISTS roster_pokemon (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    player_id   INTEGER NOT NULL REFERENCES players(id) ON DELETE CASCADE,
+    species     TEXT NOT NULL,
+    nickname    TEXT,
+    level       INTEGER,
+    status      TEXT,                  -- Healthy / Fainted / Poisoned ...
+    moves       TEXT NOT NULL DEFAULT '[]',   -- JSON array
+    gm_notes    TEXT,                  -- GM-only
+    order_index INTEGER NOT NULL DEFAULT 0,
+    created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+
+  -- WORLD: NPCs, locations, factions.
+  CREATE TABLE IF NOT EXISTS npcs (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    name         TEXT NOT NULL,
+    description  TEXT,
+    relationship TEXT,                 -- relationship notes
+    last_seen    TEXT,                 -- last seen location
+    gm_notes     TEXT,
+    visibility   TEXT NOT NULL DEFAULT 'public',
+    created_at   TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at   TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+
+  CREATE TABLE IF NOT EXISTS locations (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    name        TEXT NOT NULL,
+    region      TEXT,
+    description TEXT,
+    gm_notes    TEXT,
+    visibility  TEXT NOT NULL DEFAULT 'public',
+    created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+
+  CREATE TABLE IF NOT EXISTS factions (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    name         TEXT NOT NULL,
+    description  TEXT,
+    relationship TEXT,                 -- standing with the party
+    gm_notes     TEXT,
+    visibility   TEXT NOT NULL DEFAULT 'public',
+    created_at   TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at   TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+
+  -- RULES: keyword/natural-language searchable rules, tagged by category.
+  CREATE TABLE IF NOT EXISTS rules_entries (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    title       TEXT NOT NULL,
+    category    TEXT,                  -- Combat / Catching / Status / Movement ...
+    body        TEXT,                  -- the rules text
+    page        INTEGER,               -- source page in the rulebook, if known
+    source      TEXT NOT NULL DEFAULT 'gm',   -- 'rulebook' | 'gm'
+    visibility  TEXT NOT NULL DEFAULT 'public',
+    created_at  TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at  TEXT NOT NULL DEFAULT (datetime('now'))
+  );
+  CREATE INDEX IF NOT EXISTS idx_rules_category ON rules_entries (category);
+
+  CREATE INDEX IF NOT EXISTS idx_roster_player ON roster_pokemon (player_id);
 `);
+
+// Ensure the singleton campaign row exists.
+db.prepare('INSERT OR IGNORE INTO campaign (id) VALUES (1)').run();
+
 
 // --- Lightweight migrations ----------------------------------------------
 // Add any columns missing from an older pokemon table (the PTE profile fields

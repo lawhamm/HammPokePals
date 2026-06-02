@@ -27,6 +27,7 @@ const PDF_STORE = path.join(ROOT, 'data', 'uploads', 'pdfs');
 
 const replaceDex = process.argv.includes('--replace-dex');
 const replaceReference = process.argv.includes('--replace-reference');
+const replaceRules = process.argv.includes('--replace-rules');
 
 if (!fs.existsSync(SEED_DIR)) {
   console.log(`No seed-content/ folder found at ${SEED_DIR}. Nothing to load.`);
@@ -205,9 +206,61 @@ if (fs.existsSync(refPath)) {
   );
 }
 
+// --- rules entries (from the rulebook) -----------------------------------
+let rulesImported = 0;
+const rulesPath = path.join(SEED_DIR, 'rules.json');
+if (fs.existsSync(rulesPath)) {
+  let entries;
+  try {
+    entries = JSON.parse(fs.readFileSync(rulesPath, 'utf8'));
+  } catch (e) {
+    console.error(`Could not parse ${rulesPath}: ${e.message}`);
+    process.exit(1);
+  }
+  if (!Array.isArray(entries)) entries = entries.rules || [];
+  const insertRule = db.prepare(
+    `INSERT INTO rules_entries (title, category, body, page, source, visibility)
+     VALUES (@title, @category, @body, @page, @source, @visibility)`
+  );
+  // Re-imports replace rulebook-sourced rows so edits to the PDF re-flow cleanly,
+  // but leave any GM-authored entries (source = 'gm') untouched.
+  const existsRule = db.prepare(
+    "SELECT 1 FROM rules_entries WHERE title = ? AND source = 'rulebook' COLLATE NOCASE"
+  );
+  let rulesSkipped = 0;
+  const tx = db.transaction(() => {
+    if (replaceRules) {
+      const n = db.prepare("DELETE FROM rules_entries WHERE source = 'rulebook'").run().changes;
+      console.log(`  Cleared ${n} existing rulebook entries (--replace-rules).`);
+    }
+    for (const e of entries) {
+      if (!e || !e.title) continue;
+      const title = String(e.title).trim();
+      if (!replaceRules && existsRule.get(title)) {
+        rulesSkipped++;
+        continue;
+      }
+      insertRule.run({
+        title,
+        category: e.category ?? null,
+        body: e.body ?? null,
+        page: e.page == null ? null : Number(e.page),
+        source: e.source === 'gm' ? 'gm' : 'rulebook',
+        visibility: e.visibility === 'gm' ? 'gm' : 'public',
+      });
+      rulesImported++;
+    }
+  });
+  tx();
+  console.log(
+    `  + Rules: imported ${rulesImported} entries from rules.json` +
+      (rulesSkipped ? ` (skipped ${rulesSkipped} already present)` : '')
+  );
+}
+
 console.log(
   `\nDone. PDFs loaded: ${pdfsLoaded}${pdfsSkipped ? ` (skipped ${pdfsSkipped} already present)` : ''}; ` +
-    `Pokédex entries imported: ${dexImported}; Reference entries imported: ${refImported}.`
+    `Pokédex: ${dexImported}; Reference: ${refImported}; Rules: ${rulesImported}.`
 );
 if (!pdfsLoaded && !pdfsSkipped && !dexImported && !refImported) {
   console.log('\nNothing was loaded. Put PDFs in seed-content/pdfs/ and a pokedex.json in seed-content/, then re-run.');

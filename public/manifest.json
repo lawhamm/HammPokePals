@@ -1,0 +1,12 @@
+{
+  "name": "POKEPALS",
+  "short_name": "POKEPALS",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#c7d29b",
+  "theme_color": "#20331a",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
